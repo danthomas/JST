@@ -1,0 +1,55 @@
+﻿<domain name='JST'>
+  <group name='Security'>
+    <entity name='AccountType'>
+      <property name='AccountTypeId' sqlServerType='TINYINT' isIdentifier='true' />
+      <property name='Code' sqlServerType='VARCHAR' length='20' isUnique='true' />
+      <property name='Name' sqlServerType='VARCHAR' length='50' isUnique='true' />
+      <procedure procedureType='Select' properties='AccountTypeId'/>
+    </entity>
+    <entity name='Account'>
+      <property name='AccountId' sqlServerType='SMALLINT' isAuto='true' isIdentifier='true' />
+      <property name='AccountTypeId' referencedEntity='AccountType' />
+      <property name='AccountName' sqlServerType='VARCHAR' length='30' isUnique='true' />
+      <property name='DisplayName' sqlServerType='VARCHAR' length='100' isUnique='true' />
+      <property name='Password' sqlServerType='VARCHAR' length='30' />
+      <procedure procedureType='Insert' />
+      <procedure procedureType='Update' />
+      <procedure procedureType='DeleteMany' />
+      <procedure procedureType='Select' properties='AccountId'/>
+      <procedure procedureType='Select' properties='AccountName'/>
+    </entity>
+    <entity name='Session'>
+      <property name='SessionId' sqlServerType='UNIQUEIDENTIFIER' isIdentifier='true' />
+      <property name='AccountId' referencedEntity='Account' />
+      <property name='StartDateTime' sqlServerType='DATETIME' />
+      <procedure procedureType='Insert' />
+      <procedure procedureType='Select' properties='SessionId'/>
+    </entity>
+  </group>
+  <group name='Competitors'>
+    <entity name='WorkoutType'>
+      <property name='WorkoutTypeId' sqlServerType='TINYINT' isAuto='true' isIdentifier='true' />
+      <property name='Name' sqlServerType='VARCHAR' length='50' isUnique='true' />
+      <property name='SortOrder' sqlServerType='TINYINT'/>
+    </entity>
+    <entity name='WorkoutDate'>
+      <property name='WorkoutDateId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
+      <property name='Date' sqlServerType='DATE' />
+      <property name='Comment' sqlServerType='VARCHAR' length='2000' />
+    </entity>
+    <entity name='Workout'>
+      <property name='WorkoutId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
+      <property name='WorkoutDateId' referencedEntity='WorkoutDate' />
+      <property name='WorkoutTypeId' referencedEntity='WorkoutType' />
+      <property name='Detail' sqlServerType='VARCHAR' length='1000' />
+      <index properties='WorkoutTypeId, WorkoutDateId' isUnique='true' />
+    </entity>
+    <entity name='Result'>
+      <property name='ResultId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
+      <property name='WorkoutDateId' referencedEntity='WorkoutDate' />
+      <property name='AccountId' referencedEntity='Account' />
+      <property name='Detail' sqlServerType='VARCHAR' length='1000' />
+      <index properties='WorkoutDateId, AccountId' isUnique='true' />
+    </entity>
+  </group>
+</domain>

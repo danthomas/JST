@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app='app' ng-controller="appController">
+<head>
+    <link href="Content/bootswatch.css" rel="stylesheet" />
+    <!--script src="Scripts/jquery-1.10.2.js"></script-->
+    <!--script src="Scripts/bootstrap.js"></script-->
+    <title>{{global.pageName}}</title>
+</head>
+<body>
+    <div ng-hide="global.sessionId == null">
+        <div>
+        </div>
+        <div class="navbar navbar-default">
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active" ng-show="global.accountTypeCode == 'Admin'"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
+                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberHome')">Home</a></li>
+                    <li class="active" ng-show="global.accountTypeCode == 'Trainer'"><a href="" ng-click="redirect('/trainerHome')">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><p class="navbar-text">Logged in as {{global.displayName}}</p> </li>
+
+                    <li class="active"><a href="" ng-click="logout()">Logout</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <div ng-view></div>
+    </div>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+
+    <script src="App/app.js"></script>
+    <script src="App/Controllers/appController.js"></script>
+    <script src="App/Controllers/homeController.js"></script>
+    <script src="App/Controllers/loginController.js"></script>
+
+    <script src="App/Services/loginService.js"></script>
+</body>
+</html>

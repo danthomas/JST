@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>JST.SqlServer</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{0b8612a8-6e6b-4047-8ccb-6cc6ae15dc4c}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>JST.SqlServer</RootNamespace>
+    <AssemblyName>JST.SqlServer</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!-- VS10 without SP1 will not have VisualStudioVersion set, so do that here -->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- Default to the v10.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Schema Objects\Schemas" />
+    <Folder Include="Schema Objects" />
+    <Folder Include="Schema Objects\Schemas\Security\Tables" />
+    <Folder Include="Schema Objects\Schemas\Security" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Schemas" />
+    <Folder Include="Schema Objects\Database Level Objects\Security" />
+    <Folder Include="Schema Objects\Database Level Objects" />
+    <Folder Include="Schema Objects\Schemas\Competitors\Tables" />
+    <Folder Include="Schema Objects\Schemas\Competitors" />
+    <Folder Include="Data" />
+    <Folder Include="Schema Objects\Schemas\Security\Programmability" />
+    <Folder Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\dbo" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\SqlClr" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Tables\AccountType.table.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Security.schema.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Competitors.schema.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Tables\Workout.table.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Tables\WorkoutType.table.sql" />
+    <None Include="Data\Security.Account.sql" />
+    <None Include="Data\Competitors.Workout.sql" />
+    <None Include="Data\Competitors.WorkoutType.sql" />
+    <None Include="Data\Security.AccountType.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Tables\Result.table.sql" />
+    <None Include="Data\Competitors.Result.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Tables\WorkoutDate.table.sql" />
+    <None Include="Data\Competitors.WorkoutDate.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_DeleteMany.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectByAccountId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_Update.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectByAccountName.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\AccountType_SelectByAccountTypeId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Session_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Session_SelectBySessionId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Tables\Session.table.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Result_SelectForMemberHomeByDate.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Workout_SelectHomePageDetails.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JST.SqlServer.Production.publish.xml" />
+    <None Include="JST.SqlServer.Dev.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Schema Objects\Schemas\dbo\Programmability\SqlClr\ConvertBinaryFunctions.cs" />
+  </ItemGroup>
+</Project>

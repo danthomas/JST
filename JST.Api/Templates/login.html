@@ -1,0 +1,12 @@
+﻿<div class="container">
+    <form name="loginForm">
+        <fieldset>
+            <label for="userName">User Name:</label>
+            <input id="userName" type="text" required ng-model="credentials.userName" />
+            <label for="password">Password:</label>
+            <input id="password" type="password" required ng-model="credentials.password" />
+
+        </fieldset>
+        <button class="btn btn-default" ng-click="login(loginForm, credentials)">Login</button>
+    </form>
+</div>
