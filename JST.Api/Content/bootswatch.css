@@ -891,7 +891,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #c8c8c8;
+  color: #f89406;
   background-color: #272b30;
 }
 input,
@@ -2760,7 +2760,7 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #ffffff;
+  color: #f89406;
   background-color: #3a3f44;
   border-color: #3a3f44;
 }
@@ -2769,7 +2769,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #ffffff;
+  color: #f89406;
   background-color: #232628;
   border-color: #1e2023;
 }
@@ -4090,10 +4090,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: none;
 }
 .navbar-default .navbar-text {
-  color: #c8c8c8;
+  color: #f89406;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #c8c8c8;
+  color: #f89406;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4103,7 +4103,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
+  color: #f89406;
   background-color: #272b2e;
 }
 .navbar-default .navbar-nav > .disabled > a,

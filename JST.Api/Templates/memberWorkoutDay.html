@@ -1,4 +1,8 @@
-﻿member workout day {{date|date:'mediumDate'}}
+﻿<div>
+    <label class="text-warning">
+        {{date|date:'fullDate'}}
+    </label>
+</div>
 <div>
     <table class="table table-striped">
         <thead>
@@ -16,6 +20,7 @@
     </table>
 </div>
 <div>
-    Result: <textarea class="form-control" rows="3" id="textArea" ng-model="resultDetail"></textarea>
+    Result: <textarea class="form-control" rows="6" id="textArea" ng-model="resultDetail"></textarea>
     <button class="btn btn-default" ng-click="save()">Save</button>
+    <button class="btn btn-default" ng-click="cancel()">Cancel</button>
 </div>

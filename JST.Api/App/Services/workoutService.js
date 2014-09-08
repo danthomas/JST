@@ -31,6 +31,7 @@
         },
 
         saveResult: function(sessionId, resultId, workoutDateId, resultDetail, result) {
+
             $http({
                 method: "post",
                 url: "api/workout/saveResult",

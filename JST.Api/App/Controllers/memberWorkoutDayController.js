@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-app.controller('memberWorkoutDayController', function ($scope, $routeParams, globalData, workoutService) {
+app.controller('memberWorkoutDayController', function ($scope, $routeParams, $location, globalData, workoutService) {
     globalData.pageName = 'Member Workout Day';
 
     $scope.save = function () {
@@ -8,8 +8,13 @@ app.controller('memberWorkoutDayController', function ($scope, $routeParams, glo
         workoutService.saveResult(globalData.sessionId, $scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
             if (data.isSuccess) {
                 $scope.resultId = data.model;
+                $location.url('/memberHome');
             }
         });
+    };
+
+    $scope.cancel = function () {
+        $location.url('/memberHome');
     };
 
     function refresh() {

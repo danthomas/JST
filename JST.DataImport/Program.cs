@@ -73,7 +73,6 @@ namespace JST.DataImport
 
                             if (workoutDate != null)
                             {
-                                string s = "asfasdfsaf";
                             }
                             else
                             {

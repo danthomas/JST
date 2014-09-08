@@ -1,5 +1,9 @@
 ﻿<div>
-    <button class="btn btn-default" ng-click="prev()"><<</button>Week Beginning: {{weekBeginning|date:'mediumDate'}} <button class="btn btn-default" ng-click="next()">>></button>
+    <button class="btn btn-default" ng-click="prev()"><<</button>
+
+    <label class="text-warning">
+        Week Beginning: {{weekBeginning|date:'mediumDate'}} <button class="btn btn-default" ng-click="next()">>></button>
+    </label>
 </div>
 <div>
     <table class="table table-striped">
@@ -11,8 +15,8 @@
             </tr>
         </thead>
         <tbody>
-            <tr ng-repeat="workoutDay in workoutDays">
-                <td><a href="" ng-click="viewWorkoutDay(workoutDay.date)">{{workoutDay.date|date:'EEEE'}}</a></td>
+            <tr ng-repeat="workoutDay in workoutDays" ng-click="viewWorkoutDay(workoutDay.date)">
+                <td>{{workoutDay.date|date:'EEEE'}}</td>
                 <td>{{workoutDay.resultDetail}}</td>
                 <td ng-repeat="workout in workoutDay.workouts track by $index">{{workout.detail}}</td>
             </tr>

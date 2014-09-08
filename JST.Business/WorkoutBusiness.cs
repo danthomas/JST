@@ -92,6 +92,7 @@ namespace JST.Business
             else
             {
                 result = _resultDataService.SelectByResultId(resultId);
+                result.Detail = resultDetail;
 
                 if (result.WorkoutDateId != workoutDateId)
                 {

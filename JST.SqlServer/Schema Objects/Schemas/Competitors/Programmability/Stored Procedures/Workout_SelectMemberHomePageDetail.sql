@@ -30,8 +30,3 @@ select		w.WorkoutId
 from		Competitors.Workout w
 join		Competitors.WorkoutDate wd on w.WorkoutDateId = wd.WorkoutDateId
 where		wd.Date >= @date and wd.Date < dateadd(d, 7, @date)
-
-
-select accountname, count(*)
-from security.account
-group by accountname
