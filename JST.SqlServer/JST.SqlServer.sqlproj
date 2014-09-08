@@ -107,10 +107,6 @@
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_SelectByResultId.procedure.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="JST.SqlServer.Production.publish.xml" />
-    <None Include="JST.SqlServer.Dev.publish.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
@@ -120,5 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Schema Objects\Schemas\dbo\Programmability\SqlClr\ConvertBinaryFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JST.SqlServer.Dev.publish.xml" />
+    <None Include="JST.SqlServer.Production.publish.xml" />
   </ItemGroup>
 </Project>
