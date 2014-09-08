@@ -59,4 +59,9 @@ insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName
 insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (58, 3, 'Jamie Walton', 'Jamie Walton', 'burpee')
 insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (59, 3, 'Gaz ''its not for me this'' Mort', 'Gaz ''its not for me this'' Morton', 'burpee')
 insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (60, 3, 'Kayleigh McDonald', 'Kayleigh McDonald', 'burpee')
+insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (61, 3, 'Thomas Rogers', 'Thomas Rogers', '')
+insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (62, 3, 'Nick Leatham', 'Nick Leatham', '')
+insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (63, 3, 'Liam Holborn', 'Liam Holborn', '')
+insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (64, 3, 'Lucy Maj', 'Lucy Maj', '')
+insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (65, 3, 'Charlotte Spence', 'Charlotte Spence', '')
 set identity_insert Security.Account off

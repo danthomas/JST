@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using DTS.AppFramework.Core;
 using JST.Business;
 using JST.Business.Models;
 
@@ -17,33 +18,12 @@ namespace JST.Api.Controllers
         {
             _workoutBusiness = workoutBusiness;
         }
-
-        [HttpPost]
-        [Route("api/workout/test")]
-        public DateTime Test([FromBody]DateTime date)
-        {
-            return date.AddMonths(5);
-        }
-        
-        [HttpPost]
-        [Route("api/workout/all")]
-        public IEnumerable<WorkoutDay> Get()
-        {
-            return new WorkoutDay[] { new WorkoutDay { Date = new DateTime(2014, 10, 1) } };
-        }
-
-        [HttpPost]
-        [Route("api/workout/byweek")]
-        public IEnumerable<WorkoutDay> GetByWeek([FromBody]DateTime date)
-        {
-            return null; //return _workoutDataService.
-        }
         
         [HttpPost]
         [Route("api/workout/homepagedetail")]
-        public HomePageDetail GetHomePageDetail([FromBody]DateTime date)
+        public ReturnValue<HomePageDetail> GetHomePageDetail([FromBody]DateTime date)
         {
-            return _workoutBusiness.GetHomePageDetail(date);
+            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetHomePageDetail(date));
         }
     }
 }

@@ -170,4 +170,10 @@ insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (176, 
 insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (177, '2014-09-04', '')
 insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (178, '2014-09-05', '')
 insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (179, '2014-09-06', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (180, '2014-09-08', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (181, '2014-09-09', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (182, '2014-09-10', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (183, '2014-09-11', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (184, '2014-09-12', '')
+insert into Competitors.WorkoutDate (WorkoutDateId, Date, Comment) values (185, '2014-09-13', '')
 set identity_insert Competitors.WorkoutDate off

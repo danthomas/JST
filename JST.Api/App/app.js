@@ -3,12 +3,6 @@
 var app = angular.module('app', ['ngRoute']);
 
 
-app.value('globalData', {
-    sessionId: null,
-    displayName: '',
-    pageName: ''
-});
-
 app.config(function ($routeProvider, $locationProvider) {
 
     //$locationProvider.html5Mode(true);
@@ -35,4 +29,11 @@ app.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when('/memberHome', { templateUrl: 'templates/memberHome.html', controller: 'memberHomeController' });
     $routeProvider.when('/trainerHome', { templateUrl: 'templates/trainerHome.html', controller: 'trainerHomeController' });
     $routeProvider.otherwise({ redirectTo: '/' });
+});
+
+
+app.value('globalData', {
+    sessionId: null,
+    displayName: '',
+    pageName: ''
 });

@@ -1,1 +1,19 @@
-﻿Member
+﻿<div>
+    <button ng-click="prev()"><<</button>Week Beginning: {{weekBeginning|date:'mediumDate'}} <button ng-click="next()">>></button>
+</div>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th width="100">Day</th>
+                <th ng-repeat="workoutType in workoutTypes" width="100">{{workoutType.name}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="workoutDay in workoutDays">
+                <td>{{workoutDay.date|date:'EEEE'}}</td>
+                <td ng-repeat="workout in workoutDay.workouts track by $index">{{workout.detail}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

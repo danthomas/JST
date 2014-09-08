@@ -1251,4 +1251,93 @@ insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail
 3 position Clean + 1 Jerk 70% x 6 sets
 (high hang, hang (at knee), reset on the floor then full lift)
 Top set Deadlift (touch and go, no belt)70% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (367, 179, 5, '''Hotshots 19''')set identity_insert Competitors.Workout off
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (367, 179, 5, '''Hotshots 19''')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (368, 180, 3, 'Back Squat 5x5
+Set 1 - 75%
+Set 2 - 78%
+Set 3 - 81%
+Set 4 - 83%
+Set 5 - 85%')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (369, 180, 4, 'Pause Snatch 75% 6x2 (2s pause at the knee)
+3" Deficit Snatch DL 95% (of snatch) 5x3
+Snatch grip BOR (bent over row) 75% 4x8')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (370, 180, 5, 'For time:
+100 burpee box overs 24/20
+Every 3 mins run 200m
+Start with a 200m run.')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (371, 181, 1, 'Row 250m 
+Rest 2 mins
+x8
+Row first set @ 1km row pace
+Make every set faster')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (372, 181, 3, '5 rounds for quality:
+15 v-ups
+25 arch rocks
+15 tuck crunch
+
+10-25 x4 kip swings (on a bar, point toe and keep the kip as tight as possible)
+
+5 x 10 Shoulder taps (each side)')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (373, 181, 4, 'OPTION 1
+In a 2 min window:
+6 deadlifts 70/45
+5 power cleans 70/45
+4 power snatch 70/45
+10 pull ups
+AMRAP Chest to bar pull ups
+Rest 3 mins
+x5')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (374, 181, 5, 'OPTION 2
+In a 2 min window:
+6 deadlifts 70/45
+5 power cleans 70/45
+4 power snatch 70/45
+6 pull ups
+5 chest to bar pull ups
+AMRAP Bar muscle ups
+Rest 3 mins
+x5')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (375, 183, 3, 'Front Squat 5x5
+Set 1 - 5 @ 75%"')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (376, 183, 4, 'Pause clean (2s at the knee) and Jerk 75% 6x2
+Push Press top set x10, 90% x10, 80% x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (377, 183, 5, '30:30 x 4 on each for total reps
+Thrusters 50/35
+Toes to bar
+GTOH 50/35
+Plate burpees
+Calorie Row')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (378, 184, 1, 'Bike/Ski Erg/Airdyne
+20 mins @ 70%
+Rest 5 mins
+60:60 x 5
+Max effort for working period')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (379, 184, 3, 'Hollow Hold 60s
+Arch Hold 60s
+x3
+
+Muscle up Strengthening drills:
+
+OMEM x 25
+1) 5 Strict Ring dips (add weight if possible)
+2) 10 Kip swings on ring (tight kips) 
+3) 3 Negative Strict Muscle ups
+4) 10 Strict ring rows (thumbs up) 
+5) 10 GHD Sit ups')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (380, 184, 4, '15 min AMRAP:
+Row 250m
+10/5 strict pull ups')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (381, 184, 5, 'Handstand Hold against the wall 30s x 6')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (382, 185, 3, 'Back Squat 8x3 (8 sets of 3)
+Sets 1 - 8 @ 88%')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (383, 185, 4, '3 position Snatch 75% x 5 sets
+3 position Clean + 1 Jerk 75% x 5 sets
+(high hang, hang (at knee), reset on the floor then full lift)
+Top set Deadlift (touch and go, no belt), add 2.5 - 5kg x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (384, 185, 5, 'OMEM x 15
+1) 20 Russian Swings 32/24
+2) 12 box jumps 30/24
+3) 40m OH Single arm KB Carry (20m each arm)')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (385, 185, 6, '50 x 2
+Hamstring curls 5kg DB')
+set identity_insert Competitors.Workout off

@@ -18,10 +18,16 @@ namespace JST.Business
 
         public HomePageDetail GetHomePageDetail(DateTime date)
         {
+            DateTime weekBeginning = new DateTime(date.Year, date.Month, date.Day);
+            while (weekBeginning.DayOfWeek != DayOfWeek.Monday)
+            {
+                weekBeginning = weekBeginning.AddDays(-1);
+            }
+
             DataSet dataSet = _workoutDataService.SelectHomePageDetails(date);
-            HomePageDetail homePageDetail = new HomePageDetail(
+            HomePageDetail homePageDetail = new HomePageDetail(weekBeginning,
                 dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new WorkoutType(item.Field<byte>("WorkoutTypeId"), item.Field<string>("Name"))),
-                dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new Workout(item.Field<int>("WorkoutId"), item.Field<byte>("WorkoutTypeId"), item.Field<string>("Detail")))
+                dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new Workout(item.Field<int>("WorkoutId"), item.Field<byte>("WorkoutTypeId"), item.Field<string>("Detail"), item.Field<DateTime>("Date")))
                 );
 
 

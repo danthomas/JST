@@ -15,6 +15,7 @@ order by	wt.SortOrder
 select		w.WorkoutId
 			, w.WorkoutTypeId
 			, w.Detail
+			, wd.Date
 from		Competitors.Workout w
 join		Competitors.WorkoutDate wd on w.WorkoutDateId = wd.WorkoutDateId
 where		wd.Date >= @date and wd.Date < dateadd(d, 7, @date)

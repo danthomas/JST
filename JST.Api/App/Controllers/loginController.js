@@ -3,7 +3,8 @@
 app.controller('loginController', function ($scope, $location, globalData, loginService) {
     globalData.pageName = 'Login';
 
-    $scope.credentials = { userName: '', password: '' };
+    $scope.credentials = { userName: 'passantc', password: 'burpee' };
+   
 
     $scope.login = function (loginForm, credentials) {
 
