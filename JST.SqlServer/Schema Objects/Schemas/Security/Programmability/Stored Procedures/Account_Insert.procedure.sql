@@ -1,7 +1,6 @@
 CREATE PROCEDURE [Security].[Account_Insert]
 (
-  @AccountId SMALLINT
-, @AccountTypeId TINYINT
+  @AccountTypeId TINYINT
 , @AccountName VARCHAR(30)
 , @DisplayName VARCHAR(100)
 , @Password VARCHAR(30)
@@ -14,6 +13,6 @@ INSERT INTO [Security].[Account] ([AccountTypeId], [AccountName], [DisplayName],
 VALUES (@AccountTypeId, @AccountName, @DisplayName, @Password)
 
 
-SET @AccountId = SCOPE_IDENTITY()
+SELECT CAST(SCOPE_IDENTITY() AS SMALLINT)
 
-SELECT @AccountId
+

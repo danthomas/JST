@@ -18,12 +18,47 @@ namespace JST.Api.Controllers
         {
             _workoutBusiness = workoutBusiness;
         }
-        
+
         [HttpPost]
-        [Route("api/workout/homepagedetail")]
-        public ReturnValue<HomePageDetail> GetHomePageDetail([FromBody]DateTime date)
+        [Route("api/workout/homepageDetail")]
+        public ReturnValue<HomePageDetail> GetHomePageDetail([FromBody]GetHomePageRequestDetail requestDetail)
         {
-            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetHomePageDetail(date));
+            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetHomePageDetail(requestDetail.SessionId, requestDetail.Date));
+        }
+
+        [HttpPost]
+        [Route("api/workout/memberWorkoutDayDetail")]
+        public ReturnValue<MemberWorkoutDayDetail> GetWorkoutDay([FromBody]GetWorkoutDayRequestDetail requestValue)
+        {
+            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetMemberWorkoutDayDetail(requestValue.SessionId, requestValue.Date));
+        }
+
+        [HttpPost]
+        [Route("api/workout/saveResult")]
+        public ReturnValue SaveResult([FromBody]SaveResultDetail requestValue)
+        {
+            return _workoutBusiness.SaveResult(requestValue.SessionId, requestValue.ResultId, requestValue.WorkoutDateId, requestValue.ResultDetail);
+        }
+
+        public class GetHomePageRequestDetail
+        {
+            public Guid SessionId { get; set; }
+            public DateTime Date { get; set; }
+        }
+
+        public class GetWorkoutDayRequestDetail
+        {
+            public Guid SessionId { get; set; }
+            public DateTime Date { get; set; }
+        }
+
+        public class SaveResultDetail
+        {
+            public Guid SessionId { get; set; }
+            public int ResultId { get; set; }
+            public int WorkoutDateId { get; set; }
+            public string ResultDetail { get; set; }
+
         }
     }
 }

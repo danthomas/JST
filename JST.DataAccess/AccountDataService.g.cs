@@ -26,7 +26,7 @@ namespace JST.DataAccess
         {
             using (JstDataContext dataContext = new JstDataContext())
             {
-                account.AccountId = dataContext.ExecuteScalar<short>("Security.Account_Insert", CommandType.StoredProcedure, new Parameter("AccountId", SqlDbType.SmallInt, account.AccountId), new Parameter("AccountTypeId", SqlDbType.TinyInt, account.AccountTypeId), new Parameter("AccountName", SqlDbType.VarChar, account.AccountName), new Parameter("DisplayName", SqlDbType.VarChar, account.DisplayName), new Parameter("Password", SqlDbType.VarChar, account.Password));
+                account.AccountId = dataContext.ExecuteScalar<short>("Security.Account_Insert", CommandType.StoredProcedure, new Parameter("AccountTypeId", SqlDbType.TinyInt, account.AccountTypeId), new Parameter("AccountName", SqlDbType.VarChar, account.AccountName), new Parameter("DisplayName", SqlDbType.VarChar, account.DisplayName), new Parameter("Password", SqlDbType.VarChar, account.Password));
             }
         }
 

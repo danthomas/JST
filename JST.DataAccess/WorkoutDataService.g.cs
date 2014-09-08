@@ -9,7 +9,8 @@ namespace JST.DataAccess
 {
     public interface IWorkoutDataService
     {
-        DataSet SelectHomePageDetails(DateTime date);
+        DataSet SelectMemberHomePageDetail(DateTime date, short accountId);
+        DataSet SelectMemberWorkoutDayDetails(DateTime date, short accountId);
     }
 
     public partial class WorkoutDataService : IWorkoutDataService

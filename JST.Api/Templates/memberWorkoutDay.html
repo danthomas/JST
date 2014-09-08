@@ -1,0 +1,21 @@
+﻿member workout day {{date|date:'mediumDate'}}
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th width="100">Workout Type</th>
+                <th >Workout Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="workout in workouts">
+                <td>{{workout.workoutTypeName}}</td>
+                <td>{{workout.workoutDetail}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    Result: <textarea class="form-control" rows="3" id="textArea" ng-model="resultDetail"></textarea>
+    <button class="btn btn-default" ng-click="save()">Save</button>
+</div>

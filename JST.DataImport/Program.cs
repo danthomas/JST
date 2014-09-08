@@ -13,21 +13,22 @@ namespace JST.DataImport
     class Program
     {
         static void Main(string[] args)
-        {
-            /*  List<List<List<string>>> workbookData = GetData();
+        {/*
+              List<List<List<string>>> workbookData = GetData();
 
               Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
               BinaryFormatter bFormatter = new BinaryFormatter();
               bFormatter.Serialize(stream, workbookData);
-              stream.Close();*/
+              stream.Close();
 
-
+             * */
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
             BinaryFormatter bFormatter = new BinaryFormatter();
             List<List<List<string>>> workbookData = (List<List<List<string>>>)bFormatter.Deserialize(stream);
 
 
             ProcessData(workbookData);
+            
         }
 
         private static void ProcessData(List<List<List<string>>> workbook)
@@ -51,7 +52,7 @@ namespace JST.DataImport
 
                         if (name != "")
                         {
-                            Competitor competitor = competitors.SingleOrDefault(item => item.Name == name);
+                            Competitor competitor = competitors.SingleOrDefault(item => item.Name.ToLower() == name.ToLower());
 
                             if (competitor == null)
                             {
@@ -68,28 +69,38 @@ namespace JST.DataImport
 
                         if (DateTime.TryParseExact(row[0], "dd/MM/yyyy 00:00:00", null, DateTimeStyles.None, out date))
                         {
-                            WorkoutDate workoutDate = new WorkoutDate(workoutDateId++, date);
-                            workoutDates.Add(workoutDate);
+                            WorkoutDate workoutDate = workoutDates.SingleOrDefault(item => item.Date == date);
 
-                            for (int i = 1; i <= 6; i++)
+                            if (workoutDate != null)
                             {
-                                if (row[i] != "")
-                                {
-                                    workouts.Add(new Workout(workoutId++, workoutDate, i, row[i].Replace("\n", Environment.NewLine)));
-                                }
+                                string s = "asfasdfsaf";
                             }
-                            
-                            for (int i = 7; i < row.Count; ++i)
+                            else
                             {
-                                string name = worksheet[0][i];
-                                string detail = row[i];
 
-                                if (name != "" && detail != "")
+                                workoutDate = new WorkoutDate(workoutDateId++, date);
+                                workoutDates.Add(workoutDate);
+
+                                for (int i = 1; i <= 6; i++)
                                 {
-                                    Competitor competitor = competitors.Single(item => item.Name == name);
-                                    Result result = new Result(workoutDate, competitor, detail.Replace("\n", Environment.NewLine));
+                                    if (row[i] != "")
+                                    {
+                                        workouts.Add(new Workout(workoutId++, workoutDate, i, row[i].Replace("\n", Environment.NewLine)));
+                                    }
+                                }
 
-                                    results.Add(result);
+                                for (int i = 7; i < row.Count; ++i)
+                                {
+                                    string name = worksheet[0][i];
+                                    string detail = row[i];
+
+                                    if (name != "" && detail != "")
+                                    {
+                                        Competitor competitor = competitors.Single(item => item.Name.ToLower() == name.ToLower());
+                                        Result result = new Result(workoutDate, competitor, detail.Replace("\n", Environment.NewLine));
+
+                                        results.Add(result);
+                                    }
                                 }
                             }
                         }

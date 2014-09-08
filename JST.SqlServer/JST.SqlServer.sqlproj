@@ -72,6 +72,8 @@
     <Folder Include="Schema Objects\Schemas\dbo" />
     <Folder Include="Schema Objects\Schemas\dbo\Programmability" />
     <Folder Include="Schema Objects\Schemas\dbo\Programmability\SqlClr" />
+    <Folder Include="Schema Objects\Schemas\Competitors\Programmability" />
+    <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
@@ -98,7 +100,11 @@
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Session_SelectBySessionId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Tables\Session.table.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Result_SelectForMemberHomeByDate.sql" />
-    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Workout_SelectHomePageDetails.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectMemberHomePageDetail.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectMemberWorkoutDayDetail.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Update.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_SelectByResultId.procedure.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="JST.SqlServer.Production.publish.xml" />
