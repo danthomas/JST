@@ -12,15 +12,15 @@
         <thead>
             <tr>
                 <th width="100">Day</th>
-                <th width="100">Result</th>
                 <th ng-repeat="workoutType in workoutTypes" width="100">{{workoutType.name}}</th>
+                <th width="100">Result</th>
             </tr>
         </thead>
         <tbody>
             <tr ng-repeat="workoutDay in workoutDays" ng-click="viewWorkoutDay(workoutDay.date)">
                 <td>{{workoutDay.date|date:'EEEE'}}</td>
-                <td>{{workoutDay.resultDetail}}</td>
                 <td ng-repeat="workout in workoutDay.workouts track by $index">{{workout.detail}}</td>
+                <td>{{workoutDay.resultDetail}}</td>
             </tr>
         </tbody>
     </table>

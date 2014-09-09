@@ -1,7 +1,8 @@
 ﻿'use strict';
 
 app.controller('memberWorkoutDayController', function ($scope, $routeParams, $location, globalData, workoutService) {
-    globalData.pageName = 'Member Workout Day';
+
+    globalData.pageName = 'Competitors Workout Day';
 
     $scope.save = function () {
 

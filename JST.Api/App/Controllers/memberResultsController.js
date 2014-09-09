@@ -2,6 +2,8 @@
 
 app.controller('memberResultsController', function ($scope, $location, workoutService, globalData) {
 
+    globalData.pageName = "Competitors Results";
+
     if (!globalData.resultsDate) {
         globalData.resultsDate = new Date();
         globalData.resultsDate = new Date(globalData.resultsDate.getFullYear(), globalData.resultsDate.getMonth(), globalData.resultsDate.getDate());

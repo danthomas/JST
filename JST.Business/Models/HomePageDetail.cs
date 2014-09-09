@@ -9,7 +9,7 @@ namespace JST.Business.Models
         public HomePageDetail(DateTime weekBeginning, IEnumerable<WorkoutType> workoutTypes, IEnumerable<WorkoutDate> workoutDates, IEnumerable<Workout> workouts)
         {
             WeekBeginning = weekBeginning;
-            WorkoutTypes = workoutTypes.ToList();
+            WorkoutTypes = workoutTypes.Join(workouts.Select(item => item.WorkoutTypeId).Distinct(), workoutType => workoutType.WorkoutTypeId, workoutTypeId => workoutTypeId, (workoutType, workout) => workoutType).ToList();
             WorkoutDays = new List<WorkoutDay>();
 
             for (int i = 0; i < 7; ++i)

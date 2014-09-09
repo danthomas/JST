@@ -1,6 +1,8 @@
 ﻿'use strict';
 
-app.controller('memberHomeController', function ($scope, $location, workoutService, globalData) {
+app.controller('memberScheduleController', function ($scope, $location, workoutService, globalData) {
+
+    globalData.pageName = "Competitors Schedule";
 
     if (!globalData.weekBeginning) {
         globalData.weekBeginning = new Date();
