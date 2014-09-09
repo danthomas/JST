@@ -13,22 +13,21 @@ namespace JST.DataImport
     class Program
     {
         static void Main(string[] args)
-        {/*
+        {
+            /*
               List<List<List<string>>> workbookData = GetData();
 
               Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
               BinaryFormatter bFormatter = new BinaryFormatter();
               bFormatter.Serialize(stream, workbookData);
               stream.Close();
-
-             * */
+            */
+             
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
             BinaryFormatter bFormatter = new BinaryFormatter();
             List<List<List<string>>> workbookData = (List<List<List<string>>>)bFormatter.Deserialize(stream);
-
-
-            ProcessData(workbookData);
             
+            ProcessData(workbookData);
         }
 
         private static void ProcessData(List<List<List<string>>> workbook)

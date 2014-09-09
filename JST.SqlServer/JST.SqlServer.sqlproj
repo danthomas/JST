@@ -105,6 +105,7 @@
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Insert.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Update.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_SelectByResultId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectMemberResultsDetail.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

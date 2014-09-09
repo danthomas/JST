@@ -11,6 +11,7 @@ namespace JST.DataAccess
     {
         DataSet SelectMemberHomePageDetail(DateTime date, short accountId);
         DataSet SelectMemberWorkoutDayDetails(DateTime date, short accountId);
+        DataSet SelectMemberResultsDetails(DateTime date, short accountId);
     }
 
     public partial class WorkoutDataService : IWorkoutDataService

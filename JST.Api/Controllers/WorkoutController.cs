@@ -34,6 +34,13 @@ namespace JST.Api.Controllers
         }
 
         [HttpPost]
+        [Route("api/workout/memberResultsDetail")]
+        public ReturnValue<MemberResultsDetail> GetResults([FromBody]GetMemberResultsRequestDetail requestValue)
+        {
+            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetMemberResultsDetail(requestValue.SessionId, requestValue.Date));
+        }
+
+        [HttpPost]
         [Route("api/workout/saveResult")]
         public ReturnValue SaveResult([FromBody]SaveResultDetail requestValue)
         {
@@ -47,6 +54,12 @@ namespace JST.Api.Controllers
         }
 
         public class GetWorkoutDayRequestDetail
+        {
+            public Guid SessionId { get; set; }
+            public DateTime Date { get; set; }
+        }
+
+        public class GetMemberResultsRequestDetail
         {
             public Guid SessionId { get; set; }
             public DateTime Date { get; set; }

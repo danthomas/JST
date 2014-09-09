@@ -1,17 +1,21 @@
 ﻿'use strict';
 
-app.controller('memberHomeController', function ($scope, $location, workoutService) {
+app.controller('memberHomeController', function ($scope, $location, workoutService, globalData) {
 
-    $scope.weekBeginning = new Date();
-    $scope.weekBeginning = new Date($scope.weekBeginning.getFullYear(), $scope.weekBeginning.getMonth(), $scope.weekBeginning.getDate());
-    
+    if (!globalData.weekBeginning) {
+        globalData.weekBeginning = new Date();
+        globalData.weekBeginning = new Date(globalData.weekBeginning.getFullYear(), globalData.weekBeginning.getMonth(), globalData.weekBeginning.getDate());
+    }
+
+    $scope.weekBeginning = globalData.weekBeginning;
+
     $scope.next = function () {
-        $scope.weekBeginning = new Date($scope.weekBeginning.setDate(new Date($scope.weekBeginning).getDate() + 7));
+        $scope.weekBeginning = globalData.weekBeginning = new Date(globalData.weekBeginning.setDate(new Date(globalData.weekBeginning).getDate() + 7));
         refresh();
     };
 
     $scope.prev = function () {
-        $scope.weekBeginning = new Date($scope.weekBeginning.setDate(new Date($scope.weekBeginning).getDate() - 7));
+        $scope.weekBeginning = globalData.weekBeginning = new Date(globalData.weekBeginning.setDate(new Date(globalData.weekBeginning).getDate() - 7));
         refresh();
     };
 
@@ -20,8 +24,8 @@ app.controller('memberHomeController', function ($scope, $location, workoutServi
     };
 
     function refresh() {
-        workoutService.homePageDetail($scope.weekBeginning, function (data) {
-            $scope.weekBeginning = data.model.weekBeginning;
+        workoutService.homePageDetail(globalData.weekBeginning, function (data) {
+            $scope.weekBeginning = globalData.weekBeginning = data.model.weekBeginning;
             $scope.workoutTypes = data.model.workoutTypes;
             $scope.workoutDays = data.model.workoutDays;
         });

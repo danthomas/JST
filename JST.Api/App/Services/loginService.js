@@ -35,6 +35,8 @@
             globalData.sessionId = null;
             globalData.displayName = null;
             globalData.accountTypeCode = null;
+            globalData.weekBeginning = null;
+            globalData.resultsDate = null;
         }
     };
 });

@@ -1,0 +1,26 @@
+﻿<div>
+    <button class="btn btn-default" ng-click="prev()"><<</button>
+
+    <label class="text-warning">
+        Results Date: {{resultsDate|date:'mediumDate'}}
+    </label>
+    <button class="btn btn-default" ng-click="next()">>></button>
+</div>
+<div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th width="100">Competitor</th>
+                <th width="100">Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="result in results">
+                <td>{{result.accountDisplayName}}</td>
+                <td>{{result.resultDetail}}</td>
+            </tr>
+        </tbody>
+    </table>
+   
+</div>

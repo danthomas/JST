@@ -30,6 +30,21 @@
             });
         },
 
+
+        memberResultsDetail: function (date, result) {
+            $http({
+                method: "post",
+                url: "api/workout/memberResultsDetail",
+                data: JSON.stringify({
+                    sessionId: globalData.sessionId,
+                    date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
+                })
+            }).success(function (data) {
+                result(data);
+            }).error(function () {
+            });
+        },
+
         saveResult: function(sessionId, resultId, workoutDateId, resultDetail, result) {
 
             $http({

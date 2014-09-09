@@ -4,12 +4,14 @@ app.controller('loginController', function ($scope, $location, globalData, login
     globalData.pageName = 'Login';
 
     $scope.credentials = { userName: 'passantc', password: 'burpee' };
-   
+    $scope.success = true;
 
     $scope.login = function (loginForm, credentials) {
 
         if (loginForm.$valid) {
+
             loginService.login(credentials.userName, credentials.password, function (isSuccess, message) {
+                $scope.success = isSuccess;
                 if (isSuccess) {
                     if (globalData.accountTypeCode == "Admin") {
                         $location.url('/adminHome');

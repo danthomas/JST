@@ -71,6 +71,22 @@ namespace JST.Business
 
         }
 
+        public MemberResultsDetail GetMemberResultsDetail(Guid sessionId, DateTime date)
+        {
+            Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
+
+            if (session == null)
+            {
+                return null;
+            }
+
+            DataSet dataSet = _workoutDataService.SelectMemberResultsDetails(date, session.AccountId);
+            
+            return new MemberResultsDetail(date,
+                dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Result(item.Field<int>("ResultId"), item.Field<bool>("IsCurrentAccount"), item.Field<string>("AccountDisplayName"), item.Field<string>("ResultDetail"))));
+
+        }
+
         public ReturnValue<int> SaveResult(Guid sessionId, int resultId, int workoutDateId, string resultDetail)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);

@@ -1,14 +1,25 @@
-﻿<div class="container text-center">
-    <img src="../Content/Logo.png" />
-    <form name="loginForm">
-        <fieldset>
-            <label for="userName">User Name:</label>
-            <input id="userName" type="text" required ng-model="credentials.userName" />
-            <br />
-            <label for="password">Password:</label>
-            <input id="password" type="password" required ng-model="credentials.password" />
+﻿
 
+<div  class="container text-center col-sm-4 col-sm-offset-4">
+    <img src="../Content/Logo.png" style="padding: 25px" />
+    
+   
+    <form name="loginForm" style="max-width: 500px; padding: 15px; margin: 0 auto;">
+        <fieldset>
+            <div>
+                <label for="userName" style="width: 115px">User Name:</label>
+                <input id="userName" type="text" required ng-model="credentials.userName" />
+            </div>
+            <div>
+                <label for="password" style="width: 115px">Password:</label>
+                <input id="password" type="password" required ng-model="credentials.password" />
+            </div>
         </fieldset>
-        <button class="btn btn-default" ng-click="login(loginForm, credentials)">Login</button>
+        <div >
+            <button class="btn btn-default" ng-click="login(loginForm, credentials)">Login</button>
+        </div>
+        <div>
+            <label style="width: 500px" ng-hide="success" class="text-danger">Login Failed.</label>
+        </div>
     </form>
 </div>
