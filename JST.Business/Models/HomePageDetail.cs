@@ -21,6 +21,7 @@ namespace JST.Business.Models
                 {
                     workoutDay.Workouts.Add(workouts.SingleOrDefault(item => item.Date == workoutDay.Date && item.WorkoutTypeId == workoutType.WorkoutTypeId));
                 }
+                workoutDay.IsRestDay = workoutDay.Workouts.All(item => item == null);
                 WorkoutDays.Add(workoutDay);
             }
         }
@@ -57,6 +58,7 @@ namespace JST.Business.Models
             public DateTime Date { get; set; }
             public string ResultDetail { get; set; }
             public List<Workout> Workouts { get; set; }
+            public bool IsRestDay { get; set; }
         }
 
         public class Workout

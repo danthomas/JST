@@ -14,9 +14,11 @@
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active" ng-show="global.accountTypeCode == 'Admin'"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
-                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberHome')">Schedule</a></li>
+                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberWorkoutDay')">Home</a></li>
                     <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberResults')">Results</a></li>
+                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberSchedule')">Schedule</a></li>
                     <li class="active" ng-show="global.accountTypeCode == 'Trainer'"><a href="" ng-click="redirect('/trainerHome')">Home</a></li>
+                    <li class="active"><a href="" ng-click="redirect('/testing')">Testing</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 
@@ -44,7 +46,11 @@
     <script src="App/Controllers/memberResultsController.js"></script>
     <script src="App/Controllers/memberWorkoutDayController.js"></script>
     <script src="App/Controllers/trainerHomeController.js"></script>
+
+    <script src="App/Services/dateService.js"></script>
     <script src="App/Services/loginService.js"></script>
     <script src="App/Services/workoutService.js"></script>
+    
+    <script src="App/Controllers/testingController.js"></script>
 </body>
 </html>

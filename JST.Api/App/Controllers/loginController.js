@@ -17,7 +17,7 @@ app.controller('loginController', function ($scope, $location, globalData, login
                         $location.url('/adminHome');
                     }
                     else if (globalData.accountTypeCode == "Member") {
-                        $location.url('/memberSchedule');
+                        $location.url('/memberWorkoutDay');
                     }
                     else if (globalData.accountTypeCode == "Trainer") {
                         $location.url('/trainerHome');

@@ -26,11 +26,16 @@ app.config(function ($routeProvider, $locationProvider) {
         }
     });*/
     $routeProvider.when('/adminHome', { templateUrl: 'templates/adminHome.html', controller: 'adminHomeController' });
-    $routeProvider.when('/memberHome', { templateUrl: 'templates/memberHome.html', controller: 'memberHomeController' });
-    $routeProvider.when('/memberWorkoutDay/:date', { templateUrl: 'templates/memberWorkoutDay.html', controller: 'memberWorkoutDayController' });
+
+    $routeProvider.when('/memberResults', { templateUrl: 'templates/memberResults.html', controller: 'memberResultsController' });
+    $routeProvider.when('/memberWorkoutDay/:date?', { templateUrl: 'templates/memberWorkoutDay.html', controller: 'memberWorkoutDayController' });
     $routeProvider.when('/memberSchedule', { templateUrl: 'templates/memberSchedule.html', controller: 'memberScheduleController' });
+
     $routeProvider.when('/memberResults', { templateUrl: 'templates/memberResults.html', controller: 'memberResultsController' });
     $routeProvider.when('/trainerHome', { templateUrl: 'templates/trainerHome.html', controller: 'trainerHomeController' });
+
+
+    $routeProvider.when('/testing', { templateUrl: 'templates/testing.html', controller: 'testingController' });
 
 
     

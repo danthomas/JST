@@ -1,26 +1,38 @@
 ﻿'use strict';
 
-app.controller('memberWorkoutDayController', function ($scope, $routeParams, $location, globalData, workoutService) {
+app.controller('memberWorkoutDayController', function ($scope, $routeParams, $location, globalData, workoutService, dateService) {
 
     globalData.pageName = 'Competitors Workout Day';
 
+    if ($routeParams.date) {
+        $scope.date = dateService.setDate(new Date($routeParams.date));
+    } else {
+        $scope.date = dateService.setDefaultDate();
+    }
+    
     $scope.save = function () {
 
         workoutService.saveResult(globalData.sessionId, $scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
             if (data.isSuccess) {
                 $scope.resultId = data.model;
-                $location.url('/memberHome');
+                $location.url('/memberSchedule');
             }
         });
     };
 
-    $scope.cancel = function () {
-        $location.url('/memberHome');
+    $scope.next = function () {
+        $scope.date = dateService.moveDate(1);
+        refresh();
+    };
+
+    $scope.prev = function () {
+        $scope.date = dateService.moveDate(-1);
+        refresh();
     };
 
     function refresh() {
-        workoutService.memberWorkoutDayDetail(new Date($routeParams.date), function (data) {
-            $scope.date = data.model.date;
+        workoutService.memberWorkoutDayDetail(globalData.date, function (data) {
+            $scope.date = dateService.setDate(new Date(data.model.date));
             $scope.workouts = data.model.workouts;
             $scope.resultId = data.model.resultId;
             $scope.workoutDateId = data.model.workoutDateId;

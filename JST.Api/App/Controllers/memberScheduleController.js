@@ -12,6 +12,12 @@ app.controller('memberScheduleController', function ($scope, $location, workoutS
     $scope.weekBeginning = globalData.weekBeginning;
 
     $scope.next = function () {
+        console.log('globalData.weekBeginning: ' + globalData.weekBeginning);
+        console.log('globalData.weekBeginning: ' + new Date(globalData.weekBeginning));
+        console.log('globalData.weekBeginning: ' + new Date(globalData.weekBeginning).getDate());
+        console.log('globalData.weekBeginning: ' + new Date(globalData.weekBeginning).getDate() + 7);
+        console.log('globalData.weekBeginning: ' + globalData.weekBeginning.setDate(new Date(globalData.weekBeginning).getDate() + 7));
+        console.log('globalData.weekBeginning: ' + new Date(globalData.weekBeginning.setDate(new Date(globalData.weekBeginning).getDate() + 7)));
         $scope.weekBeginning = globalData.weekBeginning = new Date(globalData.weekBeginning.setDate(new Date(globalData.weekBeginning).getDate() + 7));
         refresh();
     };
@@ -21,8 +27,10 @@ app.controller('memberScheduleController', function ($scope, $location, workoutS
         refresh();
     };
 
-    $scope.viewWorkoutDay = function(date) {
-        $location.url('/memberWorkoutDay/' + (date + '').substring(0, 10));
+    $scope.viewWorkoutDay = function (workoutDay) {
+        if (!workoutDay.isRestDay) {
+            $location.url('/memberWorkoutDay/' + (workoutDay.date + '').substring(0, 10));
+        }
     };
 
     function refresh() {

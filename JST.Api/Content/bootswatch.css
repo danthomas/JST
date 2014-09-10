@@ -2130,6 +2130,24 @@ table th[class*="col-"] {
   float: none;
   display: table-cell;
 }
+
+
+
+.table > thead > tr > td.restDay,
+.table > tbody > tr > td.restDay,
+.table > tfoot > tr > td.restDay,
+.table > thead > tr > th.restDay,
+.table > tbody > tr > th.restDay,
+.table > tfoot > tr > th.restDay,
+.table > thead > tr.restDay > td,
+.table > tbody > tr.restDay > td,
+.table > tfoot > tr.restDay > td,
+.table > thead > tr.restDay > th,
+.table > tbody > tr.restDay > th,
+.table > tfoot > tr.restDay > th {
+  background-color: #49515a;
+}
+
 .table > thead > tr > td.active,
 .table > tbody > tr > td.active,
 .table > tfoot > tr > td.active,
