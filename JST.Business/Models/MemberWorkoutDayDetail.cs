@@ -6,9 +6,10 @@ namespace JST.Business.Models
 {
     public class MemberWorkoutDayDetail
     {
-        public MemberWorkoutDayDetail(DateTime date, IEnumerable<Workout> workouts, int workoutDateId, int resultId, string resultDetail)
+        public MemberWorkoutDayDetail(DateTime date, string comment, IEnumerable<Workout> workouts, int workoutDateId, int resultId, string resultDetail)
         {
             Date = date;
+            Comment = comment;
             WorkoutDateId = workoutDateId;
             ResultId = resultId;
             ResultDetail = resultDetail;
@@ -16,6 +17,7 @@ namespace JST.Business.Models
         }
 
         public DateTime Date { get; set; }
+        public string Comment { get; set; }
         public int WorkoutDateId { get; set; }
         public int ResultId { get; set; }
         public string ResultDetail { get; set; }

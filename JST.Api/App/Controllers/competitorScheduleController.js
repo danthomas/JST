@@ -9,7 +9,7 @@ app.controller('competitorScheduleController', function ($scope, workoutService,
     $scope.edit = function (workoutDay) {
         if (!workoutDay.isRestDay) {
             globalService.setDate(new Date(workoutDay.date));
-            globalService.url('/competitorWorkoutDay', true);
+            globalService.url('/competitorWorkoutDay', true, true);
         }
     };
 
@@ -33,7 +33,7 @@ app.controller('competitorScheduleController', function ($scope, workoutService,
     $scope.resultCellClick = function (workoutDay) {
         if (!workoutDay.isRestDay) {
             globalService.setDate(new Date(workoutDay.date));
-            globalService.url('/competitorWorkoutDay', true);
+            globalService.url('/competitorWorkoutDay', true, true);
         }
     };
 

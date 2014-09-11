@@ -9,6 +9,7 @@
         <tbody>
             <tr ng-repeat="workoutDay in workoutDays" ng-click="rowClick(workoutDay)">
                 <td>{{workoutDay.date|date:'dd/MM/yyyy'}}</td>
+                <td>{{workoutDay.workoutDetail}}</td>
                 <td>{{workoutDay.resultDetail}}</td>
                 <td><a ng-hide="workoutDay.isRestDay" href='' ng-click="edit(workoutDay)">edit</a></td>
             </tr>

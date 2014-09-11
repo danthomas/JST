@@ -18,6 +18,7 @@ namespace JST.Business.Models
             public int WorkoutDateId { get; set; }
             public DateTime Date { get; set; }
             public string ResultDetail { get; set; }
+            public string WorkoutDetail { get; set; }
 
             public WorkoutDay( int workoutDateId, DateTime date, string resultDetail)
             {

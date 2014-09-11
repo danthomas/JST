@@ -16,6 +16,7 @@ order by	wt.SortOrder
 
 select		wd.WorkoutDateId
 			, wd.Date
+			, wd.Comment
 			, r.ResultId
 			, r.Detail ResultDetail
 from		Competitors.WorkoutDate wd

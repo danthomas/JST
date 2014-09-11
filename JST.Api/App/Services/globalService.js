@@ -22,11 +22,15 @@
 
         },
 
-        url: function (url, setBackUrl) {
+        url: function (url, replace, setBackUrl) {
             if (setBackUrl) {
                 globalData.backUrl = $location.$$path;
             }
-            $location.url(url);
+            if (replace) {
+                $location.url(url)/*.replace()*/;
+            } else {
+                $location.url(url);
+            }
         },
         
         backUrl: function (otherwiseUrl) {

@@ -7,7 +7,7 @@ app.controller('competitorMyResultsController', function ($scope, $location, wor
 
     $scope.edit = function (workoutDay) {
         globalService.setDate(new Date(workoutDay.date));
-        globalService.url('/competitorWorkoutDay', true);
+        globalService.url('/competitorWorkoutDay', true, true);
     };
 
     $scope.rowClick = function (workoutDay) {

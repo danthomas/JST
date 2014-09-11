@@ -29,6 +29,7 @@ app.controller('competitorWorkoutDayController', function ($scope, workoutServic
     function refresh(direction) {
         workoutService.competitorWorkoutDayDetail(globalService.getDate(), direction, function (data) {
             $scope.date = globalService.setDate(new Date(data.model.date));
+            $scope.comment = data.model.comment;
             $scope.workouts = data.model.workouts;
             $scope.resultId = data.model.resultId;
             $scope.workoutDateId = data.model.workoutDateId;
