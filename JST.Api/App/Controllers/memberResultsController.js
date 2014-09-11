@@ -1,23 +1,25 @@
 ﻿'use strict';
 
-app.controller('memberResultsController', function ($scope, $location, workoutService, globalData, dateService) {
+app.controller('memberResultsController', function ($scope, $location, workoutService, globalService) {
 
-    globalData.pageName = "Competitors Results";
+    globalService.setPageName('Competitor Results');
     
-    $scope.date = dateService.setDefaultDate();
+    $scope.date = globalService.getDate();
 
     $scope.next = function () {
-        $scope.date = dateService.moveDate(1);
-        refresh();
+        globalService.moveDate(1);
+        refresh('next');
     };
 
     $scope.prev = function () {
-        $scope.date = dateService.moveDate(-1);
-        refresh();
+        globalService.moveDate(-1);
+        refresh('prev');
     };
 
-    function refresh() {
-        workoutService.memberResultsDetail(globalData.date, function (data) {
+    function refresh(direction) {
+        workoutService.memberResultsDetail(globalService.getDate(), direction, function (data) {
+            $scope.date = globalService.setDate(new Date(data.model.date));
+            $scope.workouts = data.model.workouts;
             $scope.results = data.model.results;
         });
     }

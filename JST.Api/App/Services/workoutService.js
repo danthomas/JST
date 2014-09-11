@@ -16,12 +16,13 @@
         },
 
 
-        memberWorkoutDayDetail: function (date, result) {
+        memberWorkoutDayDetail: function (date, direction, result) {
             $http({
                 method: "post",
                 url: "api/workout/memberWorkoutDayDetail",
                 data: JSON.stringify( {
                     sessionId: globalData.sessionId,
+                    direction: direction,
                     date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
                 })
             }).success(function (data) {
@@ -31,12 +32,13 @@
         },
 
 
-        memberResultsDetail: function (date, result) {
+        memberResultsDetail: function (date, direction, result) {
             $http({
                 method: "post",
                 url: "api/workout/memberResultsDetail",
                 data: JSON.stringify({
                     sessionId: globalData.sessionId,
+                    direction: direction,
                     date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
                 })
             }).success(function (data) {
@@ -45,13 +47,13 @@
             });
         },
 
-        saveResult: function(sessionId, resultId, workoutDateId, resultDetail, result) {
+        saveResult: function(resultId, workoutDateId, resultDetail, result) {
 
             $http({
                 method: "post",
                 url: "api/workout/saveResult",
                 data: JSON.stringify({
-                    sessionId: sessionId,
+                    sessionId: globalData.sessionId,
                     resultId: resultId,
                     workoutDateId: workoutDateId,
                     resultDetail: resultDetail

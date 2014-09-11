@@ -16,6 +16,8 @@ namespace JST.DataAccess
         Result SelectByResultId(int resultId);
 
         DataSet SelectForMemberHomeByDate(DateTime date);
+        
+        void Delete(int resultId);
     }
 
     public partial class ResultDataService : IResultDataService
@@ -33,6 +35,14 @@ namespace JST.DataAccess
             using (JstDataContext dataContext = new JstDataContext())
             {
                 dataContext.ExecuteNonQuery("Competitors.Result_Update", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, result.ResultId), new Parameter("WorkoutDateId", SqlDbType.Int, result.WorkoutDateId), new Parameter("AccountId", SqlDbType.SmallInt, result.AccountId), new Parameter("Detail", SqlDbType.VarChar, result.Detail));
+            }
+        }
+
+        public virtual void Delete(int resultId)
+        {
+            using (JstDataContext dataContext = new JstDataContext())
+            {
+                dataContext.ExecuteNonQuery("Competitors.Result_Delete", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, resultId));
             }
         }
         public virtual Result SelectByResultId(int resultId)

@@ -74,6 +74,7 @@
     <Folder Include="Schema Objects\Schemas\dbo\Programmability\SqlClr" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
@@ -106,6 +107,8 @@
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Update.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_SelectByResultId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectMemberResultsDetail.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Functions\GetWorkoutId.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Delete.procedure.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

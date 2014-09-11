@@ -28,7 +28,7 @@ app.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when('/adminHome', { templateUrl: 'templates/adminHome.html', controller: 'adminHomeController' });
 
     $routeProvider.when('/memberResults', { templateUrl: 'templates/memberResults.html', controller: 'memberResultsController' });
-    $routeProvider.when('/memberWorkoutDay/:date?', { templateUrl: 'templates/memberWorkoutDay.html', controller: 'memberWorkoutDayController' });
+    $routeProvider.when('/memberWorkoutDay', { templateUrl: 'templates/memberWorkoutDay.html', controller: 'memberWorkoutDayController' });
     $routeProvider.when('/memberSchedule', { templateUrl: 'templates/memberSchedule.html', controller: 'memberScheduleController' });
 
     $routeProvider.when('/memberResults', { templateUrl: 'templates/memberResults.html', controller: 'memberResultsController' });

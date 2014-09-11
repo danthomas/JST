@@ -30,14 +30,14 @@ namespace JST.Api.Controllers
         [Route("api/workout/memberWorkoutDayDetail")]
         public ReturnValue<MemberWorkoutDayDetail> GetWorkoutDay([FromBody]GetWorkoutDayRequestDetail requestValue)
         {
-            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetMemberWorkoutDayDetail(requestValue.SessionId, requestValue.Date));
+            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetMemberWorkoutDayDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
         }
 
         [HttpPost]
         [Route("api/workout/memberResultsDetail")]
         public ReturnValue<MemberResultsDetail> GetResults([FromBody]GetMemberResultsRequestDetail requestValue)
         {
-            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetMemberResultsDetail(requestValue.SessionId, requestValue.Date));
+            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetMemberResultsDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
         }
 
         [HttpPost]
@@ -56,12 +56,14 @@ namespace JST.Api.Controllers
         public class GetWorkoutDayRequestDetail
         {
             public Guid SessionId { get; set; }
+            public Direction Direction { get; set; }
             public DateTime Date { get; set; }
         }
 
         public class GetMemberResultsRequestDetail
         {
             public Guid SessionId { get; set; }
+            public Direction Direction { get; set; }
             public DateTime Date { get; set; }
         }
 

@@ -1,38 +1,34 @@
 ﻿'use strict';
 
-app.controller('memberWorkoutDayController', function ($scope, $routeParams, $location, globalData, workoutService, dateService) {
+app.controller('memberWorkoutDayController', function ($scope, workoutService, globalService) {
 
-    globalData.pageName = 'Competitors Workout Day';
+    globalService.setPageName('Competitor Workout Day');
 
-    if ($routeParams.date) {
-        $scope.date = dateService.setDate(new Date($routeParams.date));
-    } else {
-        $scope.date = dateService.setDefaultDate();
-    }
-    
+    $scope.date = globalService.getDate();
+
     $scope.save = function () {
 
-        workoutService.saveResult(globalData.sessionId, $scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
+        workoutService.saveResult($scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
             if (data.isSuccess) {
                 $scope.resultId = data.model;
-                $location.url('/memberSchedule');
+                globalService.lastUrl('/memberResults');
             }
         });
     };
 
     $scope.next = function () {
-        $scope.date = dateService.moveDate(1);
-        refresh();
+        globalService.moveDate(1);
+        refresh('next');
     };
 
     $scope.prev = function () {
-        $scope.date = dateService.moveDate(-1);
-        refresh();
+        globalService.moveDate(-1);
+        refresh('prev');
     };
 
-    function refresh() {
-        workoutService.memberWorkoutDayDetail(globalData.date, function (data) {
-            $scope.date = dateService.setDate(new Date(data.model.date));
+    function refresh(direction) {
+        workoutService.memberWorkoutDayDetail(globalService.getDate(), direction, function (data) {
+            $scope.date = globalService.setDate(new Date(data.model.date));
             $scope.workouts = data.model.workouts;
             $scope.resultId = data.model.resultId;
             $scope.workoutDateId = data.model.workoutDateId;
@@ -40,6 +36,6 @@ app.controller('memberWorkoutDayController', function ($scope, $routeParams, $lo
         });
     }
 
-    refresh();
+    refresh('none');
 
 });

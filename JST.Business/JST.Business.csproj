@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountBusiness.cs" />
+    <Compile Include="Direction.cs" />
     <Compile Include="Models\HomePageDetail.cs" />
     <Compile Include="Models\MemberResultsDetail.cs" />
     <Compile Include="Models\MemberWorkoutDayDetail.cs" />

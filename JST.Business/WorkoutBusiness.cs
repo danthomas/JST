@@ -45,7 +45,7 @@ namespace JST.Business
                 dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new HomePageDetail.Workout(item.Field<int>("WorkoutId"), item.Field<byte>("WorkoutTypeId"), item.Field<string>("Detail"), item.Field<DateTime>("Date"))));
         }
 
-        public MemberWorkoutDayDetail GetMemberWorkoutDayDetail(Guid sessionId, DateTime date)
+        public MemberWorkoutDayDetail GetMemberWorkoutDayDetail(Guid sessionId, Direction direction, DateTime date)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
 
@@ -53,8 +53,8 @@ namespace JST.Business
             {
                 return null;
             }
-            
-            DataSet dataSet = _workoutDataService.SelectMemberWorkoutDayDetails(date, session.AccountId);
+
+            DataSet dataSet = _workoutDataService.SelectMemberWorkoutDayDetails(date, direction.ToString(), session.AccountId);
             int workoutDateId = 0;
             int resultId = 0;
             string resultDetail = "";
@@ -62,6 +62,7 @@ namespace JST.Business
             if (dataSet.Tables[1].Rows.Count == 1)
             {
                 workoutDateId = dataSet.Tables[1].Rows[0].Field<int>("WorkoutDateId");
+                date = dataSet.Tables[1].Rows[0].Field<DateTime>("Date");
                 resultId = dataSet.Tables[1].Rows[0].Field<int?>("ResultId") ?? 0;
                 resultDetail = dataSet.Tables[1].Rows[0].Field<string>("ResultDetail") ?? "";
             }
@@ -71,7 +72,7 @@ namespace JST.Business
 
         }
 
-        public MemberResultsDetail GetMemberResultsDetail(Guid sessionId, DateTime date)
+        public MemberResultsDetail GetMemberResultsDetail(Guid sessionId, Direction direction, DateTime date)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
 
@@ -80,10 +81,16 @@ namespace JST.Business
                 return null;
             }
 
-            DataSet dataSet = _workoutDataService.SelectMemberResultsDetails(date, session.AccountId);
-            
+            DataSet dataSet = _workoutDataService.SelectMemberResultsDetails(date, direction.ToString(), session.AccountId);
+
+            if (dataSet.Tables[0].Rows.Count == 1)
+            {
+                date = dataSet.Tables[0].Rows[0].Field<DateTime>("Date");
+            }
+
             return new MemberResultsDetail(date,
-                dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Result(item.Field<int>("ResultId"), item.Field<bool>("IsCurrentAccount"), item.Field<string>("AccountDisplayName"), item.Field<string>("ResultDetail"))));
+            dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Workout(item.Field<int>("WorkoutId"), item.Field<string>("WorkoutTypeName"), item.Field<string>("WorkoutDetail"))),
+                dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Result(item.Field<int>("ResultId"), item.Field<bool>("IsCurrentAccount"), item.Field<string>("AccountDisplayName"), item.Field<string>("ResultDetail"))));
 
         }
 
@@ -100,24 +107,35 @@ namespace JST.Business
 
             if (resultId == 0)
             {
-                result = new Result(0, workoutDateId, session.AccountId, resultDetail);
-                _resultDataService.Insert(result);
-                resultId = result.ResultId;
-
+                if (!String.IsNullOrWhiteSpace(resultDetail))
+                {
+                    result = new Result(0, workoutDateId, session.AccountId, resultDetail);
+                    _resultDataService.Insert(result);
+                    resultId = result.ResultId;
+                }
             }
             else
             {
                 result = _resultDataService.SelectByResultId(resultId);
-                result.Detail = resultDetail;
 
-                if (result.WorkoutDateId != workoutDateId)
+                if (String.IsNullOrWhiteSpace(resultDetail))
                 {
-                    return new ReturnValue<int>(false, MessageType.Error, "Invalid WorkoutDateId", resultId);
+                    _resultDataService.Delete(resultId);
                 }
+                else
+                {
+                    result.Detail = resultDetail;
 
-                _resultDataService.Update(result);
+                    if (result.WorkoutDateId != workoutDateId)
+                    {
+                        return new ReturnValue<int>(false, MessageType.Error, "Invalid WorkoutDateId", resultId);
+                    }
+
+                    _resultDataService.Update(result);
+
+                }
             }
-            
+
             return new ReturnValue<int>(true, resultId);
         }
 

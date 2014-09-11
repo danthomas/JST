@@ -1,4 +1,4 @@
-﻿app.factory('loginService', function (globalData, $http) {
+﻿app.factory('loginService', function (globalData, globalService, $http) {
     return {
         login: function (userName, password, result) {
             console.log('logging in as ' + userName);
@@ -32,11 +32,7 @@
         },
         logout: function () {
             console.log('logging out');
-            globalData.sessionId = null;
-            globalData.displayName = null;
-            globalData.accountTypeCode = null;
-            globalData.weekBeginning = null;
-            globalData.resultsDate = null;
+            globalService.clear();
         }
     };
 });

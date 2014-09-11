@@ -7,7 +7,22 @@
     <button class="btn btn-default" ng-click="next()">>></button>
 </div>
 <div>
-
+    <table class="table">
+        <thead>
+            <tr>
+                <th width="100">Workout Type</th>
+                <th>Workout Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="workout in workouts">
+                <td>{{workout.workoutTypeName}}</td>
+                <td>{{workout.workoutDetail}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
     <table class="table">
         <thead>
             <tr>
