@@ -6,7 +6,7 @@ CREATE TABLE [Competitors].[WorkoutDate]
 , CONSTRAINT PK_WorkoutDate PRIMARY KEY CLUSTERED ( [WorkoutDateId] )
 )
 GO
-CREATE UNIQUE NONCLUSTERED INDEX AK_WorkoutDate_Date ON [Competitors].[WorkoutDate]
+CREATE UNIQUE NONCLUSTERED INDEX AK_WorkoutDateDate ON [Competitors].[WorkoutDate]
 (
 	[Date] ASC
 )

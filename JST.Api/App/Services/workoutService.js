@@ -1,9 +1,9 @@
 ﻿app.factory('workoutService', function ($http, globalData) {
     return {
-        homePageDetail: function (date, result) {
+        competitorScheduleDetail: function (date, result) {
             $http({
                 method: "post",
-                url: "api/workout/homepageDetail",
+                url: "api/workout/competitorScheduleDetail",
                 data: JSON.stringify({
                     sessionId: globalData.sessionId,
                     date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
@@ -16,10 +16,10 @@
         },
 
 
-        memberWorkoutDayDetail: function (date, direction, result) {
+        competitorWorkoutDayDetail: function (date, direction, result) {
             $http({
                 method: "post",
-                url: "api/workout/memberWorkoutDayDetail",
+                url: "api/workout/competitorWorkoutDayDetail",
                 data: JSON.stringify( {
                     sessionId: globalData.sessionId,
                     direction: direction,
@@ -32,14 +32,28 @@
         },
 
 
-        memberResultsDetail: function (date, direction, result) {
+        competitorResultsDetail: function (date, direction, result) {
             $http({
                 method: "post",
-                url: "api/workout/memberResultsDetail",
+                url: "api/workout/competitorResultsDetail",
                 data: JSON.stringify({
                     sessionId: globalData.sessionId,
                     direction: direction,
                     date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
+                })
+            }).success(function (data) {
+                result(data);
+            }).error(function () {
+            });
+        },
+
+
+        competitorMyResultsDetail: function (date, direction, result) {
+            $http({
+                method: "post",
+                url: "api/workout/competitorMyResultsDetail",
+                data: JSON.stringify({
+                    sessionId: globalData.sessionId
                 })
             }).success(function (data) {
                 result(data);

@@ -12,6 +12,7 @@ INSERT INTO [Competitors].[Result] ([WorkoutDateId], [AccountId], [Detail])
 VALUES (@WorkoutDateId, @AccountId, @Detail)
 
 
+
 SELECT CAST(SCOPE_IDENTITY() AS INT)
 
 

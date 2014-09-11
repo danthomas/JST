@@ -40,9 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.g.cs" />
+    <Compile Include="AccountRole.g.cs" />
     <Compile Include="AccountType.g.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.g.cs" />
+    <Compile Include="Role.g.cs" />
     <Compile Include="Session.g.cs" />
     <Compile Include="Workout.g.cs" />
     <Compile Include="WorkoutDate.g.cs" />

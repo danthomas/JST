@@ -14,6 +14,8 @@ namespace JST.DataImport
     {
         static void Main(string[] args)
         {
+          List<Tuple<string, string>> userNames = GetUserNames();
+
             /*
               List<List<List<string>>> workbookData = GetData();
 
@@ -26,20 +28,21 @@ namespace JST.DataImport
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
             BinaryFormatter bFormatter = new BinaryFormatter();
             List<List<List<string>>> workbookData = (List<List<List<string>>>)bFormatter.Deserialize(stream);
-            
-            ProcessData(workbookData);
+
+            ProcessData(workbookData, userNames);
         }
 
-        private static void ProcessData(List<List<List<string>>> workbook)
+        private static void ProcessData(List<List<List<string>>> workbook, List<Tuple<string, string>> userNames)
         {
             List<Competitor> competitors = new List<Competitor>();
             List<WorkoutDate> workoutDates = new List<WorkoutDate>();
             List<Workout> workouts = new List<Workout>();
             List<Result> results = new List<Result>();
 
-            int competitorId = 3;
+            int competitorId = 4;
             int workoutDateId = 1;
             int workoutId = 1;
+            int userNameId = 1;
 
             foreach (List<List<string>> worksheet in workbook)
             {
@@ -55,7 +58,8 @@ namespace JST.DataImport
 
                             if (competitor == null)
                             {
-                                competitor = new Competitor(competitorId++, name);
+                                Tuple<string, string> username = userNames.SingleOrDefault(item => item.Item1 == name);
+                                competitor = new Competitor(competitorId++, name, username == null ? "" : username.Item2);
                                 competitors.Add(competitor);
                             }
                         }
@@ -110,20 +114,57 @@ namespace JST.DataImport
 
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("set identity_insert Security.Account on");
-            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (1, 1, 'thomasd', 'Dan Thomas', ''){0}", Environment.NewLine);
-            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values (2, 2, 'fawcetts', 'Steven Fawcett', ''){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (1, 'thomasd', 'Dan Thomas', 'hillrun'){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (2, 'fawcetts', 'Steven Fawcett', 'squat'){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (3, 'bulloughj', 'Jonathan Bullough', 'squat'){0}", Environment.NewLine);
 
             foreach (Competitor competitor in competitors)
             {
-                stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountTypeId, AccountName, DisplayName, [Password]) values ({1}, 3, '{2}', '{3}', ''){0}",
+                stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values ({1}, '{2}', '{3}', 'burpee'){0}",
                     Environment.NewLine,
                     competitor.Id,
-                    (competitor.Name.Length > 30 ? competitor.Name.Substring(0, 30) : competitor.Name).Replace("'", "''"),
+                    competitor.Username == "" ? "Account" + userNameId++ : competitor.Username,
                     (competitor.Name).Replace("'", "''"));
             }
+
+            foreach (Tuple<string, string>  username in userNames.Skip(1))
+            {
+
+                if (new String[] { "thomasd", "fawcetts", "bulloughj" }.Contains(username.Item2.ToLower()))
+                {
+                    continue;
+                }
+
+                if (competitors.All(item => item.Username.ToLower() != username.Item2.ToLower()))
+                {
+                    stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values ({1}, '{2}', '{3}', 'burpee'){0}",
+                        Environment.NewLine,
+                        competitorId++,
+                        username.Item2,
+                        username.Item1);
+                }
+            }
+
+
             stringBuilder.AppendLine("set identity_insert Security.Account off");
 
             File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.Account.sql", stringBuilder.ToString());
+
+
+            stringBuilder = new StringBuilder();
+            stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (1, 1){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (2, 2){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (3, 2){0}", Environment.NewLine);
+
+            foreach (Competitor competitor in competitors)
+            {
+                stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values ({1}, 3){0}",
+                    Environment.NewLine,
+                    competitor.Id);
+            }
+
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.AccountRole.sql", stringBuilder.ToString());
+
 
 
 
@@ -192,6 +233,31 @@ namespace JST.DataImport
 
 
 
+        private static List<Tuple<string, string>> GetUserNames()
+        {
+            List<Tuple<string, string>>  ret = new List<Tuple<string, string>>();
+
+            Application excel = new Application();
+            Workbook workbook = excel.Workbooks.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Competitors Programme.xlsx");
+
+            foreach (Worksheet worksheet in workbook.Worksheets)
+            {
+                if (worksheet.Name == "UserNames")
+                {
+                    foreach (Range range in worksheet.UsedRange.Rows)
+                    {
+                        object name = range.Cells[1, 1].Value;
+                        object username = range.Cells[1, 2].Value;
+
+                        ret.Add(new Tuple<string, string>(name.ToString(), username.ToString()));
+                    }
+                }
+            }
+
+
+            return ret;
+        }
+
         private static List<List<List<string>>> GetData()
         {
             List<List<List<string>>> workbookData = new List<List<List<string>>>();
@@ -235,13 +301,15 @@ namespace JST.DataImport
 
     class Competitor
     {
-        public Competitor(int id, string name)
+        public Competitor(int id, string name, string username)
         {
             Id = id;
             Name = name;
+            Username = username;
         }
 
         public string Name { get; set; }
+        public string Username { get; set; }
         public int Id { get; set; }
     }
 

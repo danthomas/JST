@@ -1,21 +1,19 @@
 CREATE TABLE [Security].[Account]
 (
   [AccountId] SMALLINT NOT NULL IDENTITY (1, 1)
-, [AccountTypeId] TINYINT NOT NULL
 , [AccountName] VARCHAR(30) NOT NULL
 , [DisplayName] VARCHAR(100) NOT NULL
 , [Password] VARCHAR(30) NOT NULL
 , CONSTRAINT PK_Account PRIMARY KEY CLUSTERED ( [AccountId] )
-, CONSTRAINT FK_Account_AccountTypeId FOREIGN KEY ( AccountTypeId ) REFERENCES Security.AccountType ( AccountTypeId )
 )
 GO
-CREATE UNIQUE NONCLUSTERED INDEX AK_Account_AccountName ON [Security].[Account]
+CREATE UNIQUE NONCLUSTERED INDEX AK_AccountAccountName ON [Security].[Account]
 (
 	[AccountName] ASC
 )
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-CREATE UNIQUE NONCLUSTERED INDEX AK_Account_DisplayName ON [Security].[Account]
+CREATE UNIQUE NONCLUSTERED INDEX AK_AccountDisplayName ON [Security].[Account]
 (
 	[DisplayName] ASC
 )

@@ -13,11 +13,11 @@
         <div class="navbar navbar-default">
             <div class="navbar-collapse collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active" ng-show="global.accountTypeCode == 'Admin'"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
-                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberWorkoutDay')">Home</a></li>
-                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberResults')">Results</a></li>
-                    <li class="active" ng-show="global.accountTypeCode == 'Member'"><a href="" ng-click="redirect('/memberSchedule')">Schedule</a></li>
-                    <li class="active" ng-show="global.accountTypeCode == 'Trainer'"><a href="" ng-click="redirect('/trainerHome')">Home</a></li>
+                    <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
+                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorSchedule')">Schedule</a></li>
+                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorResults')">Results</a></li>
+                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorMyResults')">My Results</a></li>
+                    <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerHome')">Home</a></li>
                     <!--
                     <li class="active"><a href="" ng-click="redirect('/testing')">Testing</a></li>
                         -->
@@ -44,9 +44,10 @@
     <script src="App/Controllers/homeController.js"></script>
     <script src="App/Controllers/loginController.js"></script>
     <script src="App/Controllers/adminHomeController.js"></script>
-    <script src="App/Controllers/memberScheduleController.js"></script>
-    <script src="App/Controllers/memberResultsController.js"></script>
-    <script src="App/Controllers/memberWorkoutDayController.js"></script>
+    <script src="App/Controllers/competitorScheduleController.js"></script>
+    <script src="App/Controllers/competitorResultsController.js"></script>
+    <script src="App/Controllers/competitorMyResultsController.js"></script>
+    <script src="App/Controllers/competitorWorkoutDayController.js"></script>
     <script src="App/Controllers/trainerHomeController.js"></script>
 
     <script src="App/Services/globalService.js"></script>

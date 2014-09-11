@@ -1,14 +1,12 @@
 ﻿<domain name='JST'>
   <group name='Security'>
-    <entity name='AccountType'>
-      <property name='AccountTypeId' sqlServerType='TINYINT' isIdentifier='true' />
+    <entity name='Role'>
+      <property name='RoleId' sqlServerType='TINYINT' isIdentifier='true' />
       <property name='Code' sqlServerType='VARCHAR' length='20' isUnique='true' />
       <property name='Name' sqlServerType='VARCHAR' length='50' isUnique='true' />
-      <procedure procedureType='Select' properties='AccountTypeId'/>
     </entity>
     <entity name='Account'>
       <property name='AccountId' sqlServerType='SMALLINT' isAuto='true' isIdentifier='true' />
-      <property name='AccountTypeId' referencedEntity='AccountType' />
       <property name='AccountName' sqlServerType='VARCHAR' length='30' isUnique='true' />
       <property name='DisplayName' sqlServerType='VARCHAR' length='100' isUnique='true' />
       <property name='Password' sqlServerType='VARCHAR' length='30' />
@@ -18,10 +16,17 @@
       <procedure procedureType='Select' properties='AccountId'/>
       <procedure procedureType='Select' properties='AccountName'/>
     </entity>
+    <entity name='AccountRole'>
+      <property name='AccountRoleId' sqlServerType='SMALLINT' isAuto='true' isIdentifier='true' />
+      <property name='RoleId' referencedEntity='Role' />
+      <property name='AccountId' referencedEntity='Account' />
+      <procedure procedureType='Select' properties='AccountId'/>
+    </entity>
     <entity name='Session'>
       <property name='SessionId' sqlServerType='UNIQUEIDENTIFIER' isIdentifier='true' />
       <property name='AccountId' referencedEntity='Account' />
       <property name='StartDateTime' sqlServerType='DATETIME' />
+      <property name='Client' sqlServerType='VARCHAR' length='1000' />
       <procedure procedureType='Insert' />
       <procedure procedureType='Select' properties='SessionId'/>
     </entity>

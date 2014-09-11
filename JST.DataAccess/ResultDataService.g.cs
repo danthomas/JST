@@ -7,15 +7,13 @@ using JST.Domain;
 
 namespace JST.DataAccess
 {
-    public interface IResultDataService
+    public partial interface IResultDataService
     {
         void Insert(Result result);
 
         void Update(Result result);
 
         Result SelectByResultId(int resultId);
-
-        DataSet SelectForMemberHomeByDate(DateTime date);
         
         void Delete(int resultId);
     }

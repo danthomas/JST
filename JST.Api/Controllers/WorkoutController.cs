@@ -20,24 +20,31 @@ namespace JST.Api.Controllers
         }
 
         [HttpPost]
-        [Route("api/workout/homepageDetail")]
-        public ReturnValue<HomePageDetail> GetHomePageDetail([FromBody]GetHomePageRequestDetail requestDetail)
+        [Route("api/workout/competitorScheduleDetail")]
+        public ReturnValue<HomePageDetail> GetCompetitorScheduleDetail([FromBody]GetHomePageRequestDetail requestDetail)
         {
-            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetHomePageDetail(requestDetail.SessionId, requestDetail.Date));
+            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetCompetitorScheduleDetail(requestDetail.SessionId, requestDetail.Date));
         }
 
         [HttpPost]
-        [Route("api/workout/memberWorkoutDayDetail")]
-        public ReturnValue<MemberWorkoutDayDetail> GetWorkoutDay([FromBody]GetWorkoutDayRequestDetail requestValue)
+        [Route("api/workout/competitorWorkoutDayDetail")]
+        public ReturnValue<MemberWorkoutDayDetail> GetCompetitorWorkoutDayDetail([FromBody]GetWorkoutDayRequestDetail requestValue)
         {
-            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetMemberWorkoutDayDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
+            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetCompetitorWorkoutDayDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
         }
 
         [HttpPost]
-        [Route("api/workout/memberResultsDetail")]
-        public ReturnValue<MemberResultsDetail> GetResults([FromBody]GetMemberResultsRequestDetail requestValue)
+        [Route("api/workout/competitorResultsDetail")]
+        public ReturnValue<MemberResultsDetail> GetCompetitorResultsDetail([FromBody]GetMemberResultsRequestDetail requestValue)
         {
-            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetMemberResultsDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
+            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetCompetitorResultsDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
+        }
+
+        [HttpPost]
+        [Route("api/workout/competitorMyResultsDetail")]
+        public ReturnValue<CompetitorMyResultsDetail> GetMyCompetitorResultsDetail([FromBody]GetMemberResultsRequestDetail requestValue)
+        {
+            return new ReturnValue<CompetitorMyResultsDetail>(true, _workoutBusiness.GetCompetitorMyResultsDetail(requestValue.SessionId));
         }
 
         [HttpPost]

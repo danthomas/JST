@@ -7,11 +7,11 @@ using JST.Domain;
 
 namespace JST.DataAccess
 {
-    public interface IMemberHomeResultDataService
+    public partial interface IRoleDataService
     {
     }
 
-    public partial class MemberHomeResultDataService : IMemberHomeResultDataService
+    public partial class RoleDataService : IRoleDataService
     {
     }
 }

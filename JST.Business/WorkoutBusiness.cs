@@ -23,7 +23,7 @@ namespace JST.Business
             _resultDataService = resultDataService;
         }
 
-        public HomePageDetail GetHomePageDetail(Guid sessionId, DateTime date)
+        public HomePageDetail GetCompetitorScheduleDetail(Guid sessionId, DateTime date)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
 
@@ -45,7 +45,7 @@ namespace JST.Business
                 dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new HomePageDetail.Workout(item.Field<int>("WorkoutId"), item.Field<byte>("WorkoutTypeId"), item.Field<string>("Detail"), item.Field<DateTime>("Date"))));
         }
 
-        public MemberWorkoutDayDetail GetMemberWorkoutDayDetail(Guid sessionId, Direction direction, DateTime date)
+        public MemberWorkoutDayDetail GetCompetitorWorkoutDayDetail(Guid sessionId, Direction direction, DateTime date)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
 
@@ -72,7 +72,7 @@ namespace JST.Business
 
         }
 
-        public MemberResultsDetail GetMemberResultsDetail(Guid sessionId, Direction direction, DateTime date)
+        public MemberResultsDetail GetCompetitorResultsDetail(Guid sessionId, Direction direction, DateTime date)
         {
             Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
 
@@ -92,6 +92,20 @@ namespace JST.Business
             dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Workout(item.Field<int>("WorkoutId"), item.Field<string>("WorkoutTypeName"), item.Field<string>("WorkoutDetail"))),
                 dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Result(item.Field<int>("ResultId"), item.Field<bool>("IsCurrentAccount"), item.Field<string>("AccountDisplayName"), item.Field<string>("ResultDetail"))));
 
+        }
+
+        public CompetitorMyResultsDetail GetCompetitorMyResultsDetail(Guid sessionId)
+        {
+            Domain.Session session = _sessionDataService.SelectBySessionId(sessionId);
+
+            if (session == null)
+            {
+                return null;
+            }
+
+            DataSet dataSet = _workoutDataService.SelectCompetitorMyResultsDetails(session.AccountId);
+
+            return new CompetitorMyResultsDetail(dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new CompetitorMyResultsDetail.WorkoutDay(item.Field<int>("WorkoutDateId"), item.Field<DateTime>("Date"), item.Field<string>("ResultDetail"))));
         }
 
         public ReturnValue<int> SaveResult(Guid sessionId, int resultId, int workoutDateId, string resultDetail)

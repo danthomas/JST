@@ -1,8 +1,8 @@
 ﻿'use strict';
 
-app.controller('memberResultsController', function ($scope, $location, workoutService, globalService) {
+app.controller('competitorResultsController', function ($scope, $location, workoutService, globalService) {
 
-    globalService.setPageName('Competitor Results');
+    globalService.setPageName('Competitor - Results');
     
     $scope.date = globalService.getDate();
 
@@ -17,7 +17,7 @@ app.controller('memberResultsController', function ($scope, $location, workoutSe
     };
 
     function refresh(direction) {
-        workoutService.memberResultsDetail(globalService.getDate(), direction, function (data) {
+        workoutService.competitorResultsDetail(globalService.getDate(), direction, function (data) {
             $scope.date = globalService.setDate(new Date(data.model.date));
             $scope.workouts = data.model.workouts;
             $scope.results = data.model.results;

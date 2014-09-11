@@ -6,7 +6,7 @@ CREATE TABLE [Competitors].[WorkoutType]
 , CONSTRAINT PK_WorkoutType PRIMARY KEY CLUSTERED ( [WorkoutTypeId] )
 )
 GO
-CREATE UNIQUE NONCLUSTERED INDEX AK_WorkoutType_Name ON [Competitors].[WorkoutType]
+CREATE UNIQUE NONCLUSTERED INDEX AK_WorkoutTypeName ON [Competitors].[WorkoutType]
 (
 	[Name] ASC
 )

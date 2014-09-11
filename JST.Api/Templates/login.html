@@ -19,7 +19,7 @@
             <button class="btn btn-default" ng-click="login(loginForm, credentials)">Login</button>
         </div>
         <div>
-            <label style="width: 500px" ng-hide="success" class="text-danger">Login Failed.</label>
+            <label style="width: 500px" ng-hide="message == ''" class="text-danger" ng-bind="message"></label>
         </div>
     </form>
 </div>

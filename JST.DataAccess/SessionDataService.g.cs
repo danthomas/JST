@@ -7,7 +7,7 @@ using JST.Domain;
 
 namespace JST.DataAccess
 {
-    public interface ISessionDataService
+    public partial interface ISessionDataService
     {
         void Insert(Session session);
 
@@ -20,7 +20,7 @@ namespace JST.DataAccess
         {
             using (JstDataContext dataContext = new JstDataContext())
             {
-                dataContext.ExecuteNonQuery("Security.Session_Insert", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, session.SessionId), new Parameter("AccountId", SqlDbType.SmallInt, session.AccountId), new Parameter("StartDateTime", SqlDbType.DateTime, session.StartDateTime));
+                dataContext.ExecuteNonQuery("Security.Session_Insert", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, session.SessionId), new Parameter("AccountId", SqlDbType.SmallInt, session.AccountId), new Parameter("StartDateTime", SqlDbType.DateTime, session.StartDateTime), new Parameter("Client", SqlDbType.VarChar, session.Client));
             }
         }
 
@@ -30,7 +30,7 @@ namespace JST.DataAccess
             {
                 DataRow dataRow = dataContext.ExecuteDataRow("Security.Session_SelectBySessionId", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, sessionId));
 
-                return dataRow == null ? null : new Session(dataRow.Field<Guid>("SessionId"), dataRow.Field<short>("AccountId"), dataRow.Field<DateTime>("StartDateTime"));
+                return dataRow == null ? null : new Session(dataRow.Field<Guid>("SessionId"), dataRow.Field<short>("AccountId"), dataRow.Field<DateTime>("StartDateTime"), dataRow.Field<string>("Client"));
             }
         }
     }

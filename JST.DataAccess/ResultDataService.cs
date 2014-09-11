@@ -6,9 +6,15 @@ using System.Text;
 using System.Threading.Tasks;
 using DTS.AppFramework.Core;
 using JST.Core;
+using JST.Domain;
 
 namespace JST.DataAccess
 {
+    public partial interface IResultDataService
+    {
+        DataSet SelectForMemberHomeByDate(DateTime date);
+    }
+
     public partial class ResultDataService
     {
         public DataSet SelectForMemberHomeByDate(DateTime date)

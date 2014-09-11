@@ -1,8 +1,8 @@
 ﻿'use strict';
 
-app.controller('memberWorkoutDayController', function ($scope, workoutService, globalService) {
+app.controller('competitorWorkoutDayController', function ($scope, workoutService, globalService) {
 
-    globalService.setPageName('Competitor Workout Day');
+    globalService.setPageName('Competitor - Workout Day');
 
     $scope.date = globalService.getDate();
 
@@ -11,7 +11,7 @@ app.controller('memberWorkoutDayController', function ($scope, workoutService, g
         workoutService.saveResult($scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
             if (data.isSuccess) {
                 $scope.resultId = data.model;
-                globalService.lastUrl('/memberResults');
+                globalService.backUrl();
             }
         });
     };
@@ -27,7 +27,7 @@ app.controller('memberWorkoutDayController', function ($scope, workoutService, g
     };
 
     function refresh(direction) {
-        workoutService.memberWorkoutDayDetail(globalService.getDate(), direction, function (data) {
+        workoutService.competitorWorkoutDayDetail(globalService.getDate(), direction, function (data) {
             $scope.date = globalService.setDate(new Date(data.model.date));
             $scope.workouts = data.model.workouts;
             $scope.resultId = data.model.resultId;

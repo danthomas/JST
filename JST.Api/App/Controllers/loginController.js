@@ -1,30 +1,29 @@
 ﻿'use strict';
 
-app.controller('loginController', function ($scope, $location, globalData, loginService) {
+app.controller('loginController', function ($scope, $location, globalData, loginService, globalService) {
     globalData.pageName = 'Login';
 
     $scope.credentials = { userName: 'passantc', password: 'burpee' };
     $scope.success = true;
+    $scope.message = "";
 
     $scope.login = function (loginForm, credentials) {
 
         if (loginForm.$valid) {
 
             loginService.login(credentials.userName, credentials.password, function (isSuccess, message) {
+                //success
                 $scope.success = isSuccess;
                 if (isSuccess) {
-                    if (globalData.accountTypeCode == "Admin") {
-                        $location.url('/adminHome');
-                    }
-                    else if (globalData.accountTypeCode == "Member") {
-                        $location.url('/memberWorkoutDay');
-                    }
-                    else if (globalData.accountTypeCode == "Trainer") {
-                        $location.url('/trainerHome');
-                    }
-                } else {
 
+                    globalService.landing();
+
+                } else {
+                    $scope.message = 'Login Failed.';
                 }
+            }, function() {
+                //error
+                $scope.message = 'Unable to Login at this time.';
             });
         }
     };

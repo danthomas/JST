@@ -12,13 +12,13 @@ namespace JST.Business
     public class AccountBusiness
     {
         private readonly AccountDataService _accountDataService;
-        private readonly AccountTypeDataService _accountTypeDataService;
+        private readonly RoleDataService _roleDataService;
         private readonly SessionDataService _sessionDataService;
 
-        public AccountBusiness(AccountDataService accountDataService, AccountTypeDataService accountTypeDataService, SessionDataService sessionDataService)
+        public AccountBusiness(AccountDataService accountDataService, RoleDataService roleDataService, SessionDataService sessionDataService)
         {
             _accountDataService = accountDataService;
-            _accountTypeDataService = accountTypeDataService;
+            _roleDataService = roleDataService;
             _sessionDataService = sessionDataService;
         }
 
@@ -30,9 +30,9 @@ namespace JST.Business
 
             if (account != null && account.Password == password)
             {
-                AccountType accountType = _accountTypeDataService.SelectByAccountTypeId(account.AccountTypeId);
                 Guid sessionId = InsertSession(account);
-                session = new Models.Session(sessionId, account.DisplayName, accountType.Code);
+                string[] roles = _roleDataService.SelectForAccountId(account.AccountId).Select(item => item.Code).ToArray();
+                session = new Models.Session(sessionId, account.DisplayName, roles);
             }
 
             return session;
@@ -41,7 +41,7 @@ namespace JST.Business
         private Guid InsertSession(Account account)
         {
             Guid sessionId = Guid.NewGuid();
-            Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now);
+            Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now, "");
             _sessionDataService.Insert(session);
             return sessionId;
         }

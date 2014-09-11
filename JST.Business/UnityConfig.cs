@@ -8,7 +8,7 @@ namespace JST.Business
         public static void RegisterComponents(UnityContainer unityContainer)
         {
             unityContainer.RegisterType<IAccountDataService, AccountDataService>();
-            unityContainer.RegisterType<IAccountTypeDataService, AccountTypeDataService>();
+            unityContainer.RegisterType<IRoleDataService, RoleDataService>();
             unityContainer.RegisterType<ISessionDataService, SessionDataService>();
             unityContainer.RegisterType<IWorkoutDataService, WorkoutDataService>();
             unityContainer.RegisterType<IWorkoutTypeDataService, WorkoutTypeDataService>();

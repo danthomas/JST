@@ -9,9 +9,11 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-:r .\Data\Security.AccountType.sql
+:r .\Data\Security.Role.sql
 :r .\Data\Security.Account.sql
+:r .\Data\Security.AccountRole.sql
 :r .\Data\Competitors.WorkoutType.sql
 :r .\Data\Competitors.WorkoutDate.sql
 :r .\Data\Competitors.Workout.sql
 :r .\Data\Competitors.Result.sql
+:r .\Data\FixAccounts.sql

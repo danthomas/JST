@@ -78,7 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
-    <Build Include="Schema Objects\Schemas\Security\Tables\AccountType.table.sql" />
     <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Security.schema.sql" />
     <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Competitors.schema.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Tables\Workout.table.sql" />
@@ -86,7 +85,7 @@
     <None Include="Data\Security.Account.sql" />
     <None Include="Data\Competitors.Workout.sql" />
     <None Include="Data\Competitors.WorkoutType.sql" />
-    <None Include="Data\Security.AccountType.sql" />
+    <None Include="Data\Security.Role.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Tables\Result.table.sql" />
     <None Include="Data\Competitors.Result.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Tables\WorkoutDate.table.sql" />
@@ -96,7 +95,6 @@
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectByAccountId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_Update.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectByAccountName.procedure.sql" />
-    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\AccountType_SelectByAccountTypeId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Session_Insert.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Session_SelectBySessionId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Tables\Session.table.sql" />
@@ -109,6 +107,12 @@
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectMemberResultsDetail.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Functions\GetWorkoutId.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Result_Delete.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\AccountRole_SelectByAccountId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Tables\AccountRole.table.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Tables\Role.table.sql" />
+    <None Include="Data\Security.AccountRole.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Role_SelectForAccountId.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectCompetitorMyResultsDetail.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
@@ -124,5 +128,6 @@
   <ItemGroup>
     <None Include="JST.SqlServer.Dev.publish.xml" />
     <None Include="JST.SqlServer.Production.publish.xml" />
+    <None Include="Data\FixAccounts.sql" />
   </ItemGroup>
 </Project>

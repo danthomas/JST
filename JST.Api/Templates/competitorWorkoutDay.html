@@ -1,15 +1,16 @@
 ﻿<div>
-    <button class="btn btn-default" ng-click="prev()"><<</button>
+    <button class="btn btn-default" ng-click="prev()"><</button>
     <label>
         {{date|date:'fullDate'}}
     </label>
-    <button class="btn btn-default" ng-click="next()">>></button>
+    <button class="btn btn-default" ng-click="next()">></button>
+    <button class="btn btn-default" ng-click="save()">Save</button>
 </div>
 <div>
     <table class="table">
         <thead>
             <tr>
-                <th width="100">Workout Type</th>
+                <th>Workout Type</th>
                 <th >Workout Detail</th>
             </tr>
         </thead>
@@ -23,5 +24,4 @@
 </div>
 <div>
     Result: <textarea class="form-control" rows="6" id="textArea" ng-model="resultDetail"></textarea>
-    <button class="btn btn-default" ng-click="save()">Save</button>
 </div>

@@ -7,7 +7,7 @@ using JST.Domain;
 
 namespace JST.DataAccess
 {
-    public interface IWorkoutTypeDataService
+    public partial interface IWorkoutTypeDataService
     {
     }
 

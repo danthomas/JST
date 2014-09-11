@@ -8,19 +8,34 @@
 
     return {
 
-        url: function (url) {
-            globalData.lastUrl = $location.$$path;
+        landing: function() {
+
+            if (globalData.roleCodes.indexOf('Admin') >= 0) {
+                $location.url('/adminHome');
+            }
+            else if (globalData.roleCodes.indexOf('Competitor') >= 0) {
+                $location.url('/competitorWorkoutDay');
+            }
+            else if (globalData.roleCodes.indexOf('Trainer') >= 0) {
+                $location.url('/trainerHome');
+            }
+
+        },
+
+        url: function (url, setBackUrl) {
+            if (setBackUrl) {
+                globalData.backUrl = $location.$$path;
+            }
             $location.url(url);
         },
         
-        lastUrl: function (otherwiseUrl) {
-            if (globalData.lastUrl) {
-                $location.url(globalData.lastUrl);
-                globalData.lastUrl = null;
-            } else {
+        backUrl: function (otherwiseUrl) {
+            if (globalData.backUrl) {
+                $location.url(globalData.backUrl);
+                globalData.backUrl = null;
+            } else if (otherwiseUrl) {
                 $location.url(otherwiseUrl);
             }
-
         },
 
         setPageName: function (pageName) {
