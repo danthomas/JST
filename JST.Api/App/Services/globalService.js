@@ -27,7 +27,7 @@
                 globalData.backUrl = $location.$$path;
             }
             if (replace) {
-                $location.url(url)/*.replace()*/;
+                $location.url(url).replace();
             } else {
                 $location.url(url);
             }

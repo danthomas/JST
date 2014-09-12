@@ -107,32 +107,30 @@ namespace JST.Business
             }
 
             DataSet dataSet = _workoutDataService.SelectCompetitorMyResultsDetails(session.AccountId);
+            
+            var workoutTypes = dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new {WorkoutTypeId = item.Field<byte>("WorkoutTypeId"), WorkoutTypeName = item.Field<string>("Name")}).ToList();
+            var workoutDates = dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new { WorkoutDateId = item.Field<int>("WorkoutDateId"), Date = item.Field<DateTime>("Date"), ResultDetail = item.Field<string>("ResultDetail") }).ToList();
+            var workouts = dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new { WorkoutDateId = item.Field<int>("WorkoutDateId"), WorkoutTypeId = item.Field<byte>("WorkoutTypeId"), WorkoutDetail = item.Field<string>("WorkoutDetail") }).ToList();
 
+            List<CompetitorMyResultsDetail.WorkoutDay> workoutDays = new List<CompetitorMyResultsDetail.WorkoutDay>();
 
-            List<CompetitorMyResultsDetail.WorkoutDay> workoutDays = dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new CompetitorMyResultsDetail.WorkoutDay(item.Field<int>("WorkoutDateId"), item.Field<DateTime>("Date"), item.Field<string>("ResultDetail"))).ToList();
-
-            foreach (var v in dataSet.Tables[1].Rows.Cast<DataRow>().Select(item =>
-                new
-                {
-                    WorkoutDateId = item.Field<int>("WorkoutDateId"),
-                    WorkoutTypeName = item.Field<string>("WorkoutTypeName"),
-                    WorkoutDetail = item.Field<string>("WorkoutDetail")
-                }).GroupBy(item => item.WorkoutDateId)
-                .Select(
-                    x =>
-                        new
-                        {
-                            WorkoutDayId = x.Key,
-                            Detail = x.Select(item => item.WorkoutTypeName + " - " + item.WorkoutDetail)
-                        }))
+            foreach (var workoutDate in workoutDates)
             {
-                if (v.Detail.Any()){
-                    CompetitorMyResultsDetail.WorkoutDay workoutDay = workoutDays.SingleOrDefault(item => item.WorkoutDateId == v.WorkoutDayId);
+                CompetitorMyResultsDetail.WorkoutDay workoutDay = new CompetitorMyResultsDetail.WorkoutDay(workoutDate.WorkoutDateId, workoutDate.Date, workoutDate.ResultDetail);
 
-                    if (workoutDay != null)
+                workoutDays.Add(workoutDay);
+
+                foreach (var workoutType in workoutTypes)
+                {
+                    var workout = workouts.SingleOrDefault(item => item.WorkoutDateId == workoutDate.WorkoutDateId && item.WorkoutTypeId == workoutType.WorkoutTypeId);
+
+                    if (workout == null)
                     {
-                        workoutDay.WorkoutDetail =
-                            v.Detail.Aggregate((a, b) => a + Environment.NewLine + b);
+                        workoutDay.Workouts.Add(null);
+                    }
+                    else
+                    {
+                        workoutDay.Workouts.Add(new CompetitorMyResultsDetail.Workout(workout.WorkoutDetail));
                     }
                 }
             }

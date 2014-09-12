@@ -1,4 +1,4 @@
-namespace JST.Business
+namespace JST.Business.Models
 {
     public enum Direction
     {
