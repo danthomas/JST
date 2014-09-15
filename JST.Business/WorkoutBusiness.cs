@@ -108,13 +108,13 @@ namespace JST.Business
 
             DataSet dataSet = _workoutDataService.SelectCompetitorMyResultsDetails(session.AccountId);
             
-            var workoutTypes = dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new {WorkoutTypeId = item.Field<byte>("WorkoutTypeId"), WorkoutTypeName = item.Field<string>("Name")}).ToList();
+            List<CompetitorMyResultsDetail.WorkoutType> workoutTypes = dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new CompetitorMyResultsDetail.WorkoutType (item.Field<byte>("WorkoutTypeId"), item.Field<string>("Name"))).ToList();
             var workoutDates = dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new { WorkoutDateId = item.Field<int>("WorkoutDateId"), Date = item.Field<DateTime>("Date"), ResultDetail = item.Field<string>("ResultDetail") }).ToList();
-            var workouts = dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new { WorkoutDateId = item.Field<int>("WorkoutDateId"), WorkoutTypeId = item.Field<byte>("WorkoutTypeId"), WorkoutDetail = item.Field<string>("WorkoutDetail") }).ToList();
+            var workouts = dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new { WorkoutDateId = item.Field<int>("WorkoutDateId"), WorkoutTypeId = item.Field<byte>("WorkoutTypeId"), WorkoutDetail = item.Field<string>("WorkoutDetail") }).ToList();
 
             List<CompetitorMyResultsDetail.WorkoutDay> workoutDays = new List<CompetitorMyResultsDetail.WorkoutDay>();
 
-            foreach (var workoutDate in workoutDates)
+            foreach (var workoutDate in workoutDates.OrderByDescending(item => item.Date))
             {
                 CompetitorMyResultsDetail.WorkoutDay workoutDay = new CompetitorMyResultsDetail.WorkoutDay(workoutDate.WorkoutDateId, workoutDate.Date, workoutDate.ResultDetail);
 
@@ -134,8 +134,8 @@ namespace JST.Business
                     }
                 }
             }
-            
-            return new CompetitorMyResultsDetail(workoutDays);
+
+            return new CompetitorMyResultsDetail(workoutTypes, workoutDays);
         }
 
         public ReturnValue<int> SaveResult(Guid sessionId, int resultId, int workoutDateId, string resultDetail)

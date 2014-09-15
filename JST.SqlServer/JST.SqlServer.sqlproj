@@ -69,9 +69,6 @@
     <Folder Include="Data" />
     <Folder Include="Schema Objects\Schemas\Security\Programmability" />
     <Folder Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures" />
-    <Folder Include="Schema Objects\Schemas\dbo" />
-    <Folder Include="Schema Objects\Schemas\dbo\Programmability" />
-    <Folder Include="Schema Objects\Schemas\dbo\Programmability\SqlClr" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Functions" />
@@ -90,7 +87,6 @@
     <None Include="Data\Competitors.Result.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Tables\WorkoutDate.table.sql" />
     <None Include="Data\Competitors.WorkoutDate.sql" />
-    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_DeleteMany.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_Insert.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectByAccountId.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_Update.procedure.sql" />
@@ -121,9 +117,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Schema Objects\Schemas\dbo\Programmability\SqlClr\ConvertBinaryFunctions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="JST.SqlServer.Dev.publish.xml" />

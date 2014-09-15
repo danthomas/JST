@@ -9,7 +9,10 @@
       <property name='AccountId' sqlServerType='SMALLINT' isAuto='true' isIdentifier='true' />
       <property name='AccountName' sqlServerType='VARCHAR' length='30' isUnique='true' />
       <property name='DisplayName' sqlServerType='VARCHAR' length='100' isUnique='true' />
-      <property name='Password' sqlServerType='VARCHAR' length='30' />
+      <property name='Email' sqlServerType='VARCHAR' length='200' />
+      <property name='Password' sqlServerType='VARCHAR' length='1000' />
+      <property name='ChangePassword' sqlServerType='BIT' />
+      <property name='IsActive' sqlServerType='BIT' />
       <procedure procedureType='Insert' />
       <procedure procedureType='Update' />
       <procedure procedureType='DeleteMany' />

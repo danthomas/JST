@@ -3,13 +3,14 @@
         <thead>
             <tr>
                 <th>Date</th>
+                <th ng-repeat="workoutType in workoutTypes">{{workoutType.name}}</th>
                 <th>Result</th>
             </tr>
         </thead>
         <tbody>
             <tr ng-repeat="workoutDay in workoutDays" ng-click="rowClick(workoutDay)">
                 <td>{{workoutDay.date|date:'dd/MM/yyyy'}}</td>
-                <td>{{workoutDay.workoutDetail}}</td>
+                <td ng-repeat="workout in workoutDay.workouts track by $index">{{workout.workoutDetail}}</td>
                 <td>{{workoutDay.resultDetail}}</td>
                 <td><a ng-hide="workoutDay.isRestDay" href='' ng-click="edit(workoutDay)">edit</a></td>
             </tr>

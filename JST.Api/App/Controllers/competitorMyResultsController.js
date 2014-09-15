@@ -17,6 +17,7 @@ app.controller('competitorMyResultsController', function ($scope, $location, wor
 
     function refresh(direction) {
         workoutService.competitorMyResultsDetail(globalService.getDate(), direction, function (data) {
+            $scope.workoutTypes = data.model.workoutTypes;
             $scope.workoutDays = data.model.workoutDays;
         });
     }
