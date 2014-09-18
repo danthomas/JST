@@ -1,9 +1,9 @@
 ﻿'use strict';
 
-var app = angular.module('app', ['ngRoute']);
+var app = angular.module('app', ['ngRoute', 'angular-loading-bar']);
 
 
-app.config(function ($routeProvider, $locationProvider) {
+app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
    // $locationProvider.html5Mode(true);
 
@@ -20,11 +20,14 @@ app.config(function ($routeProvider, $locationProvider) {
 
     
     $routeProvider.otherwise({ redirectTo: '/' });
+
+    $httpProvider.interceptors.push('httpInterceptorService');
 });
 
 
 app.value('globalData', {
     sessionId: null,
     displayName: '',
-    pageName: ''
+    pageName: '',
+    message: null
 });

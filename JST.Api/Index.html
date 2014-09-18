@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="pragma" content="no-cache" />
         <link href="Content/bootswatch.css?v=1.1" rel="stylesheet" />
+        <link href="Content/loading-bar.css" rel="stylesheet" />
         <!--script src="Scripts/jquery-1.10.2.js"></script-->
         <!--script src="Scripts/bootstrap.js"></script-->
         <title>{{global.pageName}}</title>
@@ -16,7 +17,7 @@
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
-                        <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerSchedule')">Home</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerSchedule')">Schedule</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorSchedule')">Schedule</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0 || global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/competitorResults')">Results</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorMyResults')">My Results</a></li>
@@ -36,11 +37,15 @@
             </div>
         </div>
         <div>
+
+            <label ng-bind="global.message.text" ng-class="{'text-success': global.message.messageType == 'Confirmation', 'text-danger': global.message.messageType != 'Confirmation'}"></label>
+        </div>
+        <div>
             <div ng-view></div>
         </div>
         <script src="Scripts/angular.js?v=1.1"></script>
         <script src="Scripts/angular-route.js?v=1.1"></script>
-
+        <script src="App/Services/loading-bar.js"></script>
         <script src="App/app.js?v=1.1"></script>
         <script src="App/Controllers/appController.js?v=1.1"></script>
         <script src="App/Controllers/homeController.js?v=1.1"></script>
@@ -52,6 +57,7 @@
         <script src="App/Controllers/competitorWorkoutDayController.js?v=1.1"></script>
         <script src="App/Controllers/trainerScheduleController.js?v=1.1"></script>
 
+        <script src="App/Services/httpInterceptorService.js"></script>
         <script src="App/Services/globalService.js?v=1.1"></script>
         <script src="App/Services/loginService.js?v=1.1"></script>
         <script src="App/Services/workoutService.js?v=1.1"></script>

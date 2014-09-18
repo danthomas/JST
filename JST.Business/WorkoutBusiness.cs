@@ -17,8 +17,8 @@ namespace JST.Business
         private readonly IWorkoutDataService _workoutDataService;
         private readonly IResultDataService _resultDataService;
 
-        public WorkoutBusiness(ISessionDataService sessionDataService, IWorkoutDateDataService workoutDateDataService, IRoleDataService roleDataService, IWorkoutDataService workoutDataService, IResultDataService resultDataService)
-            : base(sessionDataService, roleDataService)
+        public WorkoutBusiness(ISessionDataService sessionDataService, IRoleDataService roleDataService, IExceptionDataService exceptionDataService, IWorkoutDateDataService workoutDateDataService, IWorkoutDataService workoutDataService, IResultDataService resultDataService)
+            : base(sessionDataService, roleDataService, exceptionDataService)
         {
             _workoutDateDataService = workoutDateDataService;
             _workoutDataService = workoutDataService;
@@ -75,7 +75,7 @@ namespace JST.Business
 
 
                 return new ReturnValue<TrainerScheduleDetail>(true, trainerScheduleDetail);
-            }, exception => new ReturnValue<TrainerScheduleDetail>(false, MessageType.Error, "Failed to load Schedule.", null));
+            }, exception => "Failed to load Schedule.");
         }
 
         public ReturnValue<HomePageDetail> GetCompetitorScheduleDetail(Guid sessionId, DateTime date)
@@ -94,7 +94,7 @@ namespace JST.Business
                     dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new WorkoutType(item.Field<byte>("WorkoutTypeId"), item.Field<string>("Name"))),
                     dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new HomePageDetail.WorkoutDate(item.Field<int>("WorkoutDateId"), item.Field<DateTime>("Date"), item.Field<string>("Comment"), item.Field<string>("ResultDetail"))),
                     dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new HomePageDetail.Workout(item.Field<int>("WorkoutId"), item.Field<byte>("WorkoutTypeId"), item.Field<string>("Detail"), item.Field<DateTime>("Date")))));
-            }, exception => new ReturnValue<HomePageDetail>(false, MessageType.Error, "Failed to load Schedule.", null));
+            }, exception => "Failed to load Schedule.");
         }
 
         public ReturnValue<MemberWorkoutDayDetail> GetCompetitorWorkoutDayDetail(Guid sessionId, Direction direction, DateTime date)
@@ -119,7 +119,7 @@ namespace JST.Business
                 return new ReturnValue<MemberWorkoutDayDetail>(true, new MemberWorkoutDayDetail(date,
                     comment,
                     dataSet.Tables[0].Rows.Cast<DataRow>().Select(item => new MemberWorkoutDayDetail.Workout(item.Field<int>("WorkoutId"), item.Field<string>("WorkoutTypeName"), item.Field<string>("WorkoutDetail"))), workoutDateId, resultId, resultDetail));
-            }, exception => new ReturnValue<MemberWorkoutDayDetail>(false, MessageType.Error, "Failed to load Workout Day.", null));
+            }, exception => "Failed to load Workout Day.");
         }
 
         public ReturnValue<MemberResultsDetail> GetCompetitorResultsDetail(Guid sessionId, Direction direction, DateTime date)
@@ -140,7 +140,7 @@ namespace JST.Business
                     dataSet.Tables[1].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Workout(item.Field<int>("WorkoutId"), item.Field<string>("WorkoutTypeName"), item.Field<string>("WorkoutDetail"))),
                     dataSet.Tables[2].Rows.Cast<DataRow>().Select(item => new MemberResultsDetail.Result(item.Field<int>("ResultId"), item.Field<bool>("IsCurrentAccount"), item.Field<string>("AccountDisplayName"), item.Field<string>("ResultDetail")))));
 
-            }, exception => new ReturnValue<MemberResultsDetail>(false, MessageType.Error, "Failed to load Workout Day.", null));
+            }, exception => "Failed to load Workout Day.");
         }
 
         public ReturnValue<CompetitorMyResultsDetail> GetCompetitorMyResultsDetail(Guid sessionId)
@@ -177,7 +177,7 @@ namespace JST.Business
                 }
 
                 return new ReturnValue<CompetitorMyResultsDetail>(true, new CompetitorMyResultsDetail(workoutTypes, workoutDays));
-            }, exception => new ReturnValue<CompetitorMyResultsDetail>(false, MessageType.Error, "Failed to load Workout Day.", null));
+            }, exception => "Failed to load Workout Day.");
         }
 
 
@@ -202,7 +202,7 @@ namespace JST.Business
                 jstDataContext.Commit();
 
                 return new ReturnValue(true, MessageType.Confirmation, "Schedule Saved Successfully.");
-            }, exception => new ReturnValue(false, MessageType.Error, "Failed to Save Schedule."));
+            }, exception => "Failed to Save Schedule.");
         }
 
         private void UpsertWorkoutDate(JstDataContext jstDataContext, DateTime date, string comment)
@@ -295,9 +295,9 @@ namespace JST.Business
 
                 jstDataContext.Commit();
 
-                return new ReturnValue<int>(true, resultId);
+                return new ReturnValue<int>(true, MessageType.Confirmation, "Successfully saved Result.", resultId);
 
-            }, exception => new ReturnValue<int>(false, MessageType.Error, "Failed to save Result.", 0));
+            }, exception => "Failed to save Result.");
         }
     }
 }

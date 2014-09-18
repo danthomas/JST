@@ -167,11 +167,14 @@
     <Content Include="App\Controllers\homeController.js" />
     <Content Include="App\Controllers\loginController.js" />
     <Content Include="App\Services\globalService.js" />
+    <Content Include="App\Services\httpInterceptorService.js" />
+    <Content Include="App\Services\loading-bar.js" />
     <Content Include="App\Services\loginService.js" />
     <Content Include="App\Services\workoutService.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\loading-bar.css" />
     <Content Include="Content\Logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

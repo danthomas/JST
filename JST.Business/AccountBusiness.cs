@@ -13,10 +13,10 @@ namespace JST.Business
 {
     public class AccountBusiness : BusinessBase
     {
-        private readonly AccountDataService _accountDataService;
+        private readonly IAccountDataService _accountDataService;
 
-        public AccountBusiness(AccountDataService accountDataService, RoleDataService roleDataService, SessionDataService sessionDataService)
-            : base(sessionDataService, roleDataService)
+        public AccountBusiness(IAccountDataService accountDataService, IRoleDataService roleDataService, IExceptionDataService exceptionDataService, ISessionDataService sessionDataService)
+            : base(sessionDataService, roleDataService, exceptionDataService)
         {
             _accountDataService = accountDataService;
         }

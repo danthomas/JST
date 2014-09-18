@@ -1,4 +1,13 @@
 ﻿<domain name='JST'>
+  <group name='Logging'>
+    <entity name='Exception'>
+      <property name='ExceptionId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
+      <property name='Message' sqlServerType='VARCHAR' length='-1' />
+      <property name='StackTrace' sqlServerType='VARCHAR' length='-1' />
+      <property name='DateTime' sqlServerType='DATETIME' />
+      <procedure procedureType='Insert' />
+    </entity>
+  </group>
   <group name='Security'>
     <entity name='Role'>
       <property name='RoleId' sqlServerType='TINYINT' isIdentifier='true' />

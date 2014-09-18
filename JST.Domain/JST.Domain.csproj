@@ -42,6 +42,7 @@
     <Compile Include="Account.g.cs" />
     <Compile Include="AccountRole.g.cs" />
     <Compile Include="AccountType.g.cs" />
+    <Compile Include="Exception.g.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.g.cs" />
     <Compile Include="Role.g.cs" />

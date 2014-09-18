@@ -1,4 +1,4 @@
-﻿app.factory('globalService', function (globalData, $location) {
+﻿app.factory('globalService', function (globalData, $location, $timeout) {
 
     function moveDays(date, days) {
         date = new Date(date.getFullYear(), date.getMonth(), date.getDate());
@@ -6,9 +6,11 @@
         return date;
     }
 
+    var timeout;
+
     return {
 
-        landing: function() {
+        landing: function () {
 
             if (globalData.roleCodes.indexOf('Admin') >= 0) {
                 $location.url('/adminHome');
@@ -32,7 +34,7 @@
                 $location.url(url);
             }
         },
-        
+
         backUrl: function (otherwiseUrl) {
             if (globalData.backUrl) {
                 $location.url(globalData.backUrl);
@@ -84,12 +86,31 @@
             return globalData.weekBeginning;
         },
 
-        clear: function() {
+        clear: function () {
             globalData.sessionId = null;
             globalData.displayName = null;
             globalData.accountTypeCode = null;
             globalData.date = null;
             globalData.weekBeginning = null;
+            globalData.message = null;
+        },
+
+        setMessage: function (messages) {
+
+            if (messages && messages.length == 1) {
+                //clear existing message timeout
+                if (timeout) {
+                    $timeout.cancel(timeout);
+                }
+
+                //set message and timeout
+                globalData.message = messages[0];
+
+                timeout = $timeout(function () {
+                    globalData.message = null;
+                    timeout = null;
+                }, 5000);
+            }
         }
     };
 });

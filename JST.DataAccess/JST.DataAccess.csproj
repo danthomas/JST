@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AccountDataService.g.cs" />
     <Compile Include="AccountRoleDataService.g.cs" />
+    <Compile Include="ExceptionDataService.g.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultDataService.cs" />
     <Compile Include="ResultDataService.g.cs" />

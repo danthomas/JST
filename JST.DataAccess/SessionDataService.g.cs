@@ -9,14 +9,14 @@ namespace JST.DataAccess
 {
     public partial interface ISessionDataService
     {
-        void Insert(JstDataContext dataContext, Session session);
+        void Insert(JstDataContext dataContext, Domain.Session session);
 
         Session SelectBySessionId(JstDataContext dataContext, Guid sessionId);
     }
 
     public partial class SessionDataService : ISessionDataService
     {
-        public virtual void Insert(JstDataContext dataContext, Session session)
+        public virtual void Insert(JstDataContext dataContext, Domain.Session session)
         {
             dataContext.ExecuteNonQuery("Security.Session_Insert", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, session.SessionId), new Parameter("AccountId", SqlDbType.SmallInt, session.AccountId), new Parameter("StartDateTime", SqlDbType.DateTime, session.StartDateTime), new Parameter("Client", SqlDbType.VarChar, session.Client));
         }

@@ -72,6 +72,10 @@
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures" />
     <Folder Include="Schema Objects\Schemas\Competitors\Programmability\Functions" />
+    <Folder Include="Schema Objects\Schemas\Logging\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\Logging\Programmability" />
+    <Folder Include="Schema Objects\Schemas\Logging" />
+    <Folder Include="Schema Objects\Schemas\Logging\Tables" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
@@ -119,6 +123,9 @@
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_Update.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_Delete.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_Tidy.sql" />
+    <Build Include="Schema Objects\Schemas\Logging\Programmability\Stored Procedures\Exception_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Logging\Tables\Exception.table.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Logging.schema.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

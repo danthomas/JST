@@ -9,9 +9,9 @@ namespace JST.DataAccess
 {
     public partial interface IAccountDataService
     {
-        void Insert(JstDataContext dataContext, Account account);
+        void Insert(JstDataContext dataContext, Domain.Account account);
 
-        void Update(JstDataContext dataContext, Account account);
+        void Update(JstDataContext dataContext, Domain.Account account);
 
         void DeleteMany(JstDataContext dataContext, params short[] ids);
 
@@ -22,12 +22,12 @@ namespace JST.DataAccess
 
     public partial class AccountDataService : IAccountDataService
     {
-        public virtual void Insert(JstDataContext dataContext, Account account)
+        public virtual void Insert(JstDataContext dataContext, Domain.Account account)
         {
             account.AccountId = dataContext.ExecuteScalar<short>("Security.Account_Insert", CommandType.StoredProcedure, new Parameter("AccountName", SqlDbType.VarChar, account.AccountName), new Parameter("DisplayName", SqlDbType.VarChar, account.DisplayName), new Parameter("Email", SqlDbType.VarChar, account.Email), new Parameter("Password", SqlDbType.VarChar, account.Password), new Parameter("ChangePassword", SqlDbType.Bit, account.ChangePassword), new Parameter("IsActive", SqlDbType.Bit, account.IsActive));
         }
 
-        public virtual void Update(JstDataContext dataContext, Account account)
+        public virtual void Update(JstDataContext dataContext, Domain.Account account)
         {
             dataContext.ExecuteNonQuery("Security.Account_Update", CommandType.StoredProcedure, new Parameter("AccountId", SqlDbType.SmallInt, account.AccountId), new Parameter("AccountName", SqlDbType.VarChar, account.AccountName), new Parameter("DisplayName", SqlDbType.VarChar, account.DisplayName), new Parameter("Email", SqlDbType.VarChar, account.Email), new Parameter("Password", SqlDbType.VarChar, account.Password), new Parameter("ChangePassword", SqlDbType.Bit, account.ChangePassword), new Parameter("IsActive", SqlDbType.Bit, account.IsActive));            
         }

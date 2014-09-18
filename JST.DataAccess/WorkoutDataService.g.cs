@@ -9,9 +9,9 @@ namespace JST.DataAccess
 {
     public partial interface IWorkoutDataService
     {
-        void Insert(JstDataContext dataContext, Workout workout);
+        void Insert(JstDataContext dataContext, Domain.Workout workout);
 
-        void Update(JstDataContext dataContext, Workout workout);
+        void Update(JstDataContext dataContext, Domain.Workout workout);
 
         Workout SelectByWorkoutId(JstDataContext dataContext, int workoutId);
 
@@ -20,12 +20,12 @@ namespace JST.DataAccess
 
     public partial class WorkoutDataService : IWorkoutDataService
     {
-        public virtual void Insert(JstDataContext dataContext, Workout workout)
+        public virtual void Insert(JstDataContext dataContext, Domain.Workout workout)
         {
             workout.WorkoutId = dataContext.ExecuteScalar<int>("Competitors.Workout_Insert", CommandType.StoredProcedure, new Parameter("WorkoutDateId", SqlDbType.Int, workout.WorkoutDateId), new Parameter("WorkoutTypeId", SqlDbType.TinyInt, workout.WorkoutTypeId), new Parameter("Detail", SqlDbType.VarChar, workout.Detail));
         }
 
-        public virtual void Update(JstDataContext dataContext, Workout workout)
+        public virtual void Update(JstDataContext dataContext, Domain.Workout workout)
         {
             dataContext.ExecuteNonQuery("Competitors.Workout_Update", CommandType.StoredProcedure, new Parameter("WorkoutId", SqlDbType.Int, workout.WorkoutId), new Parameter("WorkoutDateId", SqlDbType.Int, workout.WorkoutDateId), new Parameter("WorkoutTypeId", SqlDbType.TinyInt, workout.WorkoutTypeId), new Parameter("Detail", SqlDbType.VarChar, workout.Detail));            
         }

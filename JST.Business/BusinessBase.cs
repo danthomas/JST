@@ -11,16 +11,18 @@ namespace JST.Business
     {
         protected readonly ISessionDataService _sessionDataService;
         protected readonly IRoleDataService _roleDataService;
+        protected readonly IExceptionDataService _exceptionDataService;
 
-        protected BusinessBase(ISessionDataService sessionDataService, IRoleDataService roleDataService)
+        protected BusinessBase(ISessionDataService sessionDataService, IRoleDataService roleDataService, IExceptionDataService exceptionDataService)
         {
             _sessionDataService = sessionDataService;
             _roleDataService = roleDataService;
+            _exceptionDataService = exceptionDataService;
         }
 
-        protected ReturnValue BusinessMethod(Guid sessionId, IEnumerable<string> roleNames, Func<JstDataContext, short, ReturnValue> action, Func<Exception, ReturnValue> exceptionAction)
+        protected ReturnValue BusinessMethod(Guid sessionId, IEnumerable<string> roleNames, Func<JstDataContext, short, ReturnValue> action, Func<Exception, string> exceptionAction)
         {
-            short accountId;
+            short? accountId;
             if (!SecurityCheck(sessionId, roleNames, out accountId))
             {
                 return new ReturnValue(false, MessageType.Validation, "Access Denied");
@@ -30,18 +32,30 @@ namespace JST.Business
             {
                 try
                 {
-                    return action(jstDataContext, accountId);
+                    return action(jstDataContext, accountId.GetValueOrDefault());
                 }
                 catch (Exception exception)
                 {
-                    return exceptionAction(exception);
+                    LogException(exception);
+                    return new ReturnValue(false, MessageType.Error, exceptionAction(exception));
                 }
             }
         }
 
-        protected ReturnValue<T> BusinessMethod<T>(Guid sessionId, IEnumerable<string> roleNames, Func<JstDataContext, short, ReturnValue<T>> action, Func<Exception, ReturnValue<T>> exceptionAction)
+        private void LogException(Exception exception)
         {
-            short accountId;
+            try
+            {
+                _exceptionDataService.Insert(new JstDataContext(), new Domain.Exception(0, exception.Message, exception.StackTrace, DateTime.Now));
+            }
+            catch
+            {
+            }
+        }
+
+        protected ReturnValue<T> BusinessMethod<T>(Guid sessionId, IEnumerable<string> roleNames, Func<JstDataContext, short, ReturnValue<T>> action, Func<Exception, string> exceptionAction)
+        {
+            short? accountId;
             if (!SecurityCheck(sessionId, roleNames, out accountId))
             {
                 return new ReturnValue<T>(false, MessageType.Validation, "Access Denied", default(T));
@@ -51,23 +65,23 @@ namespace JST.Business
             {
                 try
                 {
-                    return action(jstDataContext, accountId);
+                    return action(jstDataContext, accountId.GetValueOrDefault());
                 }
                 catch (Exception exception)
                 {
-                    return exceptionAction(exception);
+                    LogException(exception);
+                    return new ReturnValue<T>(false, MessageType.Error, exceptionAction(exception), default(T));
                 }
             }
         }
 
-        private bool SecurityCheck(Guid sessionId, IEnumerable<string> roleNames, out short accountId)
+        private bool SecurityCheck(Guid sessionId, IEnumerable<string> roleNames, out short? accountId)
         {
-            accountId = 0;
+            accountId = null;
 
             using (JstDataContext jstDataContext = new JstDataContext())
             {
                 Domain.Session session = _sessionDataService.SelectBySessionId(jstDataContext, sessionId);
-
 
                 if (session == null)
                 {
