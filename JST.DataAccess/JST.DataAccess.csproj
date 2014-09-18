@@ -53,6 +53,7 @@
     <Compile Include="SessionDataService.g.cs" />
     <Compile Include="WorkoutDataService.cs" />
     <Compile Include="WorkoutDataService.g.cs" />
+    <Compile Include="WorkoutDateDataService.cs" />
     <Compile Include="WorkoutDateDataService.g.cs" />
     <Compile Include="WorkoutTypeDataService.g.cs" />
   </ItemGroup>

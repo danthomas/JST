@@ -10,9 +10,9 @@ namespace JST.Tests.DataAccess
         [TestMethod]
         public void TestMethod1()
         {
-            AccountDataService accountDataService = new AccountDataService();
-
-            Account account = accountDataService.SelectByAccountId(1);
+//            AccountDataService accountDataService = new AccountDataService();
+//
+//            Account account = accountDataService.SelectByAccountId(1);
 
 
         }

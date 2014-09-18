@@ -1,8 +1,10 @@
-Encrypt passwords
+
 remove login from history
 progress indicator
 error handler
-
+return index.html
+versioning
+on next\prev - clear current page
 
 
 

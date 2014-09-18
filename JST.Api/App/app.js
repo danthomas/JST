@@ -16,11 +16,7 @@ app.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when('/competitorResults', { templateUrl: 'templates/competitorResults.html', controller: 'competitorResultsController' });
     $routeProvider.when('/competitorMyResults', { templateUrl: 'templates/competitorMyResults.html', controller: 'competitorMyResultsController' });
 
-    $routeProvider.when('/trainerHome', { templateUrl: 'templates/trainerHome.html', controller: 'trainerHomeController' });
-
-
-    $routeProvider.when('/testing', { templateUrl: 'templates/testing.html', controller: 'testingController' });
-
+    $routeProvider.when('/trainerSchedule', { templateUrl: 'templates/trainerSchedule.html', controller: 'trainerScheduleController' });
 
     
     $routeProvider.otherwise({ redirectTo: '/' });

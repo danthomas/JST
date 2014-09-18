@@ -7,8 +7,8 @@ app.controller('competitorWorkoutDayController', function ($scope, workoutServic
     $scope.date = globalService.getDate();
 
     $scope.save = function () {
-
         workoutService.saveResult($scope.resultId, $scope.workoutDateId, $scope.resultDetail, function (data) {
+            console.log(data);
             if (data.isSuccess) {
                 $scope.resultId = data.model;
                 globalService.backUrl('/competitorResults');

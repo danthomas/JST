@@ -1,4 +1,6 @@
-﻿namespace JST.Core
+﻿using System.Data.SqlClient;
+
+namespace JST.Core
 {
     public class JstDataContext: DTS.AppFramework.Core.DataContext
     {

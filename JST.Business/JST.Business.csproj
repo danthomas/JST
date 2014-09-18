@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountBusiness.cs" />
+    <Compile Include="BusinessBase.cs" />
     <Compile Include="Models\Direction.cs" />
     <Compile Include="Models\CompetitorMyResultsDetail.cs" />
     <Compile Include="Models\HomePageDetail.cs" />
@@ -58,13 +59,18 @@
     <Compile Include="Models\MemberWorkoutDayDetail.cs" />
     <Compile Include="Models\ResultListItem.cs" />
     <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\SaveTrainerScheduleDetail.cs" />
+    <Compile Include="Models\TrainerScheduleDetail.cs" />
     <Compile Include="Models\WorkoutType.cs" />
-    <Compile Include="ResultBusiness.cs" />
     <Compile Include="UnityConfig.cs" />
     <Compile Include="WorkoutBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JST.Core\JST.Core.csproj">
+      <Project>{A4439E09-96C7-4D78-9E9E-11A2A8F30592}</Project>
+      <Name>JST.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JST.DataAccess\JST.DataAccess.csproj">
       <Project>{BB48F9E0-22F1-47EE-B210-9C539A7F8277}</Project>
       <Name>JST.DataAccess</Name>

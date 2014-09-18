@@ -10,6 +10,7 @@ namespace JST.Business
             unityContainer.RegisterType<IAccountDataService, AccountDataService>();
             unityContainer.RegisterType<IRoleDataService, RoleDataService>();
             unityContainer.RegisterType<ISessionDataService, SessionDataService>();
+            unityContainer.RegisterType<IWorkoutDateDataService, WorkoutDateDataService>();
             unityContainer.RegisterType<IWorkoutDataService, WorkoutDataService>();
             unityContainer.RegisterType<IWorkoutTypeDataService, WorkoutTypeDataService>();
             unityContainer.RegisterType<IResultDataService, ResultDataService>();

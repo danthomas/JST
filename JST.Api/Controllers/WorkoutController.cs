@@ -20,31 +20,45 @@ namespace JST.Api.Controllers
         }
 
         [HttpPost]
+        [Route("api/workout/saveTrainerSchedule")]
+        public ReturnValue Save([FromBody]SaveTrainerScheduleDetail saveTrainerScheduleDetail)
+        {
+            return _workoutBusiness.SaveTrainerSchedule(saveTrainerScheduleDetail);
+        }
+
+        [HttpPost]
+        [Route("api/workout/trainerScheduleDetail")]
+        public ReturnValue<TrainerScheduleDetail> GetTrainerScheduleDetail([FromBody]GetHomePageRequestDetail requestDetail)
+        {
+            return _workoutBusiness.GetTrainerScheduleDetail(requestDetail.SessionId, requestDetail.Date);
+        }
+
+        [HttpPost]
         [Route("api/workout/competitorScheduleDetail")]
         public ReturnValue<HomePageDetail> GetCompetitorScheduleDetail([FromBody]GetHomePageRequestDetail requestDetail)
         {
-            return new ReturnValue<HomePageDetail>(true, _workoutBusiness.GetCompetitorScheduleDetail(requestDetail.SessionId, requestDetail.Date));
+            return _workoutBusiness.GetCompetitorScheduleDetail(requestDetail.SessionId, requestDetail.Date);
         }
 
         [HttpPost]
         [Route("api/workout/competitorWorkoutDayDetail")]
         public ReturnValue<MemberWorkoutDayDetail> GetCompetitorWorkoutDayDetail([FromBody]GetWorkoutDayRequestDetail requestValue)
         {
-            return new ReturnValue<MemberWorkoutDayDetail>(true, _workoutBusiness.GetCompetitorWorkoutDayDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
+            return _workoutBusiness.GetCompetitorWorkoutDayDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date);
         }
 
         [HttpPost]
         [Route("api/workout/competitorResultsDetail")]
         public ReturnValue<MemberResultsDetail> GetCompetitorResultsDetail([FromBody]GetMemberResultsRequestDetail requestValue)
         {
-            return new ReturnValue<MemberResultsDetail>(true, _workoutBusiness.GetCompetitorResultsDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date));
+            return _workoutBusiness.GetCompetitorResultsDetail(requestValue.SessionId, requestValue.Direction, requestValue.Date);
         }
 
         [HttpPost]
         [Route("api/workout/competitorMyResultsDetail")]
         public ReturnValue<CompetitorMyResultsDetail> GetMyCompetitorResultsDetail([FromBody]GetMemberResultsRequestDetail requestValue)
         {
-            return new ReturnValue<CompetitorMyResultsDetail>(true, _workoutBusiness.GetCompetitorMyResultsDetail(requestValue.SessionId));
+            return _workoutBusiness.GetCompetitorMyResultsDetail(requestValue.SessionId);
         }
 
         [HttpPost]
@@ -81,6 +95,15 @@ namespace JST.Api.Controllers
             public int WorkoutDateId { get; set; }
             public string ResultDetail { get; set; }
 
+        }
+
+        public class SaveWorkoutDetail
+        {
+            public Guid SessionId { get; set; }
+            public int WorkoutId { get; set; }
+            public byte WorkoutTypeId { get; set; }
+            public string Detail { get; set; }
+            public DateTime Date { get; set; }
         }
     }
 }

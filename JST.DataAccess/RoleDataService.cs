@@ -10,18 +10,15 @@ namespace JST.DataAccess
 {
     public partial interface IRoleDataService
     {
-        IEnumerable<Role> SelectForAccountId(short accountId);
+        IEnumerable<Role> SelectForAccountId(JstDataContext dataContext, short accountId);
     }
 
     public partial class RoleDataService
     {
-        public IEnumerable<Role> SelectForAccountId(short accountId)
+        public IEnumerable<Role> SelectForAccountId(JstDataContext dataContext, short accountId)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                return dataContext.ExecuteDataTable("Security.Role_SelectForAccountId", CommandType.StoredProcedure, new Parameter("AccountId", SqlDbType.SmallInt, accountId))
-                    .Rows.Cast<DataRow>().Select(item => new Role(item.Field<byte>("RoleId"), item.Field<string>("Code"), item.Field<string>("Name")));
-            }
+            return dataContext.ExecuteDataTable("Security.Role_SelectForAccountId", CommandType.StoredProcedure, new Parameter("AccountId", SqlDbType.SmallInt, accountId))
+                .Rows.Cast<DataRow>().Select(item => new Role(item.Field<byte>("RoleId"), item.Field<string>("Code"), item.Field<string>("Name")));
         }
     }
 }

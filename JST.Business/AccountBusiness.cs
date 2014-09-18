@@ -5,41 +5,41 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using JST.Business.Models;
+using JST.Core;
 using JST.DataAccess;
 using JST.Domain;
 
 namespace JST.Business
 {
-    public class AccountBusiness
+    public class AccountBusiness : BusinessBase
     {
         private readonly AccountDataService _accountDataService;
-        private readonly RoleDataService _roleDataService;
-        private readonly SessionDataService _sessionDataService;
 
         public AccountBusiness(AccountDataService accountDataService, RoleDataService roleDataService, SessionDataService sessionDataService)
+            : base(sessionDataService, roleDataService)
         {
             _accountDataService = accountDataService;
-            _roleDataService = roleDataService;
-            _sessionDataService = sessionDataService;
         }
 
         public Models.Session Login(string accountName, string password)
         {
-            Models.Session session = null;
-
-            Account account = _accountDataService.SelectByAccountName(accountName);
-
-            string hash = HashPassword(password);
-
-
-            if (account != null && account.Password == hash/* && account.IsActive*/)
+            using (JstDataContext jstDataContext = new JstDataContext())
             {
-                Guid sessionId = InsertSession(account);
-                string[] roles = _roleDataService.SelectForAccountId(account.AccountId).Select(item => item.Code).ToArray();
-                session = new Models.Session(sessionId, account.DisplayName, roles);
-            }
+                Models.Session session = null;
 
-            return session;
+                Account account = _accountDataService.SelectByAccountName(jstDataContext, accountName);
+
+                string hash = HashPassword(password);
+                
+                if (account != null && account.Password == hash && account.IsActive)
+                {
+                    Guid sessionId = InsertSession(jstDataContext, account);
+                    string[] roles = _roleDataService.SelectForAccountId(jstDataContext, account.AccountId).Select(item => item.Code).ToArray();
+                    session = new Models.Session(sessionId, account.DisplayName, roles);
+                }
+
+                return session;
+            }
         }
 
         public string HashPassword(string password)
@@ -60,11 +60,11 @@ namespace JST.Business
             return sb.ToString();
         }
 
-        private Guid InsertSession(Account account)
+        private Guid InsertSession(JstDataContext jstDataContext, Account account)
         {
             Guid sessionId = Guid.NewGuid();
             Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now, "");
-            _sessionDataService.Insert(session);
+            _sessionDataService.Insert(jstDataContext, session);
             return sessionId;
         }
     }

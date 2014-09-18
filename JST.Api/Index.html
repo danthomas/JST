@@ -1,59 +1,61 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app='app' ng-controller="appController">
-<head>
-    <link href="Content/bootswatch.css" rel="stylesheet" />
-    <!--script src="Scripts/jquery-1.10.2.js"></script-->
-    <!--script src="Scripts/bootstrap.js"></script-->
-    <title>{{global.pageName}}</title>
-</head>
-<body>
-    <div ng-hide="global.sessionId == null">
-        <div>
-        </div>
-        <div class="navbar navbar-default">
-            <div class="navbar-collapse collapse navbar-responsive-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
-                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorSchedule')">Schedule</a></li>
-                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorResults')">Results</a></li>
-                    <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorMyResults')">My Results</a></li>
-                    <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerHome')">Home</a></li>
-                    <!--
-                    <li class="active"><a href="" ng-click="redirect('/testing')">Testing</a></li>
-                        -->
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
+    
+    <head>
+        <meta http-equiv="pragma" content="no-cache" />
+        <link href="Content/bootswatch.css?v=1.1" rel="stylesheet" />
+        <!--script src="Scripts/jquery-1.10.2.js"></script-->
+        <!--script src="Scripts/bootstrap.js"></script-->
+        <title>{{global.pageName}}</title>
+    </head>
+    <body>
+        <div ng-hide="global.sessionId == null">
+            <div>
+            </div>
+            <div class="navbar navbar-default">
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerSchedule')">Home</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorSchedule')">Schedule</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0 || global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/competitorResults')">Results</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorMyResults')">My Results</a></li>
+                        <!--
+                            <li class="active"><a href="" ng-click="redirect('/testing')">Testing</a></li>
+                            -->
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
 
-                    <li><p class="navbar-text">Logged in as {{global.displayName}}</p> </li>
+                        <li><p class="navbar-text">Logged in as {{global.displayName}}</p> </li>
 
-                    <li class="active"><a href="" ng-click="logout()">Logout</a></li>
-                </ul>
+                        <li class="active"><a href="" ng-click="logout()">Logout</a></li>
+                    </ul>
 
 
+                </div>
             </div>
         </div>
-    </div>
-    <div>
-        <div ng-view></div>
-    </div>
-    <script src="Scripts/angular.js"></script>
-    <script src="Scripts/angular-route.js"></script>
+        <div>
+            <div ng-view></div>
+        </div>
+        <script src="Scripts/angular.js?v=1.1"></script>
+        <script src="Scripts/angular-route.js?v=1.1"></script>
 
-    <script src="App/app.js"></script>
-    <script src="App/Controllers/appController.js"></script>
-    <script src="App/Controllers/homeController.js"></script>
-    <script src="App/Controllers/loginController.js"></script>
-    <script src="App/Controllers/adminHomeController.js"></script>
-    <script src="App/Controllers/competitorScheduleController.js"></script>
-    <script src="App/Controllers/competitorResultsController.js"></script>
-    <script src="App/Controllers/competitorMyResultsController.js"></script>
-    <script src="App/Controllers/competitorWorkoutDayController.js"></script>
-    <script src="App/Controllers/trainerHomeController.js"></script>
+        <script src="App/app.js?v=1.1"></script>
+        <script src="App/Controllers/appController.js?v=1.1"></script>
+        <script src="App/Controllers/homeController.js?v=1.1"></script>
+        <script src="App/Controllers/loginController.js?v=1.1"></script>
+        <script src="App/Controllers/adminHomeController.js?v=1.1"></script>
+        <script src="App/Controllers/competitorScheduleController.js?v=1.1"></script>
+        <script src="App/Controllers/competitorResultsController.js?v=1.1"></script>
+        <script src="App/Controllers/competitorMyResultsController.js?v=1.1"></script>
+        <script src="App/Controllers/competitorWorkoutDayController.js?v=1.1"></script>
+        <script src="App/Controllers/trainerScheduleController.js?v=1.1"></script>
 
-    <script src="App/Services/globalService.js"></script>
-    <script src="App/Services/loginService.js"></script>
-    <script src="App/Services/workoutService.js"></script>
+        <script src="App/Services/globalService.js?v=1.1"></script>
+        <script src="App/Services/loginService.js?v=1.1"></script>
+        <script src="App/Services/workoutService.js?v=1.1"></script>
 
-    <script src="App/Controllers/testingController.js"></script>
-</body>
+        <script src="App/Controllers/testingController.js?v=1.1"></script>
+    </body>
 </html>

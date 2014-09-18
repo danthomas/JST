@@ -9,29 +9,23 @@ namespace JST.DataAccess
 {
     public partial interface ISessionDataService
     {
-        void Insert(Session session);
+        void Insert(JstDataContext dataContext, Session session);
 
-        Session SelectBySessionId(Guid sessionId);
+        Session SelectBySessionId(JstDataContext dataContext, Guid sessionId);
     }
 
     public partial class SessionDataService : ISessionDataService
     {
-        public virtual void Insert(Session session)
+        public virtual void Insert(JstDataContext dataContext, Session session)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                dataContext.ExecuteNonQuery("Security.Session_Insert", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, session.SessionId), new Parameter("AccountId", SqlDbType.SmallInt, session.AccountId), new Parameter("StartDateTime", SqlDbType.DateTime, session.StartDateTime), new Parameter("Client", SqlDbType.VarChar, session.Client));
-            }
+            dataContext.ExecuteNonQuery("Security.Session_Insert", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, session.SessionId), new Parameter("AccountId", SqlDbType.SmallInt, session.AccountId), new Parameter("StartDateTime", SqlDbType.DateTime, session.StartDateTime), new Parameter("Client", SqlDbType.VarChar, session.Client));
         }
 
-        public virtual Session SelectBySessionId(Guid sessionId)
+        public virtual Session SelectBySessionId(JstDataContext dataContext, Guid sessionId)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                DataRow dataRow = dataContext.ExecuteDataRow("Security.Session_SelectBySessionId", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, sessionId));
+            DataRow dataRow = dataContext.ExecuteDataRow("Security.Session_SelectBySessionId", CommandType.StoredProcedure, new Parameter("SessionId", SqlDbType.UniqueIdentifier, sessionId));
 
-                return dataRow == null ? null : new Session(dataRow.Field<Guid>("SessionId"), dataRow.Field<short>("AccountId"), dataRow.Field<DateTime>("StartDateTime"), dataRow.Field<string>("Client"));
-            }
+            return dataRow == null ? null : new Session(dataRow.Field<Guid>("SessionId"), dataRow.Field<short>("AccountId"), dataRow.Field<DateTime>("StartDateTime"), dataRow.Field<string>("Client"));
         }
     }
 }

@@ -41,7 +41,7 @@
   <ItemGroup>
     <Reference Include="DTS.AppFramework.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Bin\DTS.AppFramework.Core.dll</HintPath>
+      <HintPath>..\..\DTS.Ims\References\DTS.AppFramework.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -147,7 +147,6 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\ResultController.cs" />
     <Compile Include="Controllers\WorkoutController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -163,7 +162,7 @@
     <Content Include="App\Controllers\competitorResultsController.js" />
     <Content Include="App\Controllers\competitorWorkoutDayController.js" />
     <Content Include="App\Controllers\testingController.js" />
-    <Content Include="App\Controllers\trainerHomeController.js" />
+    <Content Include="App\Controllers\trainerScheduleController.js" />
     <Content Include="App\Controllers\competitorScheduleController.js" />
     <Content Include="App\Controllers\homeController.js" />
     <Content Include="App\Controllers\loginController.js" />
@@ -196,7 +195,9 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="ConnectionStrings.config" />
+    <Content Include="ConnectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Publish.bat" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
@@ -211,7 +212,7 @@
     <Content Include="Templates\competitorResults.html" />
     <Content Include="Templates\competitorWorkoutDay.html" />
     <Content Include="Templates\testing.html" />
-    <Content Include="Templates\trainerHome.html" />
+    <Content Include="Templates\trainerSchedule.html" />
     <Content Include="Templates\competitorSchedule.html" />
     <Content Include="Templates\adminHome.html" />
     <Content Include="Templates\home.html" />

@@ -109,6 +109,16 @@
     <None Include="Data\Security.AccountRole.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Role_SelectForAccountId.sql" />
     <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectCompetitorMyResultsDetail.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectTrainerScheduleDetail.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectByWorkoutId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_Update.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_Insert.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_SelectByDate.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_SelectByWorkoutDateIdWorkoutTypeId.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_Update.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\Workout_Delete.procedure.sql" />
+    <Build Include="Schema Objects\Schemas\Competitors\Programmability\Stored Procedures\WorkoutDate_Tidy.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

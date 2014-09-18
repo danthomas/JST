@@ -17,7 +17,7 @@
                 $location.url('/competitorWorkoutDay');
             }
             else if (globalData.roleCodes.indexOf('Trainer') >= 0) {
-                $location.url('/trainerHome');
+                $location.url('/trainerSchedule');
             }
 
         },

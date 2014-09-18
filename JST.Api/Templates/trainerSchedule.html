@@ -1,0 +1,29 @@
+﻿<div>
+    <button class="btn btn-default" ng-click="prev()"><<</button>
+    <label>
+        Week Beginning: {{weekBeginning|date:'mediumDate'}}
+    </label>
+    <button class="btn btn-default" ng-click="next()">>></button>
+    <button class="btn btn-default" ng-click="save()">Save</button>
+    <div>
+        <label ng-bind="message.text" ng-class="{'text-success': message.messageType == 'Confirmation', 'text-danger': message.messageType != 'Confirmation'}"></label>
+    </div>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th ng-repeat="workoutType in workoutTypes">{{workoutType.name}}</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="workoutDay in workoutDays">
+                <td>{{workoutDay.date|date:'EEEE'}}</td>
+                <td ng-repeat="workout in workoutDay.workouts track by $index"><textarea rows="5" ng-model="workout.detail" style="width: 100%"></textarea></td>
+                <td ><textarea rows="5" ng-model="workoutDay.comment" style="width: 100%"></textarea></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

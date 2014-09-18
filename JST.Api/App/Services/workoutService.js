@@ -1,5 +1,36 @@
 ﻿app.factory('workoutService', function ($http, globalData) {
     return {
+
+        saveTrainerSchedule: function (workoutDays, success, error) {
+            $http({
+                method: "post",
+                url: "api/workout/saveTrainerSchedule",
+                data: JSON.stringify({
+                    sessionId: globalData.sessionId,
+                    workoutDays: workoutDays
+                })
+            }).success(function (data) {
+                success(data);
+            }).error(function () {
+                error(data);
+            });
+        },
+
+        trainerScheduleDetail: function (date, result) {
+            $http({
+                method: "post",
+                url: "api/workout/trainerScheduleDetail",
+                data: JSON.stringify({
+                    sessionId: globalData.sessionId,
+                    date: date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate()
+                })
+            }).success(function (data) {
+                data.model.weekBeginning = new Date(data.model.weekBeginning);
+                result(data);
+            }).error(function () {
+            });
+        },
+
         competitorScheduleDetail: function (date, result) {
             $http({
                 method: "post",

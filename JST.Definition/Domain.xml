@@ -44,6 +44,9 @@
       <property name='WorkoutDateId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
       <property name='Date' sqlServerType='DATE' isUnique='true'  />
       <property name='Comment' sqlServerType='VARCHAR' length='2000' />
+      <procedure procedureType='Select' properties='Date'/>
+      <procedure procedureType='Insert' />
+      <procedure procedureType='Update' />
     </entity>
     <entity name='Workout'>
       <property name='WorkoutId' sqlServerType='INT' isAuto='true' isIdentifier='true' />
@@ -51,6 +54,11 @@
       <property name='WorkoutTypeId' referencedEntity='WorkoutType' />
       <property name='Detail' sqlServerType='VARCHAR' length='1000' />
       <index properties='WorkoutTypeId, WorkoutDateId' isUnique='true' />
+      <procedure procedureType='Insert' />
+      <procedure procedureType='Update' />
+      <procedure procedureType='Delete' />
+      <procedure procedureType='Select' properties='WorkoutId'/>
+      <procedure procedureType='Select' properties='WorkoutDateId, WorkoutTypeId'/>
     </entity>
     <entity name='Result'>
       <property name='ResultId' sqlServerType='INT' isAuto='true' isIdentifier='true' />

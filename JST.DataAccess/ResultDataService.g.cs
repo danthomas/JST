@@ -9,48 +9,30 @@ namespace JST.DataAccess
 {
     public partial interface IResultDataService
     {
-        void Insert(Result result);
+        void Insert(JstDataContext dataContext, Result result);
 
-        void Update(Result result);
+        void Update(JstDataContext dataContext, Result result);
 
-        Result SelectByResultId(int resultId);
-        
-        void Delete(int resultId);
+        Result SelectByResultId(JstDataContext dataContext, int resultId);
     }
 
     public partial class ResultDataService : IResultDataService
     {
-        public virtual void Insert(Result result)
+        public virtual void Insert(JstDataContext dataContext, Result result)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                result.ResultId = dataContext.ExecuteScalar<int>("Competitors.Result_Insert", CommandType.StoredProcedure, new Parameter("WorkoutDateId", SqlDbType.Int, result.WorkoutDateId), new Parameter("AccountId", SqlDbType.SmallInt, result.AccountId), new Parameter("Detail", SqlDbType.VarChar, result.Detail));
-            }
+            result.ResultId = dataContext.ExecuteScalar<int>("Competitors.Result_Insert", CommandType.StoredProcedure, new Parameter("WorkoutDateId", SqlDbType.Int, result.WorkoutDateId), new Parameter("AccountId", SqlDbType.SmallInt, result.AccountId), new Parameter("Detail", SqlDbType.VarChar, result.Detail));
         }
 
-        public virtual void Update(Result result)
+        public virtual void Update(JstDataContext dataContext, Result result)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                dataContext.ExecuteNonQuery("Competitors.Result_Update", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, result.ResultId), new Parameter("WorkoutDateId", SqlDbType.Int, result.WorkoutDateId), new Parameter("AccountId", SqlDbType.SmallInt, result.AccountId), new Parameter("Detail", SqlDbType.VarChar, result.Detail));
-            }
+            dataContext.ExecuteNonQuery("Competitors.Result_Update", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, result.ResultId), new Parameter("WorkoutDateId", SqlDbType.Int, result.WorkoutDateId), new Parameter("AccountId", SqlDbType.SmallInt, result.AccountId), new Parameter("Detail", SqlDbType.VarChar, result.Detail));            
         }
 
-        public virtual void Delete(int resultId)
+        public virtual Result SelectByResultId(JstDataContext dataContext, int resultId)
         {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                dataContext.ExecuteNonQuery("Competitors.Result_Delete", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, resultId));
-            }
-        }
-        public virtual Result SelectByResultId(int resultId)
-        {
-            using (JstDataContext dataContext = new JstDataContext())
-            {
-                DataRow dataRow = dataContext.ExecuteDataRow("Competitors.Result_SelectByResultId", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, resultId));
+            DataRow dataRow = dataContext.ExecuteDataRow("Competitors.Result_SelectByResultId", CommandType.StoredProcedure, new Parameter("ResultId", SqlDbType.Int, resultId));
 
-                return dataRow == null ? null : new Result(dataRow.Field<int>("ResultId"), dataRow.Field<int>("WorkoutDateId"), dataRow.Field<short>("AccountId"), dataRow.Field<string>("Detail"));
-            }
+            return dataRow == null ? null : new Result(dataRow.Field<int>("ResultId"), dataRow.Field<int>("WorkoutDateId"), dataRow.Field<short>("AccountId"), dataRow.Field<string>("Detail"));
         }
     }
 }

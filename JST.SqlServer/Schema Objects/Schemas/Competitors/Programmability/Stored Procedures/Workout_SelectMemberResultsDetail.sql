@@ -7,6 +7,7 @@ as
 declare @workoutDateId int = Competitors.GetWorkoutId(@date, @direction)
 
 select		wd.Date
+			, wd.Comment
 from		Competitors.WorkoutDate wd
 where		wd.WorkoutDateId = @workoutDateId
 

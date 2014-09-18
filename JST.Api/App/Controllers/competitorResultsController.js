@@ -19,6 +19,7 @@ app.controller('competitorResultsController', function ($scope, $location, worko
     function refresh(direction) {
         workoutService.competitorResultsDetail(globalService.getDate(), direction, function (data) {
             $scope.date = globalService.setDate(new Date(data.model.date));
+            $scope.comment = data.model.comment;
             $scope.workouts = data.model.workouts;
             $scope.results = data.model.results;
         });

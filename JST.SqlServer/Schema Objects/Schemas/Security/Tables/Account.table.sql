@@ -2,12 +2,12 @@ CREATE TABLE [Security].[Account]
 (
   [AccountId] SMALLINT NOT NULL IDENTITY (1, 1)
 , [AccountName] VARCHAR(30) NOT NULL
-, [DisplayName] NVARCHAR(100) NOT NULL
+, [DisplayName] VARCHAR(100) NOT NULL
 , [Email] VARCHAR(200) NOT NULL
-, [Password] NVARCHAR(1000) NOT NULL
+, [Password] VARCHAR(1000) NOT NULL
 , [ChangePassword] BIT NOT NULL
 , [IsActive] BIT NOT NULL
-    CONSTRAINT PK_Account PRIMARY KEY CLUSTERED ( [AccountId] )
+, CONSTRAINT PK_Account PRIMARY KEY CLUSTERED ( [AccountId] )
 )
 GO
 CREATE UNIQUE NONCLUSTERED INDEX AK_AccountAccountName ON [Security].[Account]

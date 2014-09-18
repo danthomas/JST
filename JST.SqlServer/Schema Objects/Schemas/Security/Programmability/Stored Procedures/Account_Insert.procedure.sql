@@ -2,14 +2,17 @@ CREATE PROCEDURE [Security].[Account_Insert]
 (
   @AccountName VARCHAR(30)
 , @DisplayName VARCHAR(100)
-, @Password VARCHAR(30)
+, @Email VARCHAR(200)
+, @Password VARCHAR(1000)
+, @ChangePassword BIT
+, @IsActive BIT
 )
 AS
 
 SET TRANSACTION ISOLATION LEVEL READ COMMITTED
 
-INSERT INTO [Security].[Account] ([AccountName], [DisplayName], [Password])
-VALUES (@AccountName, @DisplayName, @Password)
+INSERT INTO [Security].[Account] ([AccountName], [DisplayName], [Email], [Password], [ChangePassword], [IsActive])
+VALUES (@AccountName, @DisplayName, @Email, @Password, @ChangePassword, @IsActive)
 
 
 
