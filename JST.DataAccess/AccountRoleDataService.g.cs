@@ -9,11 +9,18 @@ namespace JST.DataAccess
 {
     public partial interface IAccountRoleDataService
     {
+        void Insert(JstDataContext dataContext, Domain.AccountRole accountRole);
+
         AccountRole SelectByAccountId(JstDataContext dataContext, short accountId);
     }
 
     public partial class AccountRoleDataService : IAccountRoleDataService
     {
+        public virtual void Insert(JstDataContext dataContext, Domain.AccountRole accountRole)
+        {
+            accountRole.AccountRoleId = dataContext.ExecuteScalar<short>("Security.AccountRole_Insert", CommandType.StoredProcedure, new Parameter("RoleId", SqlDbType.TinyInt, accountRole.RoleId), new Parameter("AccountId", SqlDbType.SmallInt, accountRole.AccountId));
+        }
+
         public virtual AccountRole SelectByAccountId(JstDataContext dataContext, short accountId)
         {
             DataRow dataRow = dataContext.ExecuteDataRow("Security.AccountRole_SelectByAccountId", CommandType.StoredProcedure, new Parameter("AccountId", SqlDbType.SmallInt, accountId));

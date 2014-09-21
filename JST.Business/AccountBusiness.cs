@@ -4,20 +4,24 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using DTS.AppFramework.Core;
-using JST.Business.Models;
 using JST.Core;
 using JST.DataAccess;
+using JST.Domain;
+using Account = JST.Business.Models.Account;
+using Session = JST.Business.Models.Session;
 
 namespace JST.Business
 {
     public class AccountBusiness : BusinessBase
     {
         private readonly IAccountDataService _accountDataService;
+        private readonly IAccountRoleDataService _accountRoleDataService;
 
-        public AccountBusiness(IAccountDataService accountDataService, IRoleDataService roleDataService, IExceptionDataService exceptionDataService, ISessionDataService sessionDataService)
+        public AccountBusiness(IAccountDataService accountDataService, IRoleDataService roleDataService, IExceptionDataService exceptionDataService, ISessionDataService sessionDataService, IAccountRoleDataService accountRoleDataService)
             : base(sessionDataService, roleDataService, exceptionDataService)
         {
             _accountDataService = accountDataService;
+            _accountRoleDataService = accountRoleDataService;
         }
 
         public ReturnValue<Session> Login(string accountName, string password)
@@ -110,7 +114,11 @@ namespace JST.Business
 
                     _accountDataService.Insert(jstDataContext, account);
 
-                    _roleDataService.S
+                    Role role = _roleDataService.SelectByCode(jstDataContext, "Competitor");
+
+                    AccountRole accoutRole = new AccountRole(0, role.RoleId, account.AccountId);
+
+                    _accountRoleDataService.Insert(jstDataContext, accoutRole);
 
                     jstDataContext.Commit();
                 }

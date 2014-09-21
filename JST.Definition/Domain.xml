@@ -13,6 +13,7 @@
       <property name='RoleId' sqlServerType='TINYINT' isIdentifier='true' />
       <property name='Code' sqlServerType='VARCHAR' length='20' isUnique='true' />
       <property name='Name' sqlServerType='VARCHAR' length='50' isUnique='true' />
+      <procedure procedureType='Select' properties='Code'/>
     </entity>
     <entity name='Account'>
       <property name='AccountId' sqlServerType='SMALLINT' isAuto='true' isIdentifier='true' />
@@ -25,7 +26,6 @@
       <procedure procedureType='Insert' />
       <procedure procedureType='Update' />
       <procedure procedureType='DeleteMany' />
-      <procedure procedureType='SelectMany'/>
       <procedure procedureType='Select' properties='AccountId'/>
       <procedure procedureType='Select' properties='AccountName'/>
     </entity>
@@ -34,6 +34,7 @@
       <property name='RoleId' referencedEntity='Role' />
       <property name='AccountId' referencedEntity='Account' />
       <procedure procedureType='Select' properties='AccountId'/>
+      <procedure procedureType='Insert' />
     </entity>
     <entity name='Session'>
       <property name='SessionId' sqlServerType='UNIQUEIDENTIFIER' isIdentifier='true' />

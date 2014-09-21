@@ -17,7 +17,7 @@ namespace JST.Tests
         {
             const string password = "burpee";
 
-            string hash = new AccountBusiness(null, null, null, null).HashPassword(password);
+            string hash = new AccountBusiness(null, null, null, null, null).HashPassword(password);
 
         }
 
