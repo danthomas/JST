@@ -17,7 +17,8 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider.when('/competitorMyResults', { templateUrl: 'templates/competitorMyResults.html', controller: 'competitorMyResultsController' });
 
     $routeProvider.when('/trainerSchedule', { templateUrl: 'templates/trainerSchedule.html', controller: 'trainerScheduleController' });
-    $routeProvider.when('/account', { templateUrl: 'templates/account.html', controller: 'accountController' });
+    $routeProvider.when('/accountList', { templateUrl: 'templates/accountList.html', controller: 'accountListController' });
+    $routeProvider.when('/accountEdit/:accountId?', { templateUrl: 'templates/accountEdit.html', controller: 'accountEditController' });
 
     
     $routeProvider.otherwise({ redirectTo: '/' });

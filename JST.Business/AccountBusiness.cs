@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using DTS.AppFramework.Core;
+using JST.Business.Models;
 using JST.Core;
 using JST.DataAccess;
 
@@ -19,24 +20,24 @@ namespace JST.Business
             _accountDataService = accountDataService;
         }
 
-        public  ReturnValue<Models.Session> Login(string accountName, string password)
+        public ReturnValue<Session> Login(string accountName, string password)
         {
             using (JstDataContext jstDataContext = new JstDataContext())
             {
-                Models.Session session = null;
+                Session session = null;
 
                 Domain.Account account = _accountDataService.SelectByAccountName(jstDataContext, accountName);
 
                 string hash = HashPassword(password);
-                
+
                 if (account != null && account.Password == hash && account.IsActive)
                 {
                     Guid sessionId = InsertSession(jstDataContext, account);
                     string[] roles = _roleDataService.SelectForAccountId(jstDataContext, account.AccountId).Select(item => item.Code).ToArray();
-                    session = new Models.Session(sessionId, account.DisplayName, roles);
+                    session = new Session(sessionId, account.DisplayName, roles);
                 }
 
-                return new ReturnValue<Models.Session>(session != null, session);
+                return new ReturnValue<Session>(session != null, session);
             }
         }
 
@@ -66,19 +67,61 @@ namespace JST.Business
             return sessionId;
         }
 
-        public ReturnValue<List<Models.Account>> GetAccounts(Guid sessionId)
+        public ReturnValue<List<Account>> GetAccountList(Guid sessionId)
         {
             return BusinessMethod(sessionId, new[] { "Admin" }, (jstDataContext, s) =>
             {
-                List<Models.Account> accounts = _accountDataService.SelectAll(jstDataContext).Select(item => new Models.Account
+                List<Account> accounts = _accountDataService.SelectAll(jstDataContext).Select(item => new Account
                 {
                     AccountId = item.AccountId,
                     AccountName = item.AccountName,
                     DisplayName = item.DisplayName
                 }).ToList();
 
-                return new ReturnValue<List<Models.Account>>(true, accounts);
+                return new ReturnValue<List<Account>>(true, accounts);
             }, exception => null);
+        }
+
+        public ReturnValue<Account> GetAccountEdit(Guid sessionId, short accountId)
+        {
+            return BusinessMethod(sessionId, new[] { "Admin" }, (jstDataContext, s) =>
+            {
+                Domain.Account account = _accountDataService.SelectByAccountId(jstDataContext, accountId);
+
+                return new ReturnValue<Account>(true, new Account
+                {
+                    AccountId = account.AccountId,
+                    AccountName = account.AccountName,
+                    DisplayName = account.DisplayName
+                });
+            }, exception => null);
+        }
+
+        public ReturnValue<short> SaveAccount(Guid sessionId, short accountId, string accountName, string displayName)
+        {
+            return BusinessMethod(sessionId, new[] { "Admin" }, (jstDataContext, s) =>
+            {
+                Domain.Account account = new Domain.Account(accountId, accountName, displayName, "", "", false, true);
+
+                if (accountId == 0)
+                {
+                    account.Password = HashPassword("burpee");
+                    jstDataContext.OpenTransation();
+
+                    _accountDataService.Insert(jstDataContext, account);
+
+                    _roleDataService.S
+
+                    jstDataContext.Commit();
+                }
+                else
+                {
+                    _accountDataService.Update(jstDataContext, account);
+                }
+
+                return new ReturnValue<short>(true, account.AccountId);
+
+            }, exception => "Failed to Save Account.");
 
         }
     }

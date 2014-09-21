@@ -1,6 +1,6 @@
 ﻿<div>
     <button class="btn btn-default" ng-click="add()">Add</button>
-    <button class="btn btn-default" ng-click="edit()">Edit</button>
+    <button class="btn btn-default" ng-disabled="selectedAccounts.length != 1" ng-click="edit(selectedAccounts[0])">Edit</button>
 </div>
 <div>
     <table class="table">
