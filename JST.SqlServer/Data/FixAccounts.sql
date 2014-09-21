@@ -42,7 +42,11 @@ set accountid = (select accountid from Security.Account where accountname = 'Fle
 where accountid in (select accountid from Security.Account where DisplayName in ('Beans on toast'))
 
 
-
+update Security.Account set AccountName = 'MeylerM' where DisplayName = 'Matt Meyler'
+update Security.Account set AccountName = 'RobinsonA' where DisplayName = 'Andy Robinson'
+update Security.Account set AccountName = 'MaloneM' where DisplayName = 'Mandy Malone'
+update Security.Account set AccountName = 'Pig' where DisplayName = 'Pig'
+update Security.Account set AccountName = 'HartK' where DisplayName = 'Quiche Fart ??'
 
 delete Security.AccountRole
 where accountid in (

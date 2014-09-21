@@ -2,15 +2,7 @@
 
     return {
         response: function (response) {
-
-            globalService.setMessage(
-                 [
-                  {
-                      "messageType": "Confirmation",
-                      "text": "Woohoooo."
-                  }
-                 ]
-            );
+            globalService.setMessage(response.data.messages);
 
             return response;
         }

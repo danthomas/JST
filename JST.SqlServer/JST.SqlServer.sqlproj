@@ -126,6 +126,7 @@
     <Build Include="Schema Objects\Schemas\Logging\Programmability\Stored Procedures\Exception_Insert.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Logging\Tables\Exception.table.sql" />
     <Build Include="Schema Objects\Database Level Objects\Security\Schemas\Logging.schema.sql" />
+    <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Account_SelectAll.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

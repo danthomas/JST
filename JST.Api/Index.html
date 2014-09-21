@@ -3,7 +3,7 @@
     
     <head>
         <meta http-equiv="pragma" content="no-cache" />
-        <link href="Content/bootswatch.css?v=1.1" rel="stylesheet" />
+        <link href="Content/bootswatch.css?v=1.3" rel="stylesheet" />
         <link href="Content/loading-bar.css" rel="stylesheet" />
         <!--script src="Scripts/jquery-1.10.2.js"></script-->
         <!--script src="Scripts/bootstrap.js"></script-->
@@ -14,13 +14,13 @@
             <div>
             </div>
             <div class="navbar navbar-default">
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/adminHome')">Home</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/trainerSchedule')">Schedule</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorSchedule')">Schedule</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0 || global.roleCodes.indexOf('Trainer') >= 0"><a href="" ng-click="redirect('/competitorResults')">Results</a></li>
                         <li class="active" ng-show="global.roleCodes.indexOf('Competitor') >= 0"><a href="" ng-click="redirect('/competitorMyResults')">My Results</a></li>
+                        <li class="active" ng-show="global.roleCodes.indexOf('Admin') >= 0"><a href="" ng-click="redirect('/account')">Accounts</a></li>
                         <!--
                             <li class="active"><a href="" ng-click="redirect('/testing')">Testing</a></li>
                             -->
@@ -43,25 +43,27 @@
         <div>
             <div ng-view></div>
         </div>
-        <script src="Scripts/angular.js?v=1.1"></script>
-        <script src="Scripts/angular-route.js?v=1.1"></script>
+        <script src="Scripts/angular.js?v=1.3"></script>
+        <script src="Scripts/angular-route.js?v=1.3"></script>
         <script src="App/Services/loading-bar.js"></script>
-        <script src="App/app.js?v=1.1"></script>
-        <script src="App/Controllers/appController.js?v=1.1"></script>
-        <script src="App/Controllers/homeController.js?v=1.1"></script>
-        <script src="App/Controllers/loginController.js?v=1.1"></script>
-        <script src="App/Controllers/adminHomeController.js?v=1.1"></script>
-        <script src="App/Controllers/competitorScheduleController.js?v=1.1"></script>
-        <script src="App/Controllers/competitorResultsController.js?v=1.1"></script>
-        <script src="App/Controllers/competitorMyResultsController.js?v=1.1"></script>
-        <script src="App/Controllers/competitorWorkoutDayController.js?v=1.1"></script>
-        <script src="App/Controllers/trainerScheduleController.js?v=1.1"></script>
+        <script src="App/app.js?v=1.3"></script>
+        <script src="App/Controllers/appController.js?v=1.3"></script>
+        <script src="App/Controllers/homeController.js?v=1.3"></script>
+        <script src="App/Controllers/loginController.js?v=1.3"></script>
+        <script src="App/Controllers/adminHomeController.js?v=1.3"></script>
+        <script src="App/Controllers/competitorScheduleController.js?v=1.3"></script>
+        <script src="App/Controllers/competitorResultsController.js?v=1.3"></script>
+        <script src="App/Controllers/competitorMyResultsController.js?v=1.3"></script>
+        <script src="App/Controllers/competitorWorkoutDayController.js?v=1.3"></script>
+        <script src="App/Controllers/trainerScheduleController.js?v=1.3"></script>
+        <script src="App/Controllers/accountController.js?v=1.3"></script>
 
         <script src="App/Services/httpInterceptorService.js"></script>
-        <script src="App/Services/globalService.js?v=1.1"></script>
-        <script src="App/Services/loginService.js?v=1.1"></script>
-        <script src="App/Services/workoutService.js?v=1.1"></script>
+        <script src="App/Services/globalService.js?v=1.3"></script>
+        <script src="App/Services/loginService.js?v=1.3"></script>
+        <script src="App/Services/workoutService.js?v=1.3"></script>
+        <script src="App/Services/accountService.js?v=1.3"></script>
 
-        <script src="App/Controllers/testingController.js?v=1.1"></script>
+        <script src="App/Controllers/testingController.js?v=1.3"></script>
     </body>
 </html>

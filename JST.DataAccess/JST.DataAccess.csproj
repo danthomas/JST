@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountDataService.cs" />
     <Compile Include="AccountDataService.g.cs" />
     <Compile Include="AccountRoleDataService.g.cs" />
     <Compile Include="ExceptionDataService.g.cs" />

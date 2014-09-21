@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\app.js" />
+    <Content Include="App\Controllers\accountController.js" />
     <Content Include="App\Controllers\appController.js" />
     <Content Include="App\Controllers\adminHomeController.js" />
     <Content Include="App\Controllers\competitorMyResultsController.js" />
@@ -166,6 +167,7 @@
     <Content Include="App\Controllers\competitorScheduleController.js" />
     <Content Include="App\Controllers\homeController.js" />
     <Content Include="App\Controllers\loginController.js" />
+    <Content Include="App\Services\accountService.js" />
     <Content Include="App\Services\globalService.js" />
     <Content Include="App\Services\httpInterceptorService.js" />
     <Content Include="App\Services\loading-bar.js" />
@@ -211,6 +213,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Templates\account.html" />
     <Content Include="Templates\competitorMyResults.html" />
     <Content Include="Templates\competitorResults.html" />
     <Content Include="Templates\competitorWorkoutDay.html" />

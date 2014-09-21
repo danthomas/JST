@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
-using JST.Business.Models;
+using DTS.AppFramework.Core;
 using JST.Core;
 using JST.DataAccess;
-using JST.Domain;
 
 namespace JST.Business
 {
@@ -21,13 +19,13 @@ namespace JST.Business
             _accountDataService = accountDataService;
         }
 
-        public Models.Session Login(string accountName, string password)
+        public  ReturnValue<Models.Session> Login(string accountName, string password)
         {
             using (JstDataContext jstDataContext = new JstDataContext())
             {
                 Models.Session session = null;
 
-                Account account = _accountDataService.SelectByAccountName(jstDataContext, accountName);
+                Domain.Account account = _accountDataService.SelectByAccountName(jstDataContext, accountName);
 
                 string hash = HashPassword(password);
                 
@@ -38,7 +36,7 @@ namespace JST.Business
                     session = new Models.Session(sessionId, account.DisplayName, roles);
                 }
 
-                return session;
+                return new ReturnValue<Models.Session>(session != null, session);
             }
         }
 
@@ -60,12 +58,28 @@ namespace JST.Business
             return sb.ToString();
         }
 
-        private Guid InsertSession(JstDataContext jstDataContext, Account account)
+        private Guid InsertSession(JstDataContext jstDataContext, Domain.Account account)
         {
             Guid sessionId = Guid.NewGuid();
             Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now, "");
             _sessionDataService.Insert(jstDataContext, session);
             return sessionId;
+        }
+
+        public ReturnValue<List<Models.Account>> GetAccounts(Guid sessionId)
+        {
+            return BusinessMethod(sessionId, new[] { "Admin" }, (jstDataContext, s) =>
+            {
+                List<Models.Account> accounts = _accountDataService.SelectAll(jstDataContext).Select(item => new Models.Account
+                {
+                    AccountId = item.AccountId,
+                    AccountName = item.AccountName,
+                    DisplayName = item.DisplayName
+                }).ToList();
+
+                return new ReturnValue<List<Models.Account>>(true, accounts);
+            }, exception => null);
+
         }
     }
 }

@@ -25,6 +25,7 @@
       <procedure procedureType='Insert' />
       <procedure procedureType='Update' />
       <procedure procedureType='DeleteMany' />
+      <procedure procedureType='SelectMany'/>
       <procedure procedureType='Select' properties='AccountId'/>
       <procedure procedureType='Select' properties='AccountName'/>
     </entity>

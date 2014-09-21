@@ -1,4 +1,5 @@
 insert into Security.AccountRole (AccountId, RoleId) values (1, 1)
+insert into Security.AccountRole (AccountId, RoleId) values (2, 1)
 insert into Security.AccountRole (AccountId, RoleId) values (2, 2)
 insert into Security.AccountRole (AccountId, RoleId) values (3, 2)
 insert into Security.AccountRole (AccountId, RoleId) values (4, 3)

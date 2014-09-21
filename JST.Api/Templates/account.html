@@ -1,0 +1,20 @@
+﻿<div>
+    <button class="btn btn-default" ng-click="add()">Add</button>
+    <button class="btn btn-default" ng-click="edit()">Edit</button>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Account Name</th>
+                <th>Display Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="account in accounts" ng-click="rowClick(account)" ng-class="{'text-success': selectedAccounts.indexOf(account) >= 0}">
+                <td>{{account.accountName}}</td>
+                <td>{{account.displayName}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

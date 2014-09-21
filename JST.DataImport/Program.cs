@@ -153,6 +153,7 @@ namespace JST.DataImport
 
             stringBuilder = new StringBuilder();
             stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (1, 1){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (2, 1){0}", Environment.NewLine);
             stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (2, 2){0}", Environment.NewLine);
             stringBuilder.AppendFormat("insert into Security.AccountRole (AccountId, RoleId) values (3, 2){0}", Environment.NewLine);
 

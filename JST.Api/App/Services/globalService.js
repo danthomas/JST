@@ -11,17 +11,16 @@
     return {
 
         landing: function () {
-
-            if (globalData.roleCodes.indexOf('Admin') >= 0) {
-                $location.url('/adminHome');
-            }
-            else if (globalData.roleCodes.indexOf('Competitor') >= 0) {
+            
+            if (globalData.roleCodes.indexOf('Competitor') >= 0) {
                 $location.url('/competitorWorkoutDay');
             }
             else if (globalData.roleCodes.indexOf('Trainer') >= 0) {
                 $location.url('/trainerSchedule');
             }
-
+            else if (globalData.roleCodes.indexOf('Admin') >= 0) {
+                $location.url('/adminHome');
+            }
         },
 
         url: function (url, replace, setBackUrl) {
@@ -106,11 +105,11 @@
                 //set message and timeout
                 globalData.message = messages[0];
 
-                timeout = $timeout(function () {
+                timeout = $timeout(function() {
                     globalData.message = null;
                     timeout = null;
                 }, 5000);
-            }
+            } 
         }
     };
 });
