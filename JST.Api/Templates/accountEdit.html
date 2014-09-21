@@ -1,0 +1,46 @@
+﻿<div>
+    <button class="btn btn-default" ng-click="save()">Save</button>
+    <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+</div>
+<div>
+    <form name="editForm" novalidate ng-submit="save()">
+        <fieldset>
+            <!--legend>Account</!--legend-->
+
+            <label>Account Name:</label>
+            <input type="text" placeholder="Account Name" name="accountName" ng-model="account.accountName" ng-minlength="3" ng-maxlength="30" required />
+            <div class="error" ng-show="editForm.accountName.$dirty && editForm.accountName.$invalid">
+                <small class="error"
+                       ng-show="editForm.accountName.$error.required">
+                    Account Name is required.
+                </small>
+                <small class="error"
+                       ng-show="editForm.accountName.$error.minlength">
+                    Account Name must be at least 3 characters
+                </small>
+                <small class="error"
+                       ng-show="editForm.accountName.$error.maxlength">
+                    Account Name cannot be longer than 30 characters
+                </small>
+            </div>
+            <br />
+            <label>Display Name:</label>
+            <input type="text" placeholder="Display Name" name="displayName" ng-model="account.displayName" ng-minlength="3" ng-maxlength="100" required />
+            <div class="error" ng-show="editForm.displayName.$dirty && editForm.displayName.$invalid">
+                <small class="error"
+                       ng-show="editForm.displayName.$error.required">
+                    Display Name is required.
+                </small>
+                <small class="error"
+                       ng-show="editForm.displayName.$error.minlength">
+                    Display Name must be at least 3 characters
+                </small>
+                <small class="error"
+                       ng-show="editForm.displayName.$error.maxlength">
+                    Display Name cannot be longer than 100 characters
+                </small>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
