@@ -4,7 +4,8 @@ remove login from history
 return index.html
 versioning
 on next\prev - clear current page
-edit accounts
+edit accounts - unique values
+delete sessions
 
 
 

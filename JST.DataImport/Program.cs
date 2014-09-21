@@ -15,14 +15,14 @@ namespace JST.DataImport
         static void Main(string[] args)
         {
 
-            /*
+            
               List<List<List<string>>> workbookData = GetData();
 
               Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
               BinaryFormatter bFormatter = new BinaryFormatter();
               bFormatter.Serialize(stream, workbookData);
               stream.Close();
-            */
+           /*
           List<Tuple<string, string>> userNames = GetUserNames();
              
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
@@ -30,7 +30,7 @@ namespace JST.DataImport
             List<List<List<string>>> workbookData = (List<List<List<string>>>)bFormatter.Deserialize(stream);
 
             ProcessData(workbookData, userNames);
-             
+              */
         }
 
         private static void ProcessData(List<List<List<string>>> workbook, List<Tuple<string, string>> userNames)
