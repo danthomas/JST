@@ -737,49 +737,49 @@ insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail
 100 KB Swings 32/24
 100 box overs 24/20
 100 Cal Row')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (222, 92, 1, '10km Row for time')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (223, 92, 3, 'Pause Snatch. 5 reps over 80% of max snatch
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (222, 91, 1, '10km Row for time')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (223, 91, 3, 'Pause Snatch. 5 reps over 80% of max snatch
 Pause Clean and Jerk. 5 reps over 80% of max clean and jerk
 Pause is 2s at the knee cap')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (224, 92, 4, 'Strict Pull up 90% Max Effort (ME) x1x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (224, 91, 4, 'Strict Pull up 90% Max Effort (ME) x1x8
 Strict Ring dip 55% Max Reps (MR) x 5 sets
 L-Sit Hanging Hold 20s x 6
 
 200% MR Ring dip. For Quality (maximum 100 reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (225, 93, 1, '1 mile run for time. Rest 5 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (225, 92, 1, '1 mile run for time. Rest 5 mins
 800m Run. Rest 1 min x 5
 5 rounds for time:
 15 KB swings 32/24
 15 box overs 30/24')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (226, 93, 3, 'Deadlift Top set x 10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (226, 92, 3, 'Deadlift Top set x 10
 Front squat top set x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (227, 93, 4, 'Strict/Kip (depending on what you used for your max) def HSPU 90% ME x1x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (227, 92, 4, 'Strict/Kip (depending on what you used for your max) def HSPU 90% ME x1x8
 
 Ring Muscle ups 55% MR x5
 
 Strict Toes to bar 55% MR x 5
 
 200% MR Kipping T2B. For quality (maximum 100 reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (228, 95, 1, 'Bike/Run 20 mins.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (228, 94, 1, 'Bike/Run 20 mins.
 OMEM x 15
 5 cals bike/200m run')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (229, 95, 3, 'Snatch to a max in 20 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (229, 94, 3, 'Snatch to a max in 20 mins
 Rest 10 mins
 Clean and jerk to a max in 20 mins')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (230, 95, 4, 'Strict Ring Dip 90% ME x1x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (230, 94, 4, 'Strict Ring Dip 90% ME x1x8
 
 Strict Pull ups 55% MR x 5
 
 Strict HSPU 55% MR x 5
 
 200% MR Kipping HSPU. For quality. (maximum 100 reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (231, 96, 1, 'OMEM x30
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (231, 95, 1, 'OMEM x30
 1- 50 double unders
 2- 15/10 wall balls 20/14 10ft
 3- 12 down ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (232, 96, 3, 'Push Press top set x 10.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (232, 95, 3, 'Push Press top set x 10.
 then 10 reps at 90% of todays top set, then 10% at 80% of todays top set')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (233, 96, 4, 'Rope chin ups. 5 with right arm on top, 5 with left arm on top. x5 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (233, 95, 4, 'Rope chin ups. 5 with right arm on top, 5 with left arm on top. x5 
 Add weight
 
 
@@ -789,7 +789,7 @@ Negative Muscle up x3x3 - Add weight
 
 
 45 Hollow Rocks/ 45 Arch Rocks x 3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (234, 97, 3, 'Snatch to a max in 20 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (234, 96, 3, 'Snatch to a max in 20 mins
 Rest 10 mins
 Clean and jerk to a max in 20 mins
 
@@ -800,22 +800,22 @@ Deadlift
 *Set 4 - 6 reps @ 85%
 *Set 5 - 4 reps @ 90%
 Rest 2-3 minutes between sets.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (235, 97, 4, '200% MR Kipping/butterfly Pull up. For Quality. (maximum 100 reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (236, 98, 1, 'Row 500m 5/10. Rest 1 min. 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (235, 96, 4, '200% MR Kipping/butterfly Pull up. For Quality. (maximum 100 reps)')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (236, 97, 1, 'Row 500m 5/10. Rest 1 min. 
 Row 250m 10/10. Rest 1 min. 
 Row 250m 10/10. Rest 3 mins
 Row 1000m For time. Rest 5 mins.
 Row 500m, Run 400m, Row 500m For time.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (237, 98, 3, 'Snatch/ Hang Snatch to a heavy single.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (237, 97, 3, 'Snatch/ Hang Snatch to a heavy single.
 Clean/Hang Clean + Jerk to a heavy single')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (238, 98, 4, 'Strict Pull up 75% Max Effort (ME) x5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (238, 97, 4, 'Strict Pull up 75% Max Effort (ME) x5x5
 Strict Ring dip 60% Max Reps (MR) x 4 sets
 L-Sit Hanging Hold 20s x 6
 
 10 Rounds:
 10 kb swings 24/16
 40% Kipping Ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (239, 99, 1, '60s on each:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (239, 98, 1, '60s on each:
 Bike
 Row
 Shuttle run
@@ -823,9 +823,9 @@ Bear Crawl
 Top Plank
 Double under
 x6')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (240, 99, 3, 'Deadlift Top set x 10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (240, 98, 3, 'Deadlift Top set x 10
 Front squat top set x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (241, 99, 4, 'Strict/Kip (depending on what you used for your max) def HSPU 75% ME x5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (241, 98, 4, 'Strict/Kip (depending on what you used for your max) def HSPU 75% ME x5x5
 
 Ring Muscle ups 60% MR x4
 
@@ -834,11 +834,11 @@ Strict Toes to bar 60% MR x 4
 10 rounds:
 10 wall balls 20/14 10ft
 40% T2B')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (242, 101, 1, 'Bike/Run 10 mins at 7/10.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (242, 100, 1, 'Bike/Run 10 mins at 7/10.
 Bike/Run 60:60 x 10 (100%:30%)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (243, 101, 3, 'Power Snatch to a heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (243, 100, 3, 'Power Snatch to a heavy single
 Power Clean + Push Jerk to a heavy single')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (244, 101, 4, 'Strict Ring Dip 75% ME x5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (244, 100, 4, 'Strict Ring Dip 75% ME x5x5
 
 Strict Pull ups 60% MR x 4
 
@@ -847,16 +847,16 @@ Strict HSPU 60% MR x 4
 10 Rounds:
 10 box jumps 24/20
 40% kipping HSPU')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (245, 102, 1, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (245, 101, 1, 'For time:
 Row 1km
 300 Double unders
 Run 1 mile
 Row 500m
 150 Double unders
 Run 800m')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (246, 102, 3, 'Push Press top set x 10.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (246, 101, 3, 'Push Press top set x 10.
 then 10 reps at 90% of todays top set, then 10% at 80% of todays top set')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (247, 102, 4, '10 Rounds:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (247, 101, 4, '10 Rounds:
 10 Burpees
 40% Ring Muscle ups
 
@@ -867,7 +867,7 @@ Skin the cat 5x3
 
 
 50 Hollow Rocks/ 50 Arch Rocks x 3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (248, 103, 3, 'Snatch to a max in 20 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (248, 102, 3, 'Snatch to a max in 20 mins
 Rest 10 mins
 Clean and jerk to a max in 20 mins
 
@@ -879,89 +879,89 @@ Deadlift
 *Set 5 - 6 reps @ 85%
 *Set 6 - 4 reps @ 90%
 Rest 2-3 minutes between sets.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (249, 103, 4, 'WOD - TBA')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (250, 105, 1, '1 minute Row
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (249, 102, 4, 'WOD - TBA')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (250, 104, 1, '1 minute Row
 1 minute Burpee
 1 minute Rest x8
 Aim for 300/270m, and 15/12 burpees')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (251, 105, 3, 'Pause Snatch to heavy triple. 3s pause at the knee')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (252, 105, 4, 'Strict Ring dip max reps')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (253, 105, 5, '15 min AMRAP:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (251, 104, 3, 'Pause Snatch to heavy triple. 3s pause at the knee')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (252, 104, 4, 'Strict Ring dip max reps')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (253, 104, 5, '15 min AMRAP:
 15 Russian KB Swings 32/24
 200m Run
 5-15 ring dips (pick a rep scheme that you can keep UB, and fast)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (254, 106, 1, '2km Row. Rest 3 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (254, 105, 1, '2km Row. Rest 3 mins
 1500m Row. Rest 3 mins
 1km Row. Rest 3 mins
 500m Row.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (255, 106, 3, 'Deadlift Top set x 10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (255, 105, 3, 'Deadlift Top set x 10
 Front squat top set x10
 
 If you have failed the same weight 2 weeks in a row, drop back to your weight from 3 weeks ago and start again.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (256, 106, 4, 'Strict toes to bar max reps')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (257, 106, 5, '8 Rounds for time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (256, 105, 4, 'Strict toes to bar max reps')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (257, 105, 5, '8 Rounds for time:
 8 power cleans 60/42.5 (axle bar if poss)
 20 air squats
 12 burpees over the bar')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (258, 108, 1, 'Bike 30:30 x 30
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (258, 107, 1, 'Bike 30:30 x 30
 100%:30%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (259, 108, 3, 'Power Snatch to a heavy double. TnG
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (259, 107, 3, 'Power Snatch to a heavy double. TnG
 Power Clean + Push Jerk to a heavy double. TnG')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (260, 108, 4, 'Max rep Strict HSPU')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (261, 108, 5, 'OMEM x 21
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (260, 107, 4, 'Max rep Strict HSPU')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (261, 107, 5, 'OMEM x 21
 1) 1 L-sit Rope Climb
 2) 15 strict push ups
 3) 10 toes to bar')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (262, 109, 1, 'Start a new round every 3 mins x 5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (262, 108, 1, 'Start a new round every 3 mins x 5
 Run 400m
 Max rep DUs.
 Total DUs')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (263, 109, 3, 'Push Press top set x 10.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (263, 108, 3, 'Push Press top set x 10.
 then 10 reps at 90% of todays top set, then 10% at 80% of todays top set')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (264, 109, 4, 'Max rep Strict Strict Pull ups  Skin the cat 5x3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (265, 109, 5, '3 rounds for time: 500m Row 21 swings 24/16 12 pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (266, 110, 3, 'Snatch to a max in 20 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (264, 108, 4, 'Max rep Strict Strict Pull ups  Skin the cat 5x3')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (265, 108, 5, '3 rounds for time: 500m Row 21 swings 24/16 12 pull ups')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (266, 109, 3, 'Snatch to a max in 20 mins
 Rest 10 mins
 Clean and jerk to a max in 20 mins
 
 Front squat 5x5
 pick a weight you know you can hit for all 5 sets. (just over your current top set?)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (267, 110, 4, 'WOD - TBA')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (268, 112, 3, 'Snatch to a heavy triple. 3s Pause in the catch
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (267, 109, 4, 'WOD - TBA')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (268, 111, 3, 'Snatch to a heavy triple. 3s Pause in the catch
 1 1/4 Clean to a heavy max (bounce out of the clean, up to parrallel, back down and then stand up fully)
 Split Jerk 5x3. Hold all 3 split jerks in the split for 5 seconds. 50%-70% weight')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (269, 112, 4, 'OMEM x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (269, 111, 4, 'OMEM x10
 25% MR Ring Muscle ups
 
  
 Every 2:00 x 8
  33% MR Strict Pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (270, 112, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (270, 111, 5, 'For time:
 Row 3km
 300 DU''s
 Run 3 miles')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (271, 113, 3, 'Front Squat top set x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (271, 112, 3, 'Front Squat top set x10
 Deadlift top set x10
 (if your deadlift top set is becoming very hard and leaving you with a few days of DOMS, drop back down to 60% of your 1RM and perform 3x10 with very controlled reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (272, 113, 4, 'Every 2:00 x 8  33% MR Strict Toes to bar  Every 2:00 x 8  33% MR Strict HSPU. T2B-4')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (273, 113, 5, '8 min AMRAP: 8 clusters 45/30 8 plate burpees')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (274, 115, 3, 'Power Snatch TnG heavy double
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (272, 112, 4, 'Every 2:00 x 8  33% MR Strict Toes to bar  Every 2:00 x 8  33% MR Strict HSPU. T2B-4')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (273, 112, 5, '8 min AMRAP: 8 clusters 45/30 8 plate burpees')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (274, 114, 3, 'Power Snatch TnG heavy double
 Power Clean and Push Jerk TnG heavy double')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (275, 115, 4, 'OMEM x 10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (275, 114, 4, 'OMEM x 10
 1-6 Bar Muscle ups
 
 Every 2:00 x 8
  33% MR Strict Ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (276, 115, 5, 'Steady State bike/row/run 20 mins')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (277, 116, 3, 'Push Press top set x10, +90% x10, +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (278, 116, 5, 'On 0:00 - 30 Power cleans 85/50
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (276, 114, 5, 'Steady State bike/row/run 20 mins')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (277, 115, 3, 'Push Press top set x10, +90% x10, +80% x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (278, 115, 5, 'On 0:00 - 30 Power cleans 85/50
 On 8:00 - Row 1km
 On 16:00 - 30 Push Jerks 85/50
 On 24:00 - 10 rounds of Cindy')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (279, 117, 3, 'Snatch Pull/Snatch heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (279, 116, 3, 'Snatch Pull/Snatch heavy single
 Clean pull/Clean + Split Jerk heavy single
 Front Squat 5x3 2.5kg/5kg heavier than last week')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (280, 117, 5, '21-15-9
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (280, 116, 5, '21-15-9
 Floor Press 50/35
 Box jumps 24/20
 Rest 3 mins
@@ -972,51 +972,51 @@ Rest 3 mins
 12-9-6
 Floor Press 70/45
 Box jump 36/30')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (281, 119, 3, 'Snatch to a heavy double 3s Pause at the knee.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (281, 118, 3, 'Snatch to a heavy double 3s Pause at the knee.
 Power clean(NO STARFISH), Hang clean to a heavy single.
 Split Jerk 5x3. Hold all 3 split jerks in the split for 5 seconds. 50%-70% weight')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (282, 119, 4, 'OMEM x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (282, 118, 4, 'OMEM x10
 30% MR Ring Muscle ups
  
 Every 2:00 x 8
  40% MR Strict Pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (283, 119, 5, '20 min AMRAP:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (283, 118, 5, '20 min AMRAP:
 20 C2B Pull ups
 40 DB Front rack lunges 15kgs/10kgs
 80 Double unders')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (284, 120, 1, 'Row 5Km (+5s on your average 500m pace for your 5km PB)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (284, 119, 1, 'Row 5Km (+5s on your average 500m pace for your 5km PB)
 Every 3 mins perform 1-15 reps of your weakest gymnastic movement')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (285, 120, 3, 'Front Squat top set x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (285, 119, 3, 'Front Squat top set x10
 (If you have been failing or feel as though you have reached a max, drop back down to 60% and start the top set again, only 1 set of 10)
 Deadlift top set x10
 (if your deadlift top set is becoming very hard and leaving you with a few days of DOMS, drop back down to 60% of your 1RM and perform 3x10 with very controlled reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (286, 120, 4, 'Every 2:00 x 8  40% MR Strict Toes to bar  Every 2:00 x 8  40% MR Strict HSPU.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (287, 120, 5, '21-15-9
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (286, 119, 4, 'Every 2:00 x 8  40% MR Strict Toes to bar  Every 2:00 x 8  40% MR Strict HSPU.')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (287, 119, 5, '21-15-9
 Thrusters 42.5kg
 Bar over burpees
 (Go all out 100%)
 Rest 90s
 500m Row for time')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (288, 122, 1, '0:00 - Run 1 mile
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (288, 121, 1, '0:00 - Run 1 mile
 10:00 - Run 800m
 15:00 - Row 2km
 25:00 - Row 1km
 Hit the 1 mile run and 2km row as hard as you can. 
 Aim for 1/2 the time on 800m and 1km')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (289, 122, 3, 'No starfish on either.. 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (289, 121, 3, 'No starfish on either.. 
 reps should be failed by failing to catch
  above parallel and falling into a squat!
 Power Snatch max
 Power Clean max')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (290, 122, 4, 'Every 30s. 1-5 Bar Muscle ups. 5 mins. 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (290, 121, 4, 'Every 30s. 1-5 Bar Muscle ups. 5 mins. 
 Every 60s. 1-8 Bar muscle ups. 5 mins
 Try and hit double reps when going every 60s
 
 Every 2:00 x 8
  40% MR Strict Ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (291, 122, 5, 'NO WOD')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (292, 123, 3, 'Push Press top set x10, +90% x10, +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (293, 123, 5, '13.4
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (291, 121, 5, 'NO WOD')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (292, 122, 3, 'Push Press top set x10, +90% x10, +80% x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (293, 122, 5, '13.4
 7 min ladder:
 3 Clean and Jerk 62.5/42.5
 3 Toes to Bar
@@ -1030,67 +1030,67 @@ Rest 7 mins
 6,6
 9,9
 ALL KB SETS MUST BE UNBROKEN')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (294, 124, 3, 'Snatch Pull/Snatch heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (294, 123, 3, 'Snatch Pull/Snatch heavy single
 Clean pull/Clean + Split Jerk heavy single
 Front Squat 8x1 2.5kg/5kg heavier than last week')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (295, 124, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (295, 123, 5, 'For time:
 30 Hang cleans (squat or power)102.5/70kg
 50 Pistols
 Row 2km')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (296, 126, 1, 'Row/Bike 30:30x30
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (296, 125, 1, 'Row/Bike 30:30x30
 100%:30%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (297, 126, 3, 'Snatch to a heavy double 3s Pause in the catch.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (297, 125, 3, 'Snatch to a heavy double 3s Pause in the catch.
 Hang Clean to a heavy single
 Split Jerk 5x3. Hold all 3 split jerks in the split for 5 seconds. 50%-70% weight')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (298, 126, 4, 'OMEM x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (298, 125, 4, 'OMEM x8
 40% MR Ring Muscle ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (299, 126, 5, '3 Rounds of ''Jack''
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (299, 125, 5, '3 Rounds of ''Jack''
 10 STOH 52.5/35
 10 KB Swings 24/16
 10 Box Jumps 24/20
 Rest 3 mins 
 x4')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (300, 127, 1, 'Run 400m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (300, 126, 1, 'Run 400m
 Perform 1-15 reps of your weakest gymnastic movement.
 5 Rounds')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (301, 127, 3, 'Front Squat top set x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (301, 126, 3, 'Front Squat top set x10
 (If you have been failing or feel as though you have reached a max, drop back down to 60% and start the top set again, only 1 set of 10)
 Deadlift top set x10
 (if your deadlift top set is becoming very hard and leaving you with a few days of DOMS, drop back down to 60% of your 1RM and perform 3x10 with very controlled reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (302, 127, 4, 'Every 2:00 x 8  45% MR Strict Toes to bar')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (303, 127, 5, '10 min Ladder:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (302, 126, 4, 'Every 2:00 x 8  45% MR Strict Toes to bar')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (303, 126, 5, '10 min Ladder:
 3 Back Squat (no rack)80/50
 3 C2B Pull ups
 6,6,9,9...')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (304, 129, 3, 'Hang Snatch max
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (304, 128, 3, 'Hang Snatch max
 Power Clean max')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (305, 129, 4, 'OMEM x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (305, 128, 4, 'OMEM x10
 1-6 Bar MU''s (aim for one more rep per min than 2 weeks ago)
 
 Every 2:00 x 8
  45% MR Strict Ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (306, 129, 5, 'Row 1km
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (306, 128, 5, 'Row 1km
 200m Farmers walk KBs 32/24
 50 burpees
 75 wall balls 20/14 10ft')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (307, 130, 1, 'Row:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (307, 129, 1, 'Row:
 90s:120s x 8
 Row your 1st split at your 2km row time /500m Split and make you beat the previous interval each time')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (308, 130, 3, 'Push Press top set x10, +90% x10, +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (309, 130, 4, 'Every 2:00 x 8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (308, 129, 3, 'Push Press top set x10, +90% x10, +80% x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (309, 129, 4, 'Every 2:00 x 8
  45% MR Strict Pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (310, 130, 5, 'TABATA: 20:10 x 8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (310, 129, 5, 'TABATA: 20:10 x 8
 Rest 4 mins between 
 1) Fran
 2) Grace
 3) HSPU
 
 Aim is to complete Fran and grace, and AMRAP of HSPU')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (311, 131, 3, '1 Snatch OMEM x10 90%
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (311, 130, 3, '1 Snatch OMEM x10 90%
 1 Clean and Jerk Every 90s x10 90%
 Front Squat 5x5 2.5kg/5kg heavier than your 1st 5x5 set')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (312, 131, 4, 'Every 2:00 x 8  45% MR Strict HSPU.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (313, 131, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (312, 130, 4, 'Every 2:00 x 8  45% MR Strict HSPU.')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (313, 130, 5, 'For time:
 Run 1 Mile
 Bike 50 cals(Row 100cals)
 21-15-9
@@ -1098,42 +1098,42 @@ Power clean 70/45
 T2B
 then..
 50 box overs 24/20')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (314, 133, 1, 'Row/Bike 60:90 x 10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (314, 132, 1, 'Row/Bike 60:90 x 10
 Row your 1st set at your 2km Row 
 average 500m pace. Make sure each round is negative splits')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (315, 133, 3, 'Pause Snatch heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (315, 132, 3, 'Pause Snatch heavy single
 Hang Clean to a heavy single')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (316, 133, 4, 'OMEM x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (316, 132, 4, 'OMEM x8
 45% MR Ring Muscle ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (317, 133, 5, 'For Time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (317, 132, 5, 'For Time:
 75 STOH 50/35')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (318, 134, 1, '20 min AMRAP:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (318, 133, 1, '20 min AMRAP:
 Max Muscle ups
 400m run
 
 When u break the muscle ups, you run.
 total muscle ups is your score')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (319, 134, 3, 'Front Squat top set x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (319, 133, 3, 'Front Squat top set x10
 (If you have been failing or feel as though you have reached a max, drop back down to 60% and start the top set again, only 1 set of 10)
 Deadlift top set x10
 (if your deadlift top set is becoming very hard and leaving you with a few days of DOMS, drop back down to 60% of your 1RM and perform 3x10 with very controlled reps)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (320, 134, 4, 'Every 2:00 x 8  50% MR Strict Toes to bar')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (321, 134, 5, '3 rounds:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (320, 133, 4, 'Every 2:00 x 8  50% MR Strict Toes to bar')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (321, 133, 5, '3 rounds:
 30 Double unders
 15 Power snatch 35/25
 Rest 5 mins
 x 4')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (325, 137, 1, 'Row 8km at your 5km average pace +10s')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (326, 137, 3, 'Push Press top set x10, +90% x10, +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (327, 137, 4, 'Every 2:00 x 8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (325, 136, 1, 'Row 8km at your 5km average pace +10s')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (326, 136, 3, 'Push Press top set x10, +90% x10, +80% x10')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (327, 136, 4, 'Every 2:00 x 8
  50% MR Strict Pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (328, 137, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (328, 136, 5, 'For time:
 30 HSPU
 20 OH Lunge steps 2x20/15kg DBS
 10 Wall walks')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (329, 138, 3, 'Front Squat 5x3
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (329, 137, 3, 'Front Squat 5x3
 2.5/5kg heavier than last week')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (330, 138, 5, 'Every 8 mins x 5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (330, 137, 5, 'Every 8 mins x 5
 3 Cleans @ 80% max
 100% MR Ring Muscle ups.
 Every set is a sprint. Try and TnG the clean
@@ -1142,21 +1142,10 @@ On 40:00
 10 rounds for time:
 3 Power Snatch 62.5/42.5
 15 wall balls')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (331, 139, 3, 'Snatch to a heavy double
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (331, 138, 3, 'Snatch to a heavy double
 Hang snatch to a heavy single
 Push Press top set. +90% x10 +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (332, 139, 5, 'Run 800m
-30 2xKB Thrusters 24/16kg
-50 C2B Pull ups
-
-Rest 5 mins
-
-30 KB swings 32.24kg
-Row 400m')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (333, 140, 3, 'Snatch to a heavy double
-Hang snatch to a heavy single
-Push Press top set. +90% x10 +80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (334, 140, 5, 'Run 800m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (332, 138, 5, 'Run 800m
 30 2xKB Thrusters 24/16kg
 50 C2B Pull ups
 
@@ -1164,96 +1153,96 @@ Rest 5 mins
 
 30 KB swings 32/24kg
 Row 400m')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (335, 141, 1, 'Row 1km
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (333, 139, 1, 'Row 1km
 200 Double unders
 Run 800m
 200 Double unders
 Row 1km')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (336, 141, 4, 'OMEM x 15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (334, 139, 4, 'OMEM x 15
 1) 12 GHD Sit ups
 2) 5-10 ring dips
 3) 5-10 ring chin ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (337, 141, 5, '21-15-9
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (335, 139, 5, '21-15-9
 Hang squat clean 60/42.5
 STOH 60/42.5
 
 (Do SiD here if needed)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (343, 145, 3, 'Power Snatch/Hang Snatch to a heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (341, 143, 3, 'Power Snatch/Hang Snatch to a heavy single
 
 Front Squat 8x1 2.5/5kg heavier than last week')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (344, 145, 5, '30 Power Clean and Power Jerk. 3s Pause in the catch for both clean and jerk. 80/55kg')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (345, 147, 1, 'Row 1km.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (342, 143, 5, '30 Power Clean and Power Jerk. 3s Pause in the catch for both clean and jerk. 80/55kg')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (343, 145, 1, 'Row 1km.
 Rest 2 mins
 Row the first set at 5km row pace. Make every set faster
 x5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (346, 147, 4, 'OMEM x 15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (344, 145, 4, 'OMEM x 15
 1) 1-7 Muscle ups
 2) 20 hollow rocks
 3) 20 arch rocks')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (347, 147, 5, 'Run 400m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (345, 145, 5, 'Run 400m
 50 OH Walking lunge steps 50/35
 40 kb swings 32/24kg
 30 Ring dips
 20 Burpee 6'' touch
 Rest 5 mins
 x3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (348, 149, 3, 'Snatch 80% 5x3
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (346, 147, 3, 'Snatch 80% 5x3
 OHS max from the floor
 Deadlift Top set x 10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (349, 149, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (347, 147, 5, 'For time:
 30-20-10
 Calorie Row
 Burpee over the rower
 Then...
 Run 1 mile')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (350, 150, 1, 'Bleep Test. Download the ''BT Free'' App from App store. 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (348, 148, 1, 'Bleep Test. Download the ''BT Free'' App from App store. 
 20m shuttles')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (351, 150, 4, '10 Rounds for quality:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (349, 148, 4, '10 Rounds for quality:
 5-10 Strict HSPU
 10 GHD Sit ups
 2 Rope Climbs (10 rope chin ups)
 
 3 min AMRAP:
 Chest to bar Pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (352, 151, 3, 'Snatch to a heavy single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (350, 149, 3, 'Snatch to a heavy single
 Clean and Jerk to a heavy single
 
 Front Squat 5x5 2.5/5kg heavier than last 5x5 session')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (353, 151, 5, '10 min AMRAP:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (351, 149, 5, '10 min AMRAP:
 24/16kg Turkish Get ups
 Rest 2 mins
 30 HSPU
 30 Burpee bpx overs 24/20
 50 cal bike/row')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (354, 153, 3, 'Clean to a heavy Single
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (352, 151, 3, 'Clean to a heavy Single
 
 Push Press to a heavy single')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (355, 153, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (353, 151, 5, 'For time:
 Run 800m
 OH DB Lunge 50 steps 2x20/15kg
 30 DB Squat cleans 2x20/15kg')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (356, 154, 1, 'Row 500m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (354, 152, 1, 'Row 500m
 Rest 2 mins
 As many sets as possible at 2km pace. Maximum 10 sets')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (357, 154, 4, 'OMEM x 24
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (355, 152, 4, 'OMEM x 24
 1) Max muscle ups in 30s
 2) Max toes to bar in 30s
 3) Max HSPU in 30s
 4) Rest')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (358, 154, 5, 'Helen''')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (359, 156, 3, 'Snatch 85% 5x3
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (356, 152, 5, 'Helen''')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (357, 154, 3, 'Snatch 85% 5x3
 
 Deadlift Top set x 10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (360, 156, 5, '5-4-3-2-1
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (358, 154, 5, '5-4-3-2-1
 Power clean 80% of max clean
 Box jump 36/30"
 10-8-6-4-2
 Deadlift (power clean weight)
 Bar Muscle ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (361, 157, 1, 'Bleep Test. Stop 1 level before what you reached last week.
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (359, 155, 1, 'Bleep Test. Stop 1 level before what you reached last week.
 Rest 5 mins.
 Repeat and aim for same level as 1st round')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (362, 157, 4, '4 Rounds for quality:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (360, 155, 4, '4 Rounds for quality:
 20 Shoulder taps
 20 hollow rocks
 20 v-ups
@@ -1261,25 +1250,30 @@ insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail
 
 3 min AMRAP:
 Ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (363, 157, 5, 'Bike/Row 30 mins steady state pace')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (364, 159, 3, 'Front Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (361, 155, 5, 'Bike/Row 30 mins steady state pace')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (362, 156, 3, 'Hang Snatch to a heavy triple. Keep hold of the bar
+1 Clean, 3 Jerks to a heavy set
+
+Front Squat 5x3 2.5/5kg heavier than last 5x5 session')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (363, 156, 5, 'Lumberjack 20''')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (364, 158, 3, 'Front Squat 5x5
 Set 1 - 75%
 Set 2 - 78%
 Set 3 - 81%
 Set 4 - 83%
 Set 5 - 85%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (365, 159, 4, 'Pause Snatch 70% 6x2 (2s pause at the knee)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (365, 158, 4, 'Pause Snatch 70% 6x2 (2s pause at the knee)
 3" Deficit Snatch DL 90% (of snatch) 5x3
 Snatch grip BOR (bent over row) 70% 4x8')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (366, 159, 5, '3 rounds for time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (366, 158, 5, '3 rounds for time:
 Run 400m
 25 KB swings 32/24
 20 toes to bar
 15 box jumps 30/24')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (367, 160, 1, 'Row 500m x 6
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (367, 159, 1, 'Row 500m x 6
 Rest 2 mins between. 
 Row first set at 2km pace, make each set faster')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (368, 160, 4, '5 rounds for quality:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (368, 159, 4, '5 rounds for quality:
 25 hollow rocks
 25 arch rocks
 
@@ -1287,24 +1281,24 @@ Handstand Hold against the wall
 6 x 30s
 
 L-sit ring support hold 8 x 15s')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (369, 160, 5, '15 Power clean 60/42.5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (369, 159, 5, '15 Power clean 60/42.5
 15 Chest to bar pull ups
 x 2
 Rest 5 mins
 x3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (370, 162, 3, '"Back Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (370, 161, 3, '"Back Squat 5x5
 Set 1 - 5 @ 75%"')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (371, 162, 4, 'Pause clean (2s at the knee) and Jerk 70% 6x2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (371, 161, 4, 'Pause clean (2s at the knee) and Jerk 70% 6x2
 Push Press top set x10, 90% x10, 80% x10
 (if you have just joined the program, your first set is 70% of your 1RM
 2nd set is 90% of set 1, and 3rd set is 80% the first set)
 Each week you will add 2.5kg to the first set')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (372, 162, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (372, 161, 5, 'For time:
 Run 800m
 30/15 ring dips
 30 wall balls 20/14 10ft
 30 burpees')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (373, 163, 1, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (373, 162, 1, 'For time:
 Run 400m
 Row 500m
 Run 400m
@@ -1313,44 +1307,44 @@ Run 400m
 Row 300m
 Run 400m
 Row 200m')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (374, 163, 4, '30s Hollow hold
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (374, 162, 4, '30s Hollow hold
 30s Arch hold
 x5
 No rest between
 
 Every 2 mins x 10
 50% Max UB reps Muscle ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (375, 163, 5, 'Every 2 mins x 8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (375, 162, 5, 'Every 2 mins x 8
 5 power snatch 60/42.5
 10 box overs 24/20
 20 double unders')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (376, 163, 6, 'Headstand hold 60s x 5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (377, 164, 3, 'Front Squat 8x3 (8 sets of 3)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (376, 162, 6, 'Headstand hold 60s x 5')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (377, 163, 3, 'Front Squat 8x3 (8 sets of 3)
 Sets 1 - 8 @ 88%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (378, 164, 4, '3 position Snatch 70% x 6 sets
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (378, 163, 4, '3 position Snatch 70% x 6 sets
 3 position Clean + 1 Jerk 70% x 6 sets
 (high hang, hang (at knee), reset on the floor then full lift)
 Top set Deadlift (touch and go, no belt)70% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (379, 164, 5, '''Hotshots 19''')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (380, 165, 3, 'Back Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (379, 163, 5, 'Hotshots 19''')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (380, 164, 3, 'Back Squat 5x5
 Set 1 - 75%
 Set 2 - 78%
 Set 3 - 81%
 Set 4 - 83%
 Set 5 - 85%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (381, 165, 4, 'Pause Snatch 75% 6x2 (2s pause at the knee)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (381, 164, 4, 'Pause Snatch 75% 6x2 (2s pause at the knee)
 3" Deficit Snatch DL 95% (of snatch) 5x3
 Snatch grip BOR (bent over row) 75% 4x8')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (382, 165, 5, 'For time:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (382, 164, 5, 'For time:
 100 burpee box overs 24/20
 Every 3 mins run 200m
 Start with a 200m run.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (383, 166, 1, 'Row 250m 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (383, 165, 1, 'Row 250m 
 Rest 2 mins
 x8
 Row first set @ 1km row pace
 Make every set faster')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (384, 166, 3, '5 rounds for quality:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (384, 165, 3, '5 rounds for quality:
 15 v-ups
 25 arch rocks
 15 tuck crunch
@@ -1358,7 +1352,7 @@ insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail
 10-25 x4 kip swings (on a bar, point toe and keep the kip as tight as possible)
 
 5 x 10 Shoulder taps (each side)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (385, 166, 4, 'OPTION 1
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (385, 165, 4, 'OPTION 1
 In a 2 min window:
 6 deadlifts 70/45
 5 power cleans 70/45
@@ -1367,7 +1361,7 @@ In a 2 min window:
 AMRAP Chest to bar pull ups
 Rest 3 mins
 x5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (386, 166, 5, 'OPTION 2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (386, 165, 5, 'OPTION 2
 In a 2 min window:
 6 deadlifts 70/45
 5 power cleans 70/45
@@ -1377,22 +1371,22 @@ In a 2 min window:
 AMRAP Bar muscle ups
 Rest 3 mins
 x5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (387, 168, 3, 'Front Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (387, 167, 3, 'Front Squat 5x5
 Set 1 - 5 @ 75%"')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (388, 168, 4, 'Pause clean (2s at the knee) and Jerk 75% 6x2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (388, 167, 4, 'Pause clean (2s at the knee) and Jerk 75% 6x2
 Push Press top set x10, 90% x10, 80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (389, 168, 5, '30:30 x 4 on each for total reps
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (389, 167, 5, '30:30 x 4 on each for total reps
 Thrusters 50/35
 Toes to bar
 GTOH 50/35
 Plate burpees
 Calorie Row')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (390, 169, 1, 'Bike/Ski Erg/Airdyne
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (390, 168, 1, 'Bike/Ski Erg/Airdyne
 20 mins @ 70%
 Rest 5 mins
 60:60 x 5
 Max effort for working period')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (391, 169, 3, 'Hollow Hold 60s
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (391, 168, 3, 'Hollow Hold 60s
 Arch Hold 60s
 x3
 
@@ -1404,44 +1398,44 @@ OMEM x 25
 3) 3 Negative Strict Muscle ups
 4) 10 Strict ring rows (thumbs up) 
 5) 10 GHD Sit ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (392, 169, 4, '15 min AMRAP:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (392, 168, 4, '15 min AMRAP:
 Row 250m
 10/5 strict pull ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (393, 169, 5, 'Handstand Hold against the wall 30s x 6')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (394, 170, 3, 'Back Squat 8x3 (8 sets of 3)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (393, 168, 5, 'Handstand Hold against the wall 30s x 6')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (394, 169, 3, 'Back Squat 8x3 (8 sets of 3)
 Sets 1 - 8 @ 88%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (395, 170, 4, '3 position Snatch 75% x 5 sets
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (395, 169, 4, '3 position Snatch 75% x 5 sets
 3 position Clean + 1 Jerk 75% x 5 sets
 (high hang, hang (at knee), reset on the floor then full lift)
 Top set Deadlift (touch and go, no belt), add 2.5 - 5kg x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (396, 170, 5, 'OMEM x 15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (396, 169, 5, 'OMEM x 15
 1) 20 Russian Swings 32/24
 2) 12 box jumps 30/24
 3) 40m OH Single arm KB Carry (20m each arm)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (397, 170, 6, '50 x 2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (397, 169, 6, '50 x 2
 Hamstring curls 5kg DB')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (398, 171, 3, 'Front Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (398, 170, 3, 'Front Squat 5x5
 Set 1 - 78%
 Set 2 - 81%
 Set 3 - 81%
 Set 4 - 83%
 Set 5 - 85%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (399, 171, 4, 'Pause Snatch 80% 6x2 (2s pause at the knee)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (399, 170, 4, 'Pause Snatch 80% 6x2 (2s pause at the knee)
 Deficit Snatch DL 100% (of snatch) 5x3
 Snatch grip BOR (bent over row) 80% 5x5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (400, 171, 5, '20 min AMRAP
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (400, 170, 5, '20 min AMRAP
 Run 200m/400m
 Max UB Toes to bar')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (401, 172, 1, 'Row 3 mins
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (401, 171, 1, 'Row 3 mins
 Rest 2 mins
 x10
 Row the first interval at your 5km pace, 
 increase the distance rowed each set
 Make every set faster')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (402, 172, 3, 'Hanging L-Sit Hold 20s x 5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (402, 171, 3, 'Hanging L-Sit Hold 20s x 5
 
 Shoulder taps 12 each side x 4')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (403, 172, 4, 'OMEM x10
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (403, 171, 4, 'OMEM x10
 1) 1-10 Strict HSPU
 2) 5-10 Strict Pull ups
 Every 2 mins x5, Starting on 10:00
@@ -1452,15 +1446,15 @@ On 20:00, for time:
 HSPU
 Pull ups
 (both kipping)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (404, 174, 3, 'Back Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (404, 173, 3, 'Back Squat 5x5
 Set 1 - 5 @ 78%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (405, 174, 4, 'Pause clean (2s at the knee) and Jerk 80% 6x2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (405, 173, 4, 'Pause clean (2s at the knee) and Jerk 80% 6x2
 Push Press top set x10, 90% x10, 80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (406, 174, 5, '10 Min AMRAP: 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (406, 173, 5, '10 Min AMRAP: 
 GTOH 50/35
 
 OMEM ascending burpees.')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (407, 175, 1, 'Run 400m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (407, 174, 1, 'Run 400m
 100 Double unders
 Row 500m
 30 burpees
@@ -1470,7 +1464,7 @@ Run 400m
 
 
 If you have an Assault Bike, sub the 400m run for 30 cals')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (408, 175, 3, 'For Quality:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (408, 174, 3, 'For Quality:
 50 Hollow Rocks
 50 Arch Rocks
 x2
@@ -1478,13 +1472,13 @@ x2
 Option 1:
 OMEM x 10
 33% of Max UB Muscle ups')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (409, 175, 4, 'Option 2:
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (409, 174, 4, 'Option 2:
 
 Omem x15
 1) 15s false grip hold
 2) 15s ring support L - sit hold
 3) 10 ghd sit ups + 3-5 ring dips')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (410, 175, 5, 'OMEM x15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (410, 174, 5, 'OMEM x15
 1) 10 KB Heavy KB Swings 
 2) 10 Heavy or High Wall Balls
 3) 10 High Box jumps
@@ -1497,36 +1491,36 @@ On 30:00, for time:
 KB swings 24/16
 Wall balls 20/14
 Box jumps 24/20')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (411, 176, 3, 'Front Squat 8x2 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (411, 175, 3, 'Front Squat 8x2 
 Sets 1 - 8 @ 90%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (412, 176, 4, '3 position Snatch 80% x 4 sets
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (412, 175, 4, '3 position Snatch 80% x 4 sets
 3 position Clean + 1 Jerk 80% x 4 sets
 (high hang, hang (at knee), reset on the floor then full lift)
 Top set Deadlift (touch and go, no belt), add 2.5 - 5kg x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (413, 176, 5, 'Bear Crawl 400m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (413, 175, 5, 'Bear Crawl 400m
 Every 2 mins, 1 TGU on each arm (as heavy as possible)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (414, 178, 3, 'Back Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (414, 177, 3, 'Back Squat 5x5
 Set 1 - 78%
 Set 2 - 81%
 Set 3 - 81%
 Set 4 - 83%
 Set 5 - 85%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (415, 178, 4, 'Pause Snatch 85% 4x2 (2s pause at the knee)
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (415, 177, 4, 'Pause Snatch 85% 4x2 (2s pause at the knee)
 3" Deficit Snatch DL 105% (of snatch) 5x3
 Pendlay Row 70% 8x4')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (416, 178, 5, '60s on: 60s off, complete
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (416, 177, 5, '60s on: 60s off, complete
 45/30 Chest to bar pull ups
 45 burpees 6" touch
 60 KB swings 32/24')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (417, 179, 1, 'Row 1km 
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (417, 178, 1, 'Row 1km 
 Rest 3 mins
 x4
 
 Row 1st set @ 5km pace, make each set faster')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (418, 179, 3, 'Shoulder taps 12 e.s x 6
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (418, 178, 3, 'Shoulder taps 12 e.s x 6
 
 Kip swings on bar 15-25 x 3')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (419, 179, 4, 'OMEM x 15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (419, 178, 4, 'OMEM x 15
 1) 5 strict Ring dips (weighted if possible)
 2) 5-10 Strict toes to bar
 3) 15 hollow rocks, 15 arch rocks
@@ -1537,25 +1531,25 @@ On 25:00
 21-15-9 or 12-9-6
 Toes to bar (kip)
 Ring dips (kip)')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (420, 181, 3, 'Front Squat 5x5
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (420, 180, 3, 'Front Squat 5x5
 Set 1 - 5 @ 78%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (421, 181, 4, 'Pause clean (2s at the knee) and Jerk 85% 4x2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (421, 180, 4, 'Pause clean (2s at the knee) and Jerk 85% 4x2
 Push Press top set x10, 90% x10, 80% x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (422, 181, 5, 'Run 800m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (422, 180, 5, 'Run 800m
 50 Thrusters 20kg
 30 HSPU
 Rest 5 mins
 30 HSPU
 50 Thrusters 20kg
 Run 800m')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (423, 182, 1, '60s on each x8
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (423, 181, 1, '60s on each x8
 Burpees
 Bike/Ski/Shuttle run
 Double under
 
 85% effort')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (424, 182, 3, 'HS Hold 45s x 5')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (425, 182, 4, 'OMEM x 15
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (424, 181, 3, 'HS Hold 45s x 5')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (425, 181, 4, 'OMEM x 15
 1) L-sit hold 15s
 2) 10 Heavy KB Swing
 3) 10 Heavy Bench Press
@@ -1564,14 +1558,14 @@ On 15:00, Every 2 mins x 5:
 15 Press ups
 On 25:00, for time:
 Row 100 cals for time')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (426, 182, 5, '200 hollow rocks, every time you break then Arch hold for 30s')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (427, 183, 3, 'Back Squat 8x2
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (426, 181, 5, '200 hollow rocks, every time you break then Arch hold for 30s')
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (427, 182, 3, 'Back Squat 8x2
 Sets 1 - 8 @ 90%')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (428, 183, 4, '3 position Snatch 85% x 3 sets
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (428, 182, 4, '3 position Snatch 85% x 3 sets
 3 position Clean + 1 Jerk 85% x 3 sets
 (high hang, hang (at knee), reset on the floor then full lift)
 Top set Deadlift (touch and go, no belt), add 2.5 - 5kg x10')
-insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (429, 183, 5, 'Sprint 100m
+insert into Competitors.Workout (WorkoutId, WorkoutDateId, WorkoutTypeId, Detail) values (429, 182, 5, 'Sprint 100m
 10 burpees
 10 Power Snatch 42.5/30kg
 Every 5 mins x 5')set identity_insert Competitors.Workout off

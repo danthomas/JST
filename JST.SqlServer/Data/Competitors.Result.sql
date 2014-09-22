@@ -1098,61 +1098,61 @@ WOD- 19:36 eurghhhh')
 insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (89, 14, 'Snatch double 47.5kg
 X2 gorilla warfare wods
 18 pu 35sec''s')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 7, 'Pause Snatches 80kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (91, 7, 'Pause Snatches 80kg
 Strict PU @34kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 8, 'Pause snatches @55kg , Pause C&J @72Kg, 10K Row - 38m43s.2, PU''s@32kg, Dips 5reps x5, Max ring dips -20')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 14, 'Pause snatch 45 & 47.5kg x5
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (91, 8, 'Pause snatches @55kg , Pause C&J @72Kg, 10K Row - 38m43s.2, PU''s@32kg, Dips 5reps x5, Max ring dips -20')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (91, 14, 'Pause snatch 45 & 47.5kg x5
 Pause c&squat jerk 52&56 kg
 Strict pu 13kg x1x8
 Strict RD x6x5
 Lsit
 20 RD for quality')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 16, '10km row : 45:11
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (91, 16, '10km row : 45:11
 Pause snatch @50
 Pause C&J @70')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (93, 7, 'Deadlifts @145
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 7, 'Deadlifts @145
 F/Squats @ 107.5
 50 T2B 2:21
 Strict t2b 6 reps
 Strict HSPU @ 11''')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (93, 8, '1mile- 6:18 , 800m intervals - lost my times avereaged around 3m20, WOD-10.16@24kg (still glass back) , Front Squats @ 82.5 x10')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 7, 'Snatch 95
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (92, 8, '1mile- 6:18 , 800m intervals - lost my times avereaged around 3m20, WOD-10.16@24kg (still glass back) , Front Squats @ 82.5 x10')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (94, 7, 'Snatch 95
 C&J 115 
 Strict RD 45
 Strict PU 7x5
 Strict HSPU 8x5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 8, 'Cardio done , Dips @16KG, Pull ups 7 reps, Snatch 70kg PB !!! C&J 85Kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 13, '68.5kg Snatch (got under 71kg😒) 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (94, 8, 'Cardio done , Dips @16KG, Pull ups 7 reps, Snatch 70kg PB !!! C&J 85Kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (94, 13, '68.5kg Snatch (got under 71kg😒) 
 85kg C&J (PB)
 75kg FS Top set
 RDs @ 10kg
 4x5 Strict PU 
 4x5 Strict HSPU 
 35 kip HSPU')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 14, 'Snatch 57.5 pb
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (94, 14, 'Snatch 57.5 pb
 C&sqJ 60 (feeble)
 Strict RD 9kg x1x8
 Strict pu x5x5
 Strict hspu x2x5
 200% hspu x37')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 7, 'Cardio 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 7, 'Cardio 
 Push press
 Top set 77.5 then, 70 & 62.5
 22 mu''s 
 Bw rope chin ups')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 8, 'OMEN done, 1st time doing Push press 10 reps,10reps@ 46.5KG, 10 reps@41kg, 10 reps@37.5kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 13, '10k row 45:07
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 8, 'OMEN done, 1st time doing Push press 10 reps,10reps@ 46.5KG, 10 reps@41kg, 10 reps@37.5kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (95, 13, '10k row 45:07
 Push press top set 50kg, 45,40
 Rope chins ups 5,5,5,3,3 
 Zero muscle ups 😩😒')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 5, 'Snatch 105kg, Power clean&Jerk 125kg. Karen 6:39')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 7, 'Snatch 95
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 5, 'Snatch 105kg, Power clean&Jerk 125kg. Karen 6:39')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 7, 'Snatch 95
 C&J 122.5
 Deadlifts @
 100,120,150,170,180
 Karen 5:38')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 8, 'Snatch@60kg, C&J@80kg, Karen - 8m19')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 13, '63.5 snatch 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 8, 'Snatch@60kg, C&J@80kg, Karen - 8m19')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 13, '63.5 snatch 
 87.5 C&J PB 
 Deadlift top set 100kg 
 Deadlifts 
@@ -1161,7 +1161,7 @@ Deadlifts
 8@97.5
 2@110 (rounded back)
 Karen 10ft 7:27')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 16, '60 snatch 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (96, 16, '60 snatch 
 77.5 C&J  
 Deadlifts 
 10 @65
@@ -1169,11 +1169,11 @@ Deadlifts
 8@97.5
 1@110
 Karen 10ft 6:58')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 22, 'Snatch 95kg, C&J 110kg. 5x3 @32kg +5x2@24kg. WOD: Who knows, phone ran out of batteries (12dips)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 24, 'AM- 10k row in 38:30.2seconds (judged by bradders)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 22, 'Snatch 95kg, C&J 110kg. 5x3 @32kg +5x2@24kg. WOD: Who knows, phone ran out of batteries (12dips)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 24, 'AM- 10k row in 38:30.2seconds (judged by bradders)
 85kg snatch complex (did 90kg snatch but missed hang) 35 mins swim')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 25, '1K-3.40 :(, Row/Run -5.56, Snatch Complex - 60kg , C&J complex - 85KG, Wod 9m25 (6 ring dips)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 13, '250m 55secs x2
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 25, '1K-3.40 :(, Row/Run -5.56, Snatch Complex - 60kg , C&J complex - 85KG, Wod 9m25 (6 ring dips)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 13, '250m 55secs x2
 1km 3:47 
 500m run, 400m row 500m run: 6:16
 Snatch/hsnatch 65kg 
@@ -1182,20 +1182,20 @@ Strict PU @ 10kg
 5 strict rd x4
 L sits 
 10rds 10 KB swing& 4 RD 11:09')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 14, 'Snatch/hsnatch 47.5kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (97, 14, 'Snatch/hsnatch 47.5kg
 Clean/hclean&j 55kg
 Strict pu 13.5 x5x5
 Strict RD x6x4
 Lsit
 Wod with 4 RD: 8mins something (Jaks phone died...doh)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 22, 'Deadlifts @ 175kg(too light), Front squat @ 100kg(too light), HSPU''s strict @3", 6 MU''s. WOD 13:03 (12 T2B)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 24, 'FSquats top set at 110kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 22, 'Deadlifts @ 175kg(too light), Front squat @ 100kg(too light), HSPU''s strict @3", 6 MU''s. WOD 13:03 (12 T2B)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 24, 'FSquats top set at 110kg
 Deadlift top set- 150kg
 HSPU- 8" 5x5 strict
 7MUx 4 sets
 WOD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 25, 'Cardio Done, Front Squats @85KG, OH progressions, 2 ring MUx4, Strict T2B 5repsx4, WOD -10:29(8 T2B)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 13, 'Cardio
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 25, 'Cardio Done, Front Squats @85KG, OH progressions, 2 ring MUx4, Strict T2B 5repsx4, WOD -10:29(8 T2B)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 13, 'Cardio
 Deadlifts 102.5
 Squats @77.5 1st set 7, 2nd set 8 🙈
 Kip HSPU 6inch def 55544
@@ -1203,19 +1203,19 @@ Muscle ups 11112211
 6x4 strict t2b 
 10 rounds 10WBs/8T2B 
 11:17')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 14, 'DL 88kg x10
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (98, 14, 'DL 88kg x10
 FS 50kg x10
 4.5inch def hspu x5x5
 Strict t2b x3x4
 Wod x7 t2b 11:07')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 22, 'Engine work')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 24, 'Finished of Monday programming')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 25, 'Outside WOD with JB and Cornflake')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 22, 'Snatch 107.5kg,C&J 130kg. 3x32kg, 1x3@32kg&1x2@24kg, 1x2@32kg1x3@24kg. 12 Pull ups, 6 HSPU''s. WOD 17:33 (10HSPU''s)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 24, 'Power snatch-90kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 22, 'Engine work')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 24, 'Finished of Monday programming')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (99, 25, 'Outside WOD with JB and Cornflake')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 22, 'Snatch 107.5kg,C&J 130kg. 3x32kg, 1x3@32kg&1x2@24kg, 1x2@32kg1x3@24kg. 12 Pull ups, 6 HSPU''s. WOD 17:33 (10HSPU''s)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 24, 'Power snatch-90kg
 Powerclean, pushjerk- 112kg clean but missed the jerk, did it at 110kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 25, 'Cardio done, Power Snatch@60Kg (PB), Power Clean and Push Jerk@75KG, Dips@15kg, 5sets of 8 Strict PU, Wod - 15:36 (1HSPU) :(')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 13, 'P.snatch 65kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 25, 'Cardio done, Power Snatch@60Kg (PB), Power Clean and Push Jerk@75KG, Dips@15kg, 5sets of 8 Strict PU, Wod - 15:36 (1HSPU) :(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 13, 'P.snatch 65kg
 Clean + PJ 75 (adjusted tech on cleans) 
 Pause Split Jerks @50 3x5 
 RDs @ 5kg x5
@@ -1225,47 +1225,47 @@ WOD 10 BJ + 7 HSPU 12:57
 5 Ub butterfly,
 10 burpees, 200m row 
 Rest 2 min x5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 14, 'Psnatch 47.5
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (100, 14, 'Psnatch 47.5
 Pclean pjerk 62.5
 RD 7.5kg 2sets 5kg 3sets
 Pu x5x4
 Wod x7 hspu 10:21')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 22, 'No Push press (wrist) WOD - 17:31')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 24, 'Had rest. Went swimming and it was fun')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 25, 'Cardio - 26:04 , MU WOD -16:10 (2MU) , Push Press 47.5KG,43.5KG,40KG')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 13, 'Cardio 28:33 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 22, 'No Push press (wrist) WOD - 17:31')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 24, 'Had rest. Went swimming and it was fun')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 25, 'Cardio - 26:04 , MU WOD -16:10 (2MU) , Push Press 47.5KG,43.5KG,40KG')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 13, 'Cardio 28:33 
 Push presses 52.5,47.5,42.5 
 Burpee/mu WOD 19:15 (1 muscle up 🙈) 
 Rope climbs x3x5 
 Skin the cat x3x5
 Hollow/arch')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 14, 'Push press 45kg, 40kg, 32kg x10
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (101, 14, 'Push press 45kg, 40kg, 32kg x10
 Wod with x5 chin ups 10:14')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (103, 24, 'Snatch- 96kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 24, 'Snatch- 96kg
 Cleaned- 120kg (couldn''t stand 122kg up)
 Team WOD (need catch up the deadlifts)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (103, 25, 'Snatch 65KG, C&J- 85KG')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (103, 13, 'Snatch 70
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 25, 'Snatch 65KG, C&J- 85KG')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 13, 'Snatch 70
 C&J 82.5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (103, 14, 'Snatch 57.5 (got under 60)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (102, 14, 'Snatch 57.5 (got under 60)
 Clean & Sq Jerk 70kg pb')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 22, 'Missed 3rd rep at 100kg twice then dropped to 95kg and missed that. 21 ring dips. 7 rnds + 200m run (7 ring dips)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 24, 'Did morning cardio 4 days this week of some sort,
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (104, 22, 'Missed 3rd rep at 100kg twice then dropped to 95kg and missed that. 21 ring dips. 7 rnds + 200m run (7 ring dips)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (104, 24, 'Did morning cardio 4 days this week of some sort,
 80kg pause triple (nearly 85kg)
 26 very strict dips
 Did WOD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 25, 'Cardio done, Pause snatch triple@55kg, 16 strict dips, WOD - 8rnds +15')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 13, 'Cardio: 270m+ & 14-16 burpee
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (104, 25, 'Cardio done, Pause snatch triple@55kg, 16 strict dips, WOD - 8rnds +15')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (104, 13, 'Cardio: 270m+ & 14-16 burpee
 Snatch 62.5kg 
 12 strict Dips 
 WOD (row instead of run)
 7rounds + 150m on rower (5 RDs all UB)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (106, 22, '110kg front squat, 180kg Deadlift, 33 T2B. WOD 16:03')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (106, 24, '112.5kg front squat set, got 8 out.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 22, '110kg front squat, 180kg Deadlift, 33 T2B. WOD 16:03')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 24, '112.5kg front squat set, got 8 out.
 155kg top set deadlifts
 19toestobar')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (106, 25, 'Cardio 2k-7.27,1.5K-5.31, 1K- 3.40, 500m-1.40.5 ,Front Squats-87.5kg , deadlifts first set @90kg , Strict T2B - 12 ,WOD 22:16')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (106, 9, 'Cardio
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 25, 'Cardio 2k-7.27,1.5K-5.31, 1K- 3.40, 500m-1.40.5 ,Front Squats-87.5kg , deadlifts first set @90kg , Strict T2B - 12 ,WOD 22:16')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 9, 'Cardio
 2km 7:27.2
 1500  5:30.2
 1km. 3:33
@@ -1275,157 +1275,157 @@ FS 105kg
 T2B 12
 Strict ring dips 20
 WOD: 19:29')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (106, 13, '2km 8:13, 1.5km 6:09, 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (105, 13, '2km 8:13, 1.5km 6:09, 
 1km 4:00 &
 500m 1;54
 Squats 77.5x10
 Dlift 105x7 (form went at 7th rep so dropped it)
 15 strict t2b 
 WOD 19:24')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 22, 'Snatch 102.5kg, C&J 127.5kg. 12 HSPU''s')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 24, 'Didn''t lift cos I''m too strong.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (107, 22, 'Snatch 102.5kg, C&J 127.5kg. 12 HSPU''s')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (107, 24, 'Didn''t lift cos I''m too strong.
 17strict HSPU
 Did WOD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 25, 'PS-55kg , PC/PJ-70kg, OMEN done')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 9, 'MR Strict HSPU 5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 13, '162 cal bike
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (107, 25, 'PS-55kg , PC/PJ-70kg, OMEN done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (107, 9, 'MR Strict HSPU 5')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (107, 13, '162 cal bike
 60kg snatch 
 70kg C&J (hurt leg didn''t go heavier) 
 7 strict HSPU 
 Legless RC from standing')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 20, '9Push press top set 80kg,10 @ 72.5kg,10 @ 65kg, max reps strict pull up 16,skin the cat,class WOD (50-40-30-20-10 WB,snatch @ 35kg,burpees)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 22, '21 pull ups')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 25, 'Cardio - 327 DU,PP-52.5/47.25/42.5KG, 16 strict PU, WOD - 10:47')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 9, 'Cardio- 268 DU
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 20, '9Push press top set 80kg,10 @ 72.5kg,10 @ 65kg, max reps strict pull up 16,skin the cat,class WOD (50-40-30-20-10 WB,snatch @ 35kg,burpees)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 22, '21 pull ups')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 25, 'Cardio - 327 DU,PP-52.5/47.25/42.5KG, 16 strict PU, WOD - 10:47')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 9, 'Cardio- 268 DU
 strict PU 15
 PP top set 75 kg
 WOD 12:02')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 13, 'Push presses 55,50,45 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (108, 13, 'Push presses 55,50,45 
 10 strict pull up
 Skin the cats 
 WOD 12:42 (did some butterfly/some kipping so slowed me down a bit)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (110, 22, 'Front squats 115kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (110, 25, 'I don''t not wish to speak of 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 22, 'Front squats 115kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 25, 'I don''t not wish to speak of 
 today
 
 #doublenegative
 #grammaticalerror')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (110, 13, 'Absolute shocker.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (109, 13, 'Absolute shocker.
 65kg snatch 
 75kg C&J (felt weak pulling from the floor) 75kg fsquats 
 Row/KB WOD 24:57 😳🙈')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 20, 'Snatch @ 80kg, clean @ 115kg,MU''s x2 reps,strict pull ups x6 reps,WOD 49:33')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 22, 'Snatch @90kg, clean 120kg, jerk 2x90kg&3x100kg, 3MU''s,7PU''s. WOD 43:40')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 25, 'Snatch @57.5kg, Clean@85kg , Jerk @65Kh, MU-2''s then 1''s, Strict PU - 5''s, WOD-40m30')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 9, 'WOD 46:38')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 12, '55kg snatch
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 20, 'Snatch @ 80kg, clean @ 115kg,MU''s x2 reps,strict pull ups x6 reps,WOD 49:33')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 22, 'Snatch @90kg, clean 120kg, jerk 2x90kg&3x100kg, 3MU''s,7PU''s. WOD 43:40')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 25, 'Snatch @57.5kg, Clean@85kg , Jerk @65Kh, MU-2''s then 1''s, Strict PU - 5''s, WOD-40m30')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 9, 'WOD 46:38')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 12, '55kg snatch
 75 clean
 55 split jerk
 10 mu''s no timed rest')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 13, '60kg snatch 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (111, 13, '60kg snatch 
 75kg clean 👎
 55kg SJs 
 Mu''s 2 sets of 2 rest 1s 
 3 strict pull ups 
 WOD 47:30')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 20, 'Front squat 115kg,deadlift 190kg,strict T2B 4 reps, strict HSPU 3 reps,WOD 5rds + 2 reps (power cleans @60kg instead of thrusters')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 22, 'Deadlift@185kg, Front Squat @115kg, T2B-4')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 25, 'FS@90kg, DL-95kg,T2B-4, overhead work, wod - 4rounds+9')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 9, 'FS 107.5 kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 20, 'Front squat 115kg,deadlift 190kg,strict T2B 4 reps, strict HSPU 3 reps,WOD 5rds + 2 reps (power cleans @60kg instead of thrusters')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 22, 'Deadlift@185kg, Front Squat @115kg, T2B-4')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 25, 'FS@90kg, DL-95kg,T2B-4, overhead work, wod - 4rounds+9')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 9, 'FS 107.5 kg
 DL 160kg
 T2B 4''s
 Strict HSPU 2''s
 WOD 
 4 rounds+9')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 12, 'F squat @75 x5x5
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 12, 'F squat @75 x5x5
 Deadlift @70 x10x2
 4 st2b
 4shspu
 Wod:4+9')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 13, 'Fsquat 9 reps @ 80
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 13, 'Fsquat 9 reps @ 80
 3x10 deadlifts @ 77.5kg 
 5 strict t2b 
 3 strict HSPU 
 WOD 6 rounds ish (clock stopped half way through 😔)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (113, 14, 'DL 90kg x10
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (112, 14, 'DL 90kg x10
 X3 strict t2b
 Wod: 5 rounds')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 20, 'PS - 80kg,PC+J - 100kg (bad shoulder),bar muscle ups 2 OMEM,6 strict ring dips')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 22, 'PS- 95kg, C&J 115kg. Ring dips - 8, Row')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 25, 'PS Double @55kg, PC+PJ double @ 75kg, 1 Bar MU OMEN, 5 strict dips everyo 2 mins, 20min - 231 cals,7.3mile')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 9, 'PS double 60kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 20, 'PS - 80kg,PC+J - 100kg (bad shoulder),bar muscle ups 2 OMEM,6 strict ring dips')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 22, 'PS- 95kg, C&J 115kg. Ring dips - 8, Row')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 25, 'PS Double @55kg, PC+PJ double @ 75kg, 1 Bar MU OMEN, 5 strict dips everyo 2 mins, 20min - 231 cals,7.3mile')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 9, 'PS double 60kg
 PC+PJ double 90kg
 1 BMU x 10
 Ring dips 7''s
 Bike 20 mins
 248 cals/ 7.6 miles')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 13, 'PS double 60kg 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 13, 'PS double 60kg 
 PC + PJ 77.5kg (failed 2nd jerk @ 80) 
 7 Bar MU (linked 2) 
 4 strict RD 
 20 min run')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 14, '45kg ps tng double
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (114, 14, '45kg ps tng double
 57.5 pc&j tng double
 x2 bar mu omem (no fails, x20 bar mu)
 x3 RD
 Ran 20mins')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 20, 'PP @ 80kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 22, 'No PP (wrist). 30PC- 2:17, 1kRow - 3:23, 30STOH - 3:58, 10 Cindy -9:21')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 25, 'PP@55/50/47.5kg, Cleans-2m56,1k-3m28, PJ-4min,Cindy-10.31(@ 60Kg)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 13, 'Push press 57.5, 52.5, 47.5  Cleans 2:32  Row 4:00 Jerks 2:34  Cindy 12:12')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 14, 'Push press 45, 40, 35 Wod: 3:03, 12:15 (4:17), 21:01(45kg), 32:32')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (117, 22, 'Snatch 100kg, C&J 120kg, FS 120kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (117, 25, 'Snatch @ 60kg, C&J- 80kg,FS 5x3 @ 90kg,WOD 34:40')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (117, 13, 'Snatch 68.5  Clean 78.5  Squats 82.5  5x3 SJerk 55  WOD-23:24 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 20, 'PP @ 80kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 22, 'No PP (wrist). 30PC- 2:17, 1kRow - 3:23, 30STOH - 3:58, 10 Cindy -9:21')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 25, 'PP@55/50/47.5kg, Cleans-2m56,1k-3m28, PJ-4min,Cindy-10.31(@ 60Kg)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 13, 'Push press 57.5, 52.5, 47.5  Cleans 2:32  Row 4:00 Jerks 2:34  Cindy 12:12')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (115, 14, 'Push press 45, 40, 35 Wod: 3:03, 12:15 (4:17), 21:01(45kg), 32:32')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 22, 'Snatch 100kg, C&J 120kg, FS 120kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 25, 'Snatch @ 60kg, C&J- 80kg,FS 5x3 @ 90kg,WOD 34:40')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 13, 'Snatch 68.5  Clean 78.5  Squats 82.5  5x3 SJerk 55  WOD-23:24 
 5 Rounds  
 3 cleans (70)
 5 spu 100 du 2 burpee mu 6 TGU (16)
 43:13')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (117, 14, 'Snatch 50, c&sqj 60, fs 65 a) 4:48 (RX) b) 5:48 (15@40kg, 12&9@35kg) c) 4:23 (12@40kg, 9&6@35kg) Box jumps RX')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 12, 'Bsquat at 82.5 x 5x5
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (116, 14, 'Snatch 50, c&sqj 60, fs 65 a) 4:48 (RX) b) 5:48 (15@40kg, 12&9@35kg) c) 4:23 (12@40kg, 9&6@35kg) Box jumps RX')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (117, 12, 'Bsquat at 82.5 x 5x5
 Bj x3x5 @ 24" + 2 10''s
 15 amrap of barbell TGU')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 22, 'Snatch 102.5kg. PC/HC 120kg. Split jerk 100kgx5. Ring MU''s 4, Pull ups 8')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 25, 'Pause snatch double@ 50kg, Clean complex@ 85kg, Jerk@ 60kg, MU- 2''s and last few sets 1''s, Strict PU- 6, WOD - 3round +25')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 12, 'Snatch @ 55 1@ 60 pause at knee and at the bottom of snatch!
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 22, 'Snatch 102.5kg. PC/HC 120kg. Split jerk 100kgx5. Ring MU''s 4, Pull ups 8')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 25, 'Pause snatch double@ 50kg, Clean complex@ 85kg, Jerk@ 60kg, MU- 2''s and last few sets 1''s, Strict PU- 6, WOD - 3round +25')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 12, 'Snatch @ 55 1@ 60 pause at knee and at the bottom of snatch!
 Clean @ 75
 Wod:strict pu and OH lung with db, DU
 2 + 10')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 13, 'Push press top set 60,55,50
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 13, 'Push press top set 60,55,50
 Omen 1 mu x10
 4 strict PU
 WOD 3+15 (used 12.5 DB)
 Snatch 63
 Clean 75 
 Jerks 55')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 14, 'Snatch 45
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (118, 14, 'Snatch 45
 Clean 60
 Split jerk 40
 x4 strict pu
 Wod: 3 rounds 9 c2b')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (120, 22, 'DL@190kg, FS@120kg, 12 T2B (Kipping, didn''t read properly) 5 HSPU''s. WOD 4:51 + 500m Row 1:35.0')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (120, 25, 'Cardio done - 1 HSPU every 3mins ,10 FS@ 92.5kg, DL@100kg, T2B- 5, HSPU-1, WOD - 6.49/ row-1.38.7')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (120, 12, 'Fs @ 80 x 3 x5 Bj @ 30" x3 x5 DL @ 75 x10 x2 St2b x4  Shspu x 6 Wod: 7:23 🙈row:1:55')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (120, 13, '5k:28:29 (1 mu)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 22, 'DL@190kg, FS@120kg, 12 T2B (Kipping, didn''t read properly) 5 HSPU''s. WOD 4:51 + 500m Row 1:35.0')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 25, 'Cardio done - 1 HSPU every 3mins ,10 FS@ 92.5kg, DL@100kg, T2B- 5, HSPU-1, WOD - 6.49/ row-1.38.7')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 12, 'Fs @ 80 x 3 x5 Bj @ 30" x3 x5 DL @ 75 x10 x2 St2b x4  Shspu x 6 Wod: 7:23 🙈row:1:55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 13, '5k:28:29 (1 mu)
 FS top set 80kg
 Jowsey/deadlift 80kg x10 x4
 6 strict t2b
 4 strict HSPU (started with 3 but felt easy) 
 WOD 5:19
 500m 1:51')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (120, 14, 'Fs 56kg x10
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (119, 14, 'Fs 56kg x10
 DL 93kg x10
 4 strict t2b
 5 strict hspu (with ab mat)
 Wod: 6:20
 Row: 2:03 :-/')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 22, 'Snatch 105kg, 130kg clean. 9 Strict dips')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 25, 'PS@60kg , PC@92.5kg(PB), BMU -2 every 30 seconds / 4 every 60 seconds, Strict dips - 6, 1mile-6.05,800m-3.13, 2k row-7.31.6,1K-3.43.6')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 12, 'Ps @ 57.5kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (121, 22, 'Snatch 105kg, 130kg clean. 9 Strict dips')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (121, 25, 'PS@60kg , PC@92.5kg(PB), BMU -2 every 30 seconds / 4 every 60 seconds, Strict dips - 6, 1mile-6.05,800m-3.13, 2k row-7.31.6,1K-3.43.6')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (121, 12, 'Ps @ 57.5kg
 Pc @ 77.5kg (PB)
 RD x 6 for 4 rounds x4 for 4 rounds
 Cardio: best not to talk about it really 🙈')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 13, 'Snatch 65 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (121, 13, 'Snatch 65 
 Clean 75 
 Rd x5x8 
 WOD 
@@ -1433,69 +1433,69 @@ WOD
 50 pistols 
 1 mile run 
 17:01')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 14, '52.5kg ps (pb)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (121, 14, '52.5kg ps (pb)
 67.5 pc
 A) x2 bar mu every 30s
 B) x2 linked bar mu every 60s (linked 3 ;-))')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 20, 'WOD - Part 1 = 61 reps, Part 2 = 94 reps')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 22, 'Bench top set 82.5kg. WOD 1 - finished 15s, WOD 2 finished 15s + 28 (did KBS first, my bad)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 25, 'PP@ 57.5kg/51.25kg/47.5kg , 13.4- 62(12rnds+2) , WOD 2- 110 (did wod 2 back to front with KB swings first- my bad)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 14, 'Push press 45kg 43kg 35kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 20, 'WOD - Part 1 = 61 reps, Part 2 = 94 reps')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 22, 'Bench top set 82.5kg. WOD 1 - finished 15s, WOD 2 finished 15s + 28 (did KBS first, my bad)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 25, 'PP@ 57.5kg/51.25kg/47.5kg , 13.4- 62(12rnds+2) , WOD 2- 110 (did wod 2 back to front with KB swings first- my bad)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (122, 14, 'Push press 45kg 43kg 35kg
 Wod:
 A) 12 rounds +3
 B) 15 rounds +4')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (124, 20, 'Snatch 85kg,C+J 100kg (still bad shoulder), FS 1x8 @ 140kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (124, 22, 'Snatch 100kg, C&J 120kg, FS 130kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (124, 25, 'Snatch - 65kg C&J - 85kg FS @100kg Wod - 22:26 @ 75kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 22, 'Snatch 97kg, Hang clean 125kg and got under 130kg twice but couldn''t stand it. Jerk 4x100kg, 1x105kg. 5MU''s, Jack -1) 3:23, 2) 3:19, 3) 3:28, 4) 3:39')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 25, 'Cardio done, snatch -55kg, hang clean-95kg, Jerks-60kg ,MU-1''s,WOD- 1)5m10 2)5m24 3)6m02 4)5m40')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 12, 'Clean 82.5kg 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 20, 'Snatch 85kg,C+J 100kg (still bad shoulder), FS 1x8 @ 140kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 22, 'Snatch 100kg, C&J 120kg, FS 130kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (123, 25, 'Snatch - 65kg C&J - 85kg FS @100kg Wod - 22:26 @ 75kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (125, 22, 'Snatch 97kg, Hang clean 125kg and got under 130kg twice but couldn''t stand it. Jerk 4x100kg, 1x105kg. 5MU''s, Jack -1) 3:23, 2) 3:19, 3) 3:28, 4) 3:39')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (125, 25, 'Cardio done, snatch -55kg, hang clean-95kg, Jerks-60kg ,MU-1''s,WOD- 1)5m10 2)5m24 3)6m02 4)5m40')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (125, 12, 'Clean 82.5kg 
 Jerks at 55/50
 Jack: 3:34, 3:54, 4:16, 4:32 end time was 26 something
 Cardio done')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 14, 'Snatch double 50kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (125, 14, 'Snatch double 50kg
 Hang clean 65kg
 Split jerk 40kg
 Wod: 3:53, 4:09, 4:05, 4:24')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (127, 20, 'FS 125kg,deadlift 200kg,6 strict T2B every 2:00,WOD 2 reps on the 18 C2B,cardio strict HSPU - 5rds = 5,3,4,3,3')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (127, 22, 'Back down to 90kg FS, 140kg DL 10x3, 5 T2B, 18BS+1C2B')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (127, 25, 'Cardio - 3 kipping HSPU ,FS@95kg hit 7 , failed bottom of 8th DL@102.5kg Strict T2B -5 WOD - 12''s + 22 @65Kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (127, 14, 'Cardio 5-7 linked butterfly pu (still messy)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 20, 'FS 125kg,deadlift 200kg,6 strict T2B every 2:00,WOD 2 reps on the 18 C2B,cardio strict HSPU - 5rds = 5,3,4,3,3')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 22, 'Back down to 90kg FS, 140kg DL 10x3, 5 T2B, 18BS+1C2B')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 25, 'Cardio - 3 kipping HSPU ,FS@95kg hit 7 , failed bottom of 8th DL@102.5kg Strict T2B -5 WOD - 12''s + 22 @65Kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 14, 'Cardio 5-7 linked butterfly pu (still messy)
 FS 62kg x10
 DL 84kg x10
 4 strict t2b
 Wod: 12 rounds +25 (10c2b)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (127, 16, 'Deadlifts- 95x10
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (126, 16, 'Deadlifts- 95x10
 Fsquat- 75x10
 Wod- 6c2b in the 12s (used rack, can''t clean)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 20, 'HS 95kg,PC 120kg,2 bar muscle ups OMEM,8 strict ring dips every 2:00,WOD - 13:36')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 22, 'HS 108kg (got under 110kg but couldn''t stick it. PC 125kg (got under 130kg but pussyed out coz of my wrist - no starfish), 10 RD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 25, 'Hang snatch - 62.5kg , Power clean - 90kg, BMU - 2 OMEN , Strict Dips - 7, WOD - 14:01')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 12, '3k row
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 20, 'HS 95kg,PC 120kg,2 bar muscle ups OMEM,8 strict ring dips every 2:00,WOD - 13:36')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 22, 'HS 108kg (got under 110kg but couldn''t stick it. PC 125kg (got under 130kg but pussyed out coz of my wrist - no starfish), 10 RD')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 25, 'Hang snatch - 62.5kg , Power clean - 90kg, BMU - 2 OMEN , Strict Dips - 7, WOD - 14:01')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 12, '3k row
 300 du
 1mile run')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 14, 'H-snatch 52.5 (pb)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 14, 'H-snatch 52.5 (pb)
 P-clean 67.5 :-/
 x3bar mu linked for 5 sets, 1-2 for 5 sets.
 X5 RD 
 Wod: 16:05')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 16, 'C2b instead of bar muscle up x3 linked for 10 sets
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (128, 16, 'C2b instead of bar muscle up x3 linked for 10 sets
 Wod-14:25')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 20, 'Push press @ 85kg x10,10@77.5kg,10@70kg,8 strict pull ups every 2:00,WOD:- Fran - 15s complete, Grace - complete in 5rds, HSPU - 14reps total')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 22, 'Bench press @85/78/70. PU''s 9 reps. WOD: Fran 9pu left, grace 6 rnds (1 off doing it in 5), 25 HSPU''s')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 25, 'PP top set - 60/55/50 PU- 7 Fran - finished 15''s Grace -Finished on 7th round HSPU- 12')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 12, 'Ohs max 80kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 20, 'Push press @ 85kg x10,10@77.5kg,10@70kg,8 strict pull ups every 2:00,WOD:- Fran - 15s complete, Grace - complete in 5rds, HSPU - 14reps total')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 22, 'Bench press @85/78/70. PU''s 9 reps. WOD: Fran 9pu left, grace 6 rnds (1 off doing it in 5), 25 HSPU''s')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 25, 'PP top set - 60/55/50 PU- 7 Fran - finished 15''s Grace -Finished on 7th round HSPU- 12')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 12, 'Ohs max 80kg
 Hang snatch work')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 14, 'X4 strict pu
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (129, 14, 'X4 strict pu
 Wod:
 A) x7 thrusters on the 15s
 B) 24 gtoh
 C) 47 hspu')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 20, 'Still got a bad shoulder,snatch x10 @ 60kg,C+J x10 @ 80kg,FS @ 125kg,HSPU = 3reps,WOD 23:04 but did 100kg deadlift an V-ups for the 21-15-9')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 22, 'Felt weak today(Sunday), snatch: 3@90kg, 7@95kg. Didn''t do C&J. FS@123kg. HSPU''s - 5 WOD:23:43. (Rowed for 6 mins because monitor broke)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 23, 'Snatch x10 @70 C&J @90  HSPU - 5 reps, Wod With 2k row instead 22:11')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 25, 'Wod With 2k row instead - 23:21')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 12, 'Rope climb technique
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 20, 'Still got a bad shoulder,snatch x10 @ 60kg,C+J x10 @ 80kg,FS @ 125kg,HSPU = 3reps,WOD 23:04 but did 100kg deadlift an V-ups for the 21-15-9')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 22, 'Felt weak today(Sunday), snatch: 3@90kg, 7@95kg. Didn''t do C&J. FS@123kg. HSPU''s - 5 WOD:23:43. (Rowed for 6 mins because monitor broke)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 23, 'Snatch x10 @70 C&J @90  HSPU - 5 reps, Wod With 2k row instead 22:11')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 25, 'Wod With 2k row instead - 23:21')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 12, 'Rope climb technique
 15 foot strict legless rope climb 😁 no kipping
 
 Wod: in pairs
@@ -1505,104 +1505,60 @@ Wod: in pairs
 7 pc @40kg 
 1round each every 1:40 
 This was not nice in a hot country!!')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (131, 14, '48kg snatch omem
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (130, 14, '48kg snatch omem
 56kg c&j omem
 FS 61kg 5x5
 X5 strict hspu
 Wod: 28:58')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 20, 'Clean / hang clean - 115kg failed 120kg on the hang,3 muscle ups OMEM, cardio every set below 1:45 average 500m pace')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 22, 'PS 108kg. HC 120kg, 5 MU''s. WOD- 3:02')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 23, 'Keeping people happy.....             Snatch @75  Hang Clean @105 (cant hang clean for shit)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 25, 'Cardio done , snatch @60kg , Clean complex @90kg, 1 MU OMEN, WOD - 5.56')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 9, 'Snatch 60 kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 20, 'Clean / hang clean - 115kg failed 120kg on the hang,3 muscle ups OMEM, cardio every set below 1:45 average 500m pace')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 22, 'PS 108kg. HC 120kg, 5 MU''s. WOD- 3:02')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 23, 'Keeping people happy.....             Snatch @75  Hang Clean @105 (cant hang clean for shit)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 25, 'Cardio done , snatch @60kg , Clean complex @90kg, 1 MU OMEN, WOD - 5.56')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 9, 'Snatch 60 kg
 Clean complex 95 kg
 1 MU omem
 WOD 4:43')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 12, '30 min run')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 14, '52kg Psnatch
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 12, '30 min run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 14, '52kg Psnatch
 68kg hangclean')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 15, 'Clean, hang clean 65kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 15, 'Clean, hang clean 65kg
 X1 MU omem x8
 Cardio  instead of stoh')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 17, 'Psnatch - 65k Hangclean 95k, 7MU OMEM')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 20, 'front squat - 125kg,deadlift 205kg,6 strict T2B,cardio 32 muscle ups (5,5,5,5,6,6)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 22, 'FS 95kg, Dead 145kgx3, 6 T2B, WOD: 3:56, 3:48, 4:00, 4:50')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 25, 'MU- 29(PB 6 unbroken), FS@95kg(failed on 7th rep 😡), DL@ 105kg, 6 strict t2b, WOD splits-6.34/7.16/7.30/7.00')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 12, 'Clean/hang clean 75kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (132, 17, 'Psnatch - 65k Hangclean 95k, 7MU OMEM')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 20, 'front squat - 125kg,deadlift 205kg,6 strict T2B,cardio 32 muscle ups (5,5,5,5,6,6)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 22, 'FS 95kg, Dead 145kgx3, 6 T2B, WOD: 3:56, 3:48, 4:00, 4:50')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 25, 'MU- 29(PB 6 unbroken), FS@95kg(failed on 7th rep 😡), DL@ 105kg, 6 strict t2b, WOD splits-6.34/7.16/7.30/7.00')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 12, 'Clean/hang clean 75kg
 Strict t2b x 4 x 8
 Run
 
 Bleep test: stopped at round 10')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 15, '20 min AMRAP = 7 MU''s
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 15, '20 min AMRAP = 7 MU''s
 8 strict t2b ome2m')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 17, 'Cardio- 51 MUs, FS-failed 9th rep at 95k, Deadlift- 135k, 10 strict T2B')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (135, 22, 'Yesterdays MU WOD: 10,8,8,7,5,7 = 52')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (135, 12, 'Fs@ 85kg x1x8
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (133, 17, 'Cardio- 51 MUs, FS-failed 9th rep at 95k, Deadlift- 135k, 10 strict T2B')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 22, 'Yesterdays MU WOD: 10,8,8,7,5,7 = 52')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 12, 'Fs@ 85kg x1x8
 BJ @30" x 3x8
 Clean up to 80kg
 Rowing 60:90')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (135, 15, 'Tuesdays WOD:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (134, 15, 'Tuesdays WOD:
 51.05
 Grim')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (137, 25, '8km Row - 32.48')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (137, 13, '8km row 38:28')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (140, 24, 'WOD- did 50 down ups instead of the 800m run and rest of it same- 21:00')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (140, 36, 'Wod- 18:24')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 24, 'Bout 20 mins but I think my run was too far.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 25, 'Cardio -17m40')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 9, 'Cardio 22:04')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 27, '18.29')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 28, '0.850694444444444')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 33, '18.29')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 12, 'Cardio: 21:25')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 13, 'Cardio 20:58 
-EMOM 15 ghd, 5 rd, 5 ring chin')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 14, '1.23263888888889')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 35, 'Cardio 27.29')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 16, 'Wod: 8:37')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (141, 36, 'Cardio - 19:44 WOD - 7:27 (didn''t have time for the OMEM bit :-/')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (142, 35, 'C&j triple 52.5
-Ohs 52.5
-DL topset 65
-
-Omem scaled with 10kg dumbells')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 23, 'Snatch @80kg SID qualifier')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 24, 'Bad day on snatch= 75kg
-FS= 120kg
-SID qualifier
-WOD 30reps= 11:19')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 27, 'Snatch 84kg 
-
-Front squat 120kg 
-
-30 PC/PJ with the pauses 9.50')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 28, '10:28 for the WOD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 30, 'Snatch 85kg
-FS @ 130kg
-
-Did it as grace @80kg 4.17')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 13, 'Power snatch/hang snatch 67.5 
-Snatch 71 PB 
-Squats @ 82.5 
-SiD qualifier')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 14, 'Snatch 50kg
-FS 70kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 36, 'Light snatch/ hang snatch practice... Shoulder felt good :)
-FS @ 80 - serious DOMS
-30 C+J with pauses 55 clean, then used separate 40kg racked bar for jerk - pain free shoulder')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 37, 'MU 4,3,4,4,3,WOD 52:39')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 22, 'MU'' - 7,8,7,8,7. WOD - 10:14, 12:22, 15:00. Total time 47:36')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 23, '5 mu''s diddnt see the 5 mins rest until after set 2... almost died 40:27 grim WOD           Morning Cardio 1)  3:38.8      2)   3:38.2      3)   3:36.7       4)   3:37.8      5)   3:37.4')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 25, 'WOD - 1) 14:43 2) 17:03 3) 18:20')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 9, 'MU 3''s omem
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (136, 25, '8km Row - 32.48')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (136, 13, '8km row 38:28')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 26, 'MU 4,3,4,4,3,WOD 52:39')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 22, 'MU'' - 7,8,7,8,7. WOD - 10:14, 12:22, 15:00. Total time 47:36')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 23, '5 mu''s diddnt see the 5 mins rest until after set 2... almost died 40:27 grim WOD           Morning Cardio 1)  3:38.8      2)   3:38.2      3)   3:36.7       4)   3:37.8      5)   3:37.4')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 25, 'WOD - 1) 14:43 2) 17:03 3) 18:20')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 9, 'MU 3''s omem
 WOD
 1) 16:59
 2) 18:22
 3) 17:56
 Total 63:17
 Shocker!')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 26, 'AM: 3:44(1:52) 3:38(1:49) 3:33(1:46) 3:27(1:43) 3:20(1:40)   *will not be able to do program tomorrow.   At Sam''s OHS From floor 110kg (First time since regionals prep I have OHS) EMOM 10: 2x Snatch @ 85kg (Heaviest since turn of year) EMOM 10: 2X Clean @ 110kg  Jacked Up Holleyman: 30 Rounds: 5 WBS (12kg) 3 10" Deficit HSPU 1 Power Clean (110kg) 39:01')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 27, '1-3.50.1
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 27, 'AM: 3:44(1:52) 3:38(1:49) 3:33(1:46) 3:27(1:43) 3:20(1:40)   *will not be able to do program tomorrow.   At Sam''s OHS From floor 110kg (First time since regionals prep I have OHS) EMOM 10: 2x Snatch @ 85kg (Heaviest since turn of year) EMOM 10: 2X Clean @ 110kg  Jacked Up Holleyman: 30 Rounds: 5 WBS (12kg) 3 10" Deficit HSPU 1 Power Clean (110kg) 39:01')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 28, '1-3.50.1
 2-3.46.5
 3-3.39.7
 4-3.35.8
@@ -1611,9 +1567,9 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 2
 7mu on the EMOM
 
 54.37 at 115lb walking lunge')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 28, '51:08 at 95lb and 24 Kettle bell.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 29, '51:08 at 95lb and 24 Kettle bell.
 Got a sore shoulder causing me some grief.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 29, 'AM Cardio:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 30, 'AM Cardio:
 1-3:44.5(1:52)
 2-3:37.8(1:48)
 3-3:26.9(1:43)
@@ -1628,11 +1584,11 @@ PM MetCon:
 3-14:22
 
 Total time: 49:57')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 30, 'Am cardio: 3:45, 3:42, 3:39, 3:37, 3:29
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 31, 'Am cardio: 3:45, 3:42, 3:39, 3:37, 3:29
 
 7 muscle ups
 Wod: 10:07, 11:49, 12:37')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 31, 'AM:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 32, 'AM:
 Cardio complete
 
 OMEM:
@@ -1645,80 +1601,80 @@ PM:
 15-20m: 50 KBS @ 24kg @ 1.39
 20-25m: 50 Burpees @ 2.22
 25-30m: 800m run @ 3.08')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 34, '7 muscle ups
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 35, '7 muscle ups
 
 WOD 
 13.20
 14.01
 15.14
 This killed my shoulders')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 38, 'Row 3:39, 3:34, 3.29, 3:25, 3:21
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 36, 'Row 3:39, 3:34, 3.29, 3:25, 3:21
 
 Metcon 
 1) 9:00
 2) 9:06
 3) 8:57 
 Total 37:17')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 13, 'Cardio: 4:20/4:10/4:04/
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 13, 'Cardio: 4:20/4:10/4:04/
 4:01/3:54
 2 muscle ups on the OMEM 
 WOD 12:11/13:09/15:00 🙈')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 39, 'MU swings, hollow & arch rocks
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 37, 'MU swings, hollow & arch rocks
 Wod: 55:17')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 40, 'No time for cardio
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 38, 'No time for cardio
 X2 MU omem
 Rxd the wod that''s all you need to know.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 16, 'Cardio 4:17 4:11 4:05 4:01 3:58.           I did the wod 🙈🙊')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 36, 'Only one session before work- Row: 4:08, 4:06, 3:58, 3:55, 3:44')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 26, 'Tuesdays conditioning: 10:01/10:06/10:26 total time: 40:33')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 36, 'Thorium WOD 1 (3min GTOH 1min rest x3) went at 35kg - 125 reps. Then did WOD - 16:31')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 22, 'OHS 80kg x2 then dropped to 70kgx 2 for a couple of sets (knee), all narrow grip. DL 150kgx3')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 23, 'DL 3 x 140                                                                                                         Metcon 14:02')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 25, 'DL@115kg, thorium ''42''')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 26, 'Conditioning 13:55')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 27, 'Snatched all at 80%
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 16, 'Cardio 4:17 4:11 4:05 4:01 3:58.           I did the wod 🙈🙊')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (145, 39, 'Only one session before work- Row: 4:08, 4:06, 3:58, 3:55, 3:44')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (146, 27, 'Tuesdays conditioning: 10:01/10:06/10:26 total time: 40:33')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (146, 39, 'Thorium WOD 1 (3min GTOH 1min rest x3) went at 35kg - 125 reps. Then did WOD - 16:31')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 22, 'OHS 80kg x2 then dropped to 70kgx 2 for a couple of sets (knee), all narrow grip. DL 150kgx3')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 23, 'DL 3 x 140                                                                                                         Metcon 14:02')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 25, 'DL@115kg, thorium ''42''')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 27, 'Conditioning 13:55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 28, 'Snatched all at 80%
 
 Oh squat 93.2kg
 
 Deadlift 330lb
 
 14.08')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 28, 'No snatch
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 29, 'No snatch
 75kg OHS 
 170 deadlift failed at 8 reps
 15:23')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 29, 'Snatch: 90kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 30, 'Snatch: 90kg
 OHS: 117.5kg
 
 MetCon: 13:47')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 30, 'Snatch 80kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 31, 'Snatch 80kg
 OHS 110kg
 DL 3x10 150kg
 
 MetCon: 13:47')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 31, 'Snatch @ 76kg                   OHS @ 111kg PB                    Deadlift @ 145 90% @ 130 & 80% @ 116')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 34, 'Snatch @78
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 32, 'Snatch @ 76kg                   OHS @ 111kg PB                    Deadlift @ 145 90% @ 130 & 80% @ 116')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 35, 'Snatch @78
 OHS @100
 Deadlift @150
 
 Metcon 12.45')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 13, 'Snatches @ 55kg no misses. 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 13, 'Snatches @ 55kg no misses. 
 OHS 70kg(didn''t try any heavier) 
 Deadlifts @ 90
 WOD 16:56')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 39, 'Snatches 45kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 37, 'Snatches 45kg
 65.9kg ohs
 DL 88kg
 Wod: 16:58')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 36, 'Bleep test 10:1 :(
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (147, 39, 'Bleep test 10:1 :(
 5mins later 25-20-15-10-5 power cleans, wall balls')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 22, '6 HSPU''s,10 Strict K2E (No GHD), 30 Reverse hypers@30kg, 2 rope climbs. 45 C2B')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 25, 'Bleep test - 12.0 - DID NOT KNOW THE RULES')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 27, '10 hspu
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 22, '6 HSPU''s,10 Strict K2E (No GHD), 30 Reverse hypers@30kg, 2 rope climbs. 45 C2B')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 25, 'Bleep test - 12.0 - DID NOT KNOW THE RULES')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 28, '10 hspu
 10  ghd
 2 rope climbs')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 29, 'Beep Test: 13.2')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 30, 'Am: 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 30, 'Beep Test: 13.2')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 31, 'Am: 
 Air dyne 20min
 1 min hard
 1 min recover 
@@ -1729,7 +1685,7 @@ Air dyne 20min
 2 18ft climbs
 
 47 chest to bar')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 31, 'AM: 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 32, 'AM: 
 10 Strict HSPU
 10 GHD Sit ups
 1 rope climb (due to injury of left elbow)                    Level 19.2 Bleep Test
@@ -1742,28 +1698,28 @@ PM:
 
 OMEM:
 MU - 7-6-6-6-6')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 38, '14.1 Bleep test 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 36, '14.1 Bleep test 
 10 strict Hspu 
 Ghd
 2 rope climbs 
 
 57 pull ups')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 13, '5 strict HSPU 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 13, '5 strict HSPU 
 10 ghd 
 1 legless RC 
 Didn''t do c2b')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 36, 'Battle of the Beasts 14.3')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 22, 'Didn''t Snatch, C&J or FS because of knee and wrist. Sled push work. Built upto a heavy set of 5 Safety bar box squats (20") @ 170kg. Built upto 3 Clean pulls and 5 jumping shrugs @140kg.WOD 1 mile run, 30 power snatches @50kg, 30 Burpee box overs, 50 cal row.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 23, 'Snatch @80kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (148, 39, 'Battle of the Beasts 14.3')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 22, 'Didn''t Snatch, C&J or FS because of knee and wrist. Sled push work. Built upto a heavy set of 5 Safety bar box squats (20") @ 170kg. Built upto 3 Clean pulls and 5 jumping shrugs @140kg.WOD 1 mile run, 30 power snatches @50kg, 30 Burpee box overs, 50 cal row.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 23, 'Snatch @80kg
 39TGU
 Wod...5:32')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 25, 'RainHill Qualifiers , FS@90kg, WOD - 10mins Wallballs - 30lb ball rest 2min 30 box overs@30",30 50kg back squats , 50 cal bike - 21:20')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 29, 'Snatch: 110kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 25, 'RainHill Qualifiers , FS@90kg, WOD - 10mins Wallballs - 30lb ball rest 2min 30 box overs@30",30 50kg back squats , 50 cal bike - 21:20')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 30, 'Snatch: 110kg
 Had to stop after 115kg on the C&J as my back started feeling bad.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 30, 'Snatch 100kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 31, 'Snatch 100kg
 C&j 130kg
 FS 5x5 115kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 31, 'Caught up on Tuesdays WOD:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 32, 'Caught up on Tuesdays WOD:
 1 - 9.51
 2 - 11.28
 3 - 10.00
@@ -1772,7 +1728,7 @@ OH lunges were particularly nasty.
 Snatch 100kg PB (5kg) - FINALLY! Monster achievement for me. 2014 goal achieved. 
 
 Clean & Jerk 117.5kg, hungry and exhausted by this point. Back still creating difficulties!')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 38, '95kg Snatch
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 36, '95kg Snatch
 115 c &j
  
 Fronts squat 105kg 
@@ -1789,48 +1745,48 @@ Rest 3 mins
 30 box over burpees 30" 
 50 Cal row 
 6:04')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 13, 'Snatch 65 (men''s bar ha) 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 13, 'Snatch 65 (men''s bar ha) 
 Front squats @ 80')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 36, 'Felt totally washed out so just did a steady 5k run - 25:06')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 31, 'Caught up on Saturday''s WOD:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (149, 39, 'Felt totally washed out so just did a steady 5k run - 25:06')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (150, 32, 'Caught up on Saturday''s WOD:
 32 TGU''s
 Overall time - 18.33')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 22, 'Can''t clean or push press (wrist). Bench press 1 RM 120kg (PB), OMEM x 10 3 Power snatches @80kg, (yeah shouldn''t have snatched). WOD: 10:20 - used 2x24kg kettlebells (Front rack lunges instead of OH.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 23, 'Clean @120kg didnt pp struggling with my hand... Wod-11:32')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 25, 'Clean - 101kg PB , No PP because of elbow , WOD-12:28')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 26, '130kg/120kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 21, '140/110')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 27, 'Clean 115kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 22, 'Can''t clean or push press (wrist). Bench press 1 RM 120kg (PB), OMEM x 10 3 Power snatches @80kg, (yeah shouldn''t have snatched). WOD: 10:20 - used 2x24kg kettlebells (Front rack lunges instead of OH.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 23, 'Clean @120kg didnt pp struggling with my hand... Wod-11:32')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 25, 'Clean - 101kg PB , No PP because of elbow , WOD-12:28')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 27, '130kg/120kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 21, '140/110')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 28, 'Clean 115kg
 PP 93kg 
 
 WOD 11.09')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 28, '117kg clean
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 29, '117kg clean
 104kg PP
 
 11:42 20kg kettle bells')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 41, 'Clean: 135kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 40, 'Clean: 135kg
 PP: 110kg 
 (15kg PB)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 30, 'Clean 125kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 31, 'Clean 125kg
 PP 110kg
 
 Wod: 9:38')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 31, 'Clean 125 PB (2kg)
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 32, 'Clean 125 PB (2kg)
 
 Push Press 107.5 PB (7.5kg)
 
 WOD - 8.32')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 38, 'Clean 125kg 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 36, 'Clean 125kg 
 Push press 112.5 kg 
 
 Metcon 
 8:33 row instead of run.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 14, 'Clean 70kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 14, 'Clean 70kg
 Push press 54kg
 Wod: 10:11 (12kg kb)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 36, 'Had to work all day... no training :-(')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 22, 'OMEM(Swapped HSPU''s for hand release press ups (wrist)). 6-8 MU''s, 13-15 T2B, 13-15 HRPU''s= 39,35,34,34,33,32 =207. Helen 9:13')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 23, 'Helen: 8:42
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (151, 39, 'Had to work all day... no training :-(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 22, 'OMEM(Swapped HSPU''s for hand release press ups (wrist)). 6-8 MU''s, 13-15 T2B, 13-15 HRPU''s= 39,35,34,34,33,32 =207. Helen 9:13')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 23, 'Helen: 8:42
 Row:   1:45.3
 1:45.4
 1:44.9
@@ -1841,16 +1797,16 @@ Row:   1:45.3
 1:44.1
 1:42.9
 1:39.1')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 24, 'Helen 10:57')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 25, 'Row 1.43.8 /1.44.7 /1.44.3/ 1.45.5 /1.46.8 /1.45.9 /1.46.3 /1.47.0 /1.47.4 /1.46.7 ,EMON - 1)2-3MU 2)15 T2B 3) 2-3 HSPU , WOD - 8.54')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 26, 'Average: 1:38.9(1:46/1:39/1:38/1:37/1:37/1:37/1:38/1:38/1:38/1:36)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 21, 'Emom totals
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 24, 'Helen 10:57')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 25, 'Row 1.43.8 /1.44.7 /1.44.3/ 1.45.5 /1.46.8 /1.45.9 /1.46.3 /1.47.0 /1.47.4 /1.46.7 ,EMON - 1)2-3MU 2)15 T2B 3) 2-3 HSPU , WOD - 8.54')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 27, 'Average: 1:38.9(1:46/1:39/1:38/1:37/1:37/1:37/1:38/1:38/1:38/1:36)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 21, 'Emom totals
 Mu-44
 T2B-92
 Hspu-94
 
 Helen - 7.13')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 27, 'Trained at 3D 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 28, 'Trained at 3D 
 30min amrap 
 15 ghd
 30 oh squat 35kg (300 reps)
@@ -1863,9 +1819,9 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 2
 6-3/11/7
 
 Hellen-')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 28, 'Helen 11:18')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 41, 'HELEN: 7:21')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 30, '1:39.9
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 29, 'Helen 11:18')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 40, 'HELEN: 7:21')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 31, '1:39.9
 1:39.2
 1:39.9
 1:39.4
@@ -1882,39 +1838,39 @@ T2B: 71
 HSPU: 42
 
 Helen: 8:50')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 31, 'Cardio complete                
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 32, 'Cardio complete                
 
 EMOM: 
 4-5 Muscle Ups (trouble with left hand)
 18-20 T2B 
 16-17 HSPU')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 34, 'EMOM
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 35, 'EMOM
 4-6 muscle ups
 15 t2b
 5 HSPU
 WOD 8.49')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 38, 'Row 10 x 500m 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 36, 'Row 10 x 500m 
 1:40.7 avg total 
 
 7:42 Helen')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 13, 'Rainhill Row 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 13, 'Rainhill Row 
 6 sets of 500m row all between 1:48-1:56
 Max mu in 1 min - 5 
 Gymnastics mu 2, t2b 12, HSPU 12 
 Helen 10:08')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 14, '500m row 1:58
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 14, '500m row 1:58
 Max rep in 30s:
 C2b 11
 T2b 14
 HSPU 12
 Helen: 11:52')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 36, 'Did the AM Cardio 1:50, 1:49, 1:48, 1:50, 1:48, 1:48, 1:50, 1:48, 1:48, 1:48')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 31, 'AM:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (152, 39, 'Did the AM Cardio 1:50, 1:49, 1:48, 1:50, 1:48, 1:48, 1:50, 1:48, 1:48, 1:48')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 32, 'AM:
 Repeated  Tuesdays cardio             
 
 PM:                              EMOM x20:                        Odd - Max distance run (2175m)
 Even - Max Push Press @ 60% (105 reps @ 66kg)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 38, '.com Wod 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 36, '.com Wod 
 Muscle ups.
 
 20 min AMRAP
@@ -1922,33 +1878,33 @@ Muscle ups.
 30 OHS @ 35kg 
 
 8 rnds 12 reps on OHS')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 13, 'FGB')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 22, 'DL x10x3@155kg. Tomorrows gymastics done + 61 ring dips.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 23, 'Snatch @70
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (153, 13, 'FGB')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 22, 'DL x10x3@155kg. Tomorrows gymastics done + 61 ring dips.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 23, 'Snatch @70
 DL @140
 Done tomorrows Gymsastics as I cant do todays while in work and coaching all evening')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 24, 'WOD 18:47 Cleans 95 kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 25, 'CF total for Rainhill, finished wod at 14min 30 ( ripped hand so couldnt finish 4 and 2 BMU)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 26, 'Workout: 8:38 @ 105kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 24, 'WOD 18:47 Cleans 95 kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 25, 'CF total for Rainhill, finished wod at 14min 30 ( ripped hand so couldnt finish 4 and 2 BMU)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 27, 'Workout: 8:38 @ 105kg
 
 JB: 7:16 @105 (Dickhead)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 21, 'Snatch 5 sets of 3 @ 90kg 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 21, 'Snatch 5 sets of 3 @ 90kg 
 No misses
 
 Wod
 9.37 using 115kg bar')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 27, '170 lb snatch hit all
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 28, '170 lb snatch hit all
 DL TS______
 
 WOD 225lb
 13:19')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 28, 'Deadlift 170 x 10. WOD 24:09 @ 100kg scaled to 3 C2B and 3 ring dips for 1 bar muscle up. First 30 strict')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 30, 'Snatch 5x3 @85kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 29, 'Deadlift 170 x 10. WOD 24:09 @ 100kg scaled to 3 C2B and 3 ring dips for 1 bar muscle up. First 30 strict')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 31, 'Snatch 5x3 @85kg
 DL 3x10 @155kg
 
 WOD: 102.5kg
 11:44 (3:30/8:14)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 31, 'AM:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 32, 'AM:
 Hit the Bleep Test this AM. Hit level 19.2 last week with some serious DOMS. Completed the bleep test cardio. 
 
 Deadlift @ 150; 90% @ 135; 80% @ 120
@@ -1957,27 +1913,27 @@ PM:
 Snatch @ 80kg
 
 WOD: total time = 10.57. Power clean/Deadlift @ 100kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 38, 'Rest day as travelling')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 13, '5x3 snatch @60
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 36, 'Rest day as travelling')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 13, '5x3 snatch @60
 Deadlifts @ 95 
 WOD 13:14 @70kg (5-4-3-2-1 Bar Mu)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 14, 'Snatch x3 @45kg x2 @47.2kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 14, 'Snatch x3 @45kg x2 @47.2kg
 Wod: 15:24 RX (60kg)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 36, 'AM: Worked up to a 85kg clean. Then worked on snatch.... managed 60kg with only a dull ache in shoulder :) ''Helen'' - 8:01.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (154, 39, 'AM: Worked up to a 85kg clean. Then worked on snatch.... managed 60kg with only a dull ache in shoulder :) ''Helen'' - 8:01.
 PM: Thorium WOD 2 (298reps)
 Then the WOD @ 72kg (burpee C2B instead of bar MU) - 9:58')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 37, 'Gymnastics done. Ring dips = 49,steady bike 10.6 mile')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 22, 'WOD - 10 rope climbs, 1 mile run, 30 MU''s + 30 DL''s @120kg split however 20:00')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 25, 'Steady bike - 10.1mile , gymnastics done , FGB for rainhill ,bleep test 1)11.0 2)10.8')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 27, 'Bleed test L10')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 28, 'Gynastics done 30min row 7220')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 30, 'Bleep test: level 11 both times
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 26, 'Gymnastics done. Ring dips = 49,steady bike 10.6 mile')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 22, 'WOD - 10 rope climbs, 1 mile run, 30 MU''s + 30 DL''s @120kg split however 20:00')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 25, 'Steady bike - 10.1mile , gymnastics done , FGB for rainhill ,bleep test 1)11.0 2)10.8')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 28, 'Bleed test L10')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 29, 'Gynastics done 30min row 7220')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 31, 'Bleep test: level 11 both times
 
 Gymnastics done
 Ring dips: 78
 
 30min WattBike 19km')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 31, 'AM:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 32, 'AM:
 Row - steady 7002m @ 2.08/average
 
 PM:
@@ -1985,42 +1941,73 @@ Gymnastics done
 102 rig dips
 
 Tabata - KBS (85)/Wall Balls (64)/Double unders (362). Total 502 reps')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 13, 'Bleep Test 10.7
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 13, 'Bleep Test 10.7
 Gymnastics 
 30min row 
 31 Ring dips')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 14, 'Bleep test 7.5
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 14, 'Bleep test 7.5
 Gymnastics done
 21 ring dips (shoulder pain)
 Row: 6330m')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (157, 36, 'Bleep test 9.1 then 12.2
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (155, 39, 'Bleep test 9.1 then 12.2
 Hang snatch 3rep: 57.5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 37, 'Class wod - front squat top set x10 @ 125kg,class wod 30-20-20 40kg thrusters and pull ups then 15-10-5 60kg thrusters and C2B -167 reps total')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 42, 'Front Squat Max @120
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 26, 'Hang snatch triple 75kg (failed 3rd rep @ 80kg),clean / 3 Jerk @ 100kg,FS @ 125kg, WOD 27:43')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 24, 'Hang triple- 85kg
+Lumberjack- 26:48')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 27, '0.649305555555556')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 31, 'Snatch 80kg
+C&j 115kg
+FS 120kg
+
+Lumberjack:
+Got to box jumps and wrapped my tits in because my back was excruciating. Not sure the cause.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 32, 'Snatch @ 82.5kg
+
+Front Squat @ 120kg
+
+WOD: Partner with Crossfit Tweed visiting our box. 
+
+For time:
+2000m row (partner planks while other rows/wall balls/pull ups/runs)
+30 wall balls
+60 interlinked sit ups
+30 pull ups
+60 sycranised KBS @ 24kg
+200m sprint 
+20:19
+
+OHS heavy single, 120 PB (4kg)
+
+WOD: 9-6-3 of OHS @ 60kg
+Muscle ups - 3.33')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 13, 'Front squats @ 82.5kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (156, 39, 'WOD - 29:51 (men''s rx)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 26, 'Class wod - front squat top set x10 @ 125kg,class wod 30-20-20 40kg thrusters and pull ups then 15-10-5 60kg thrusters and C2B -167 reps total')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 41, 'Front Squat Max @115
 Snatch @60kg
 Deadlift@ 80kg
 BOR@80kg
 WOD14:56')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 24, 'Front squats done- heaviest set was at 110kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 24, 'Front squats done- heaviest set was at 110kg
 Snatches 2 sec pause-
 Set 1- 75kg
 5 sets at- 80kg
 Didn''t do the rest because of time.
 WOD- 16:50')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 43, 'Front Squats - Set 1- 77.5kg Set 2- 79Kg Set 3- 83kg Set 4- 85Kg Set 5- 87.5KG , snatches 50kg, snatch dl - 63kg , BOR - 50kg, WOD - 17:19 (I blame the JST night out for this score)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 26, '5x10 front squats (87.5) pause snatch (70) SG DL (100) BOR (70)13:13:00')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 21, 'Front squat finishing on 130
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 42, 'Front Squats - Set 1- 77.5kg Set 2- 79Kg Set 3- 83kg Set 4- 85Kg Set 5- 87.5KG , snatches 50kg, snatch dl - 63kg , BOR - 50kg, WOD - 17:19 (I blame the JST night out for this score)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 27, '5x10 front squats (87.5) pause snatch (70) SG DL (100) BOR (70)13:13:00')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 21, 'Front squat finishing on 130
 Snatch 75
 Deadlift 95
 BOR 75
 
 Wod 13:13')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 28, 'Front squats 101kg,105,109,112,115
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 29, 'Front squats 101kg,105,109,112,115
 SG DL at 70 
 BOR at 52
 
 WOD 19:26 GHD replaced T2B with GHD')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 41, 'FS: 112.5kg, 117.5kg, 122.5kg, 125kg, 127.5kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 40, 'FS: 112.5kg, 117.5kg, 122.5kg, 125kg, 127.5kg
 
 Pause Snatch:
 77.5kg
@@ -2028,14 +2015,14 @@ Snatch DL: 100kg
 BOR: 77.5kg
 
 MetCon: 15:05')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 30, 'FS: 105kg, 109kg, 113kg, 116kg, 119kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 31, 'FS: 105kg, 109kg, 113kg, 116kg, 119kg
 
 Pause snatch: 70kg
 Snatch DL 90kg
 BOR 70kg
 
 WOD: (32" box) 14:53')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 31, 'Front Squats @ 102; 106; 110;113;116kg 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 32, 'Front Squats @ 102; 106; 110;113;116kg 
 
 Pause Snatch @ 70kg
 
@@ -2043,17 +2030,17 @@ Deficit Snatch DL @ 90kg
 
 Bent Over Row @ 70kg
 
-WOD -')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 34, 'Front squat
+WOD - 15.10')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 35, 'Front squat
 90,93,97.2,99 and 102kg
 Pause snatch 60kg
 Snatch DL 76.5
 BOR 60kg
 WOD 15.08')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 38, 'FS, 110KG, 115,120,125,130Pause snatch 75kg, Snatch DL 95kg, BOR 75KG, WOD: 13.22')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 44, 'FS: 54, 56.5, 58.7, 60, 61.5, Pause Snatch 31.5, Deficit DL 40.5, SGBR, 31.5 Wod 19.44.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 36, 'FS; 71, 74, 77, 79, 81.  WOD - 14:54')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 47, 'Fs-80,82.5,85,87.590 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 36, 'FS, 110KG, 115,120,125,130Pause snatch 75kg, Snatch DL 95kg, BOR 75KG, WOD: 13.22')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 43, 'FS: 54, 56.5, 58.7, 60, 61.5, Pause Snatch 31.5, Deficit DL 40.5, SGBR, 31.5 Wod 19.44.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 39, 'FS; 71, 74, 77, 79, 81.  WOD - 14:54')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 47, 'Fs-80,82.5,85,87.590 
 Snatch pause-
 57.5
 Snatch def dead
@@ -2062,7 +2049,7 @@ Snatch BOR
 57.5
 Wod
 17.23 (legs gone)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 48, 'FS - 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 48, 'FS - 
 105
 110
 115
@@ -2075,22 +2062,35 @@ DL: 90
 BOR: 70 
 
 Wod: thorium 3')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 52, 'FS 65 / 67.5 / 70 / 72.5 / 75                 Snatch Pause 55.   Snatch DL 65.       Snatch BOR 60.       WOD 11:45 (sit ups instead of TTB)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 53, 'FS 80, 82.5, 85, 87.5, 90         Snatch Pause 50   Snatch dealift 70 Snatch BOR 60 WOD 20:14 (weakness work :-) )')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 54, 'Fs - 90,92.5,95,97.5,100
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 50, 'FS: 82.5, 85, 87.5, 90, 95 Snatch 47.5, DL 52.5, BOR 47.5 WOD 16.45')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 51, 'FS 49 - 51 - 52.5 - 54 - 55 (55 felt good) P.Snatch @ 30kg DL @ 40kg BOR @ 30KG WOD scaled to 20kg KB - 22.32 (I can''t run for shit  - weakness work)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 52, 'FS 65 / 67.5 / 70 / 72.5 / 75                 Snatch Pause 55.   Snatch DL 65.       Snatch BOR 60.       WOD 11:45 (sit ups instead of TTB)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 53, 'FS 80, 82.5, 85, 87.5, 90         Snatch Pause 50   Snatch dealift 70 Snatch BOR 60 WOD 20:14 (weakness work :-) )')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 54, 'Fs - 90,92.5,95,97.5,100
 Sn - 55
 Sn dead - 75
 Sn bor - 55
 Wod - 16:34')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 58, 'FS x5 120, 125, 130, 132.5, 135x4. Pause SN @ 72.5. SN DL @ 95. SN BOR @ 72.5. Cond = Thorium WOD 1.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 59, 'FS - 100,105,110,112.5,115
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 58, 'FS x5 120, 125, 130, 132.5, 135x4. Pause SN @ 72.5. SN DL @ 95. SN BOR @ 72.5. Cond = Thorium WOD 1.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 59, 'FS - 100,105,110,112.5,115
 P,Snatch - 70
 Snatch DL - 90
 Snatch BOW - 75
 
 15:58')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 37, 'Gymnastics done, WOD C2B substituted for 8 HSPU - total time 27:36 (rd 1 - 5:12,rd 2 - 21:12, rd 3 - 27:36')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 42, 'Row
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 63, 'FS@105kg,110kg,115kg,120kg,125kg
+
+Pause Snatch@
+65kg
+SnatchDL@ 85kg
+SnatchBOR@ 70kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (158, 67, 'Pause Snatch 6X2 80kg
+
+2:00 rest between sets
+
+WOD: 14:26')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 26, 'Gymnastics done, WOD C2B substituted for 8 HSPU - total time 27:36 (rd 1 - 5:12,rd 2 - 21:12, rd 3 - 27:36')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 41, 'Row
 1:45.3
 1:44.5
 1:43.2
@@ -2099,19 +2099,19 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 4
 1:38.0
 All gymnastics done
 WOD Total time :24:47')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 24, 'All gymnastics done.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 24, 'All gymnastics done.
 Did the WOD at 80kg because I can''t read- Rnd1- 6:40
 5mins
 Rnd2- 7:40
 5mins
 Rnd3- 8:10')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 43, 'Row - 1.47.5 / 1.45.3 / 1.43.5 / 1.43.9 / 1.42.9 / 1.39.8 , Gymnastics done , WOD - 1) 5.42 2) 5.50 3) 6.13')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 26, '1:37.6/1:36.3/1:36.1/1:35.3/1:34.6/1:33 damn that hurt
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 42, 'Row - 1.47.5 / 1.45.3 / 1.43.5 / 1.43.9 / 1.42.9 / 1.39.8 , Gymnastics done , WOD - 1) 5.42 2) 5.50 3) 6.13')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 27, '1:37.6/1:36.3/1:36.1/1:35.3/1:34.6/1:33 damn that hurt
 
 Gymnastics done:
 Intervals: 2:53/3:02/3:25')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 28, 'Gymnastics done')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 41, 'Row:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 29, 'Gymnastics done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 40, 'Am Cardio:
 1:42.7
 1:42.6
 1:41.4
@@ -2120,7 +2120,7 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 4
 1:32.1
 
 Gymnasty Done!')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 30, 'Row:
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 31, 'Row:
 1:40.7
 1:40.1
 1:39.2
@@ -2130,8 +2130,11 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 3
 
 Gymnastics done as per
 
-Wod:')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 31, 'AM: Gymnastics done
+Wod:
+5:25
+4:11
+6:04')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 32, 'AM: Gymnastics done
 
 WOD
 3:58 - 4:01 - 4:10 with 3mins rest between due to time (back and elbow playing major problems) 
@@ -2142,12 +2145,12 @@ Rows:
 
 WOD
 For time: 200m run (with wall ball), 25 Front Squats @ 42.5kg, 200m run (with wall ball), 25 SDHP @ 42.5kg, 200m run (with wall ball), 25 Hang Power Cleans @ 42.5kg, 200m run (with wall ball) - 6.45')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 34, 'Row
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 35, 'Row
 142,141,140,138,137,134
 Gymnastics done
 WOD
 3.34,4.25,4.56')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 38, '139.3
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 36, '139.3
 137.8
 136.5
 135.7
@@ -2155,7 +2158,26 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 3
 133.5
 Gymnastics done 
 Hadn''t had a rest day since previous Wednesday so took forced rest')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 48, 'Gymnastics done.
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 43, 'Completed row, gymnastics done, couldnt do pc in wod due to hand so i did thorium qualifier 10 minutes 42 burppe box over, 42 walk balks 9ft 14 lb, and 42 pullups remainder of time max mus. Manages 7.58 off pullups. Then i did lumberjack 20 however cannot oh squat yet at that weight due to hand so did back squat at body weight ish 55 kg. all the rest was rx. Took me 35 mins :/.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 39, 'Class 15 min AMRAP (35kg)
+10 push press
+15 dead lift
+20 box jumps
+9rds + 5')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 47, 'Gymnastics done
+
+Wod
+4.34
+5.11
+5.13
+
+Row
+1.52
+1.48
+1.47
+1.41
+1.43')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 48, 'Gymnastics done.
 
 Wod: 
 Rnd1: 4:33
@@ -2169,15 +2191,23 @@ Rowing:
 1:43.2
 1:44.8
 1:41.6')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 52, 'Row:                    1:49.                    1:44.                        1:42.                       1:41.                      1:40.                   1:40.                      Gymnastics done.    Wod = 5:30')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 53, 'Row 1:56.9, 1:53.2, 1:54.6, 1:53.5, 1:52.8, 1.50.7.              Gymnastics done Wod DT RX 14:52')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 54, 'Row 1:49.1, 1:46.6, 1:44.9, 1:42.5, 1:40.2, 1:36.8
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 50, 'WOD Rnd1: 5.00 Rnd2: 5.20 Rnd3: 5.40                 Rowing 1.51, 1.47, 1.41, 1.38, 1.37, 1.35')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 51, 'Started too fast
+1-1.59.4
+2- 1.58.4
+3- 1.57.3
+4- 1.58.3
+5- 1.58.1
+6- 1.56.1   Gymnastics Done WOD scaled first two rounds to 5 C2B (only just got C2B) and then last round to 10 ring rows as my hand blistered   1. 5.03 - 2. 5.40 - 3. 6.20')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 52, 'Row:                    1:49.                    1:44.                        1:42.                       1:41.                      1:40.                   1:40.                      Gymnastics done.    Wod = 5:30')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 53, 'Row 1:56.9, 1:53.2, 1:54.6, 1:53.5, 1:52.8, 1.50.7.              Gymnastics done Wod DT RX 14:52')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 54, 'Row 1:49.1, 1:46.6, 1:44.9, 1:42.5, 1:40.2, 1:36.8
 
 Gymnastics done :(
 
 Wod 4:38, 5:48, 5:55 (c2b huge weakness)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 58, 'Rows: 1:45.7, 1:45.1, 1:44.4, 1:43.9, 1:43.3, 1:43.3. Gymnasics Done. Cond = Thorium WOD 3.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 59, 'Row 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 58, 'Rows: 1:45.7, 1:45.1, 1:44.4, 1:43.9, 1:43.3, 1:43.3. Gymnasics Done. Cond = Thorium WOD 3.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 59, 'Row 
 1:44
 1:43
 1:42
@@ -2191,24 +2221,31 @@ WoD
 1) 3:11
 2) 3:07
 3) 3:14')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 60, 'Row
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 60, 'Row
 1-1:49.1
 2-1:48.8
 3-1:47.7
 4-1:46.9
 5-1:45.3
 6-1:43.5')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 37, 'Back squats 5x5 @ 135kg,pause clean and jerk 6x2 @80kg,push press top set @ 85kg,10 @ 75kg, 10 @ 65kg,WOD 8:06')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 42, 'Back squat @120
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (159, 61, '2:06:03
+2:05:07
+2:03:09
+2:03:05
+2:05:02
+2:06:01')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (160, 51, 'Gymnastics Done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 26, 'Back squats 5x5 @ 135kg,pause clean and jerk 6x2 @80kg,push press top set @ 85kg,10 @ 75kg, 10 @ 65kg,WOD 8:06')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 41, 'Back squat @120
 Clean@ jerk @ 80
 Push preess top set @85
 set 2 @75
 Set 3 @ 65kg')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 24, 'Back squats 5x5 75% was 117.5 all done
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 24, 'Back squats 5x5 75% was 117.5 all done
 Top set SP- 65kg
 WOD - 12:36')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 43, 'Back Squats @ 90kg, C&J@65kg , PP 62.5kg/56kg/50kg, Thorium WOD 1')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 26, '5x5@145kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 42, 'Back Squats @ 90kg, C&J@65kg , PP 62.5kg/56kg/50kg, Thorium WOD 1')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 27, '5x5@145kg
 Pause Clean + Jerk: 90kg
 PP: 95/85/75
 
@@ -2218,22 +2255,32 @@ Min 2: 15 Front Racked KB Walking Lunge (24kg)
 Min 3: 15 Unbroken WBS (30lb.)
 
 See everyone next week, off to Italy :)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 21, '5x5 @ 127.5kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 21, '5x5 @ 127.5kg
 Pause clean and jerk @ 95
 PP 100 (8 reps)
 90
 80
 
 Wod 6:27')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 41, 'Back Squat: 132.5kg
-Pause Clean: 92.5kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 28, 'Back squat at 117.5
+
+Pause clean @ 82.5kg
+
+PP Dropped back to 70kg
+
+WOD 7.25')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 29, '5x5 @ 122 pause clean and jerk @ 82  wod 10:09 tuesday row 1:53.0, 1:52:0, 1:51:5, 1:49:9, 1:48:0, 1:45:7')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 40, 'Back Squat: 132.5kg
+Pause Clean:
+92.5kg
 Push Press:
 77kg
 70kg
 62.5kg
 
-MetCon: 6:01')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 30, 'Back squat 125kg
+MetCon:
+6:01')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 31, 'Back squat 125kg
 Pause clean 91kg
 Push press: 
 92.5kg (9reps)
@@ -2241,55 +2288,1111 @@ Push press:
 74kg (10 reps)
 
 Wod: 6:55')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 31, 'AM: Back Squats @ 120kg                 
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 32, 'AM: Back Squats @ 120kg                 
 
 WOD
 Thorium Throwdown WOD 2 (cram session for this, all three WODs to do in 2 days. Doing WOD 3 tonight).                     
 
-PM: Pause C&J @ 85kg, Push Press @ 
+PM: Pause C&J @ 85kg, Push Press @ 77kg, 90%/80% complete
 
 WOD
 Thorium Throwdown WOD 3
 
 Catch up with todays WOD tomorrow AM.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 38, 'Back squats @ 155kg 
-
-C&J 90kg 
-
-Push press
-70kg 
-90kg
-80kg. 
-
-Wod 7:28')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 36, 'PM: Squats 75, C+J 60... Push press stayed really light 3x10 @35    WOD - 6:46')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 48, 'Squats AM: 
-5x5 @ 145kg 
-
-C+J @ 100kg
-
-PP - 
-90
-85
-80 
-
-Wod: 
-
-6:34')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 52, 'Back Squats - 4 sets at 90kg last set at 95kg as felt good.                   C&J - 70kg.                  PP - 60kg / 57.5kg / 55kg.    WOD = 8:45')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 53, 'Squats 95 C&J 70 Push Press 60, 57.5, 55.               Wod Thorium 2')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 55, 'Squats 90
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 36, 'Back squats @ 155kg   C&J 90kg   Push press 70kg  90kg 80kg.   Wod 7:28')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 43, 'Back squat @ 60kg pause clean n jerk 42.5kg, starting from scratch due to hand so, pp top set at 35 then 32.5 then 30. Wod shitty ring dips, 11.02')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 14, 'BS 67.5kg
+C&J 45kg
+Wod: 9:41')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 39, 'AM: class (PB FS @ 97)
+PM: Squats 75, C+J 60... Push press stayed really light 3x10 @35    WOD - 6:46')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 47, 'Back squats @
+100kg
+Pause c&j @ 
+70
+Push press@
+65,60,55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 48, 'Squats AM: 
+5x5 @ 145kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 51, 'BS @ 63.5 C&J @ 45kg (cleans are rusty) PPress 40kg, 36kg, 32kg - felt good. WOD Scaled R Dips with red band - 15.28 :(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 52, 'Back Squats - 4 sets at 90kg last set at 95kg as felt good.                   C&J - 70kg.                  PP - 60kg / 57.5kg / 55kg.    WOD = 8:45')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 53, 'Squats 95 C&J 70 Push Press 60, 57.5, 55.               Wod Thorium 3')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 54, 'Squats @ 115k
+C&j @ 75k
+PP 67.5, 60, 52.5
+Wod 7:07')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 55, 'Squats 90
 C&j 77
 Pp 70,63,55
 
 Wod 7:03')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 58, 'Squats done @ 142.5. Cond = Thorium WOD 3. Skipped cleans/push press due to shoulder ache and fatigue.')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 59, 'BS @ 120kg
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 58, 'Squats done @ 142.5. Cond = Thorium WOD 3. Skipped cleans/push press due to shoulder ache and fatigue.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 59, 'BS @ 120kg
 PClean @85
 PP 1)70 2)65 3) 60
 WoD: 7:14')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (178, 68, 'Can only work in 60s period, must take a full 60s rest')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (179, 68, 'Make 5 strict ring dips as heavy as possible, straight legs and lots of control on strict toes to bar (control the legs down too, tini)')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (182, 68, 'Make the bench Press roughly 75% of 1RM. Set a heavy single beforehand if needed (settle down Chris passant)
-Go straight into hollow rocks after arch hold')
-insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (183, 68, 'Sprint is a run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (161, 61, 'Squat- 60
+Push press- 47.5/40/37.5
+C&J 37.5
+
+No time for WOD')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 24, 'Gymnastics done.
+And Fridays clean and jerks done. Row 5K')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 42, 'Cardio - 13:52, gymnastics done , thorium wod 1')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 28, 'Cardio____
+
+Gymnastis done 
+
+6MU
+
+Wod all rounds complete in 1:10')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 29, 'Just the gymnastics done.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 40, 'AM Cardio:
+13:35
+
+Gymnasty Done:
+5MU
+
+MetCon:
+1:05
+1:01
+:57
+:59
+:55
+:56
+:53
+:51')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 31, 'Am: 14:38 bastard stairs!
+
+HR/AB done
+MU: 8reps for 7 sets, 6reps for 3sets
+
+Snatch wod done
+
+Headstands done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 32, 'AM: Gymnastics complete. Cardio: 13:15 PM: Thorium WOD 1 & 2 & 3 (shouldnt have even bothered, way to crammed and body this week has been killing, lower back is in some pain)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 36, 'Gymnastics done.
+MU 8 reps for ten rounds 6 reps for ten rnds
+
+Metcon 
+Under 1 all rounds.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 43, 'Didnt do cardio as taught 3 spin classes, then did gymnastics hollow hold and arch hold, no programmed muscle up practice as i did wod 3 of thorium again to try get the muscle up. Did headstand for the first time needs work. Didnt do wod as did thorium wod and another qualifier for thorium 3 x 3 min of g2oh which i snatched all if at 27.5kg 36,37,37. Repeat of 10 min wod from tuesday took me 7.02 so much faster but no muscle up. .')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 14, 'Cardio 14:58
+Gymnastics done
+Met con (missed one round)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 39, 'Gymnastics done
+Thorium WOD 3
+Every 2 min workout done.
+Class workout @ CFCL')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 48, 'Hollow/arch holds done. 
+
+MUs done - 5 reps. 
+
+Workout done - really enjoyed this one,  Snatches felt good. 
+
+HS holds - done against a wall!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 51, 'Run Row - 17.01 Running felt better already.Gymnastics done, did 3-5 hips to rings as not got MU''s WOD did 6 rounds as had to do all todays in one session and was pooped, did snatch @30kg, should have done 35... know for nest time now :). No Headstands, will do them at home this weekend')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 52, 'Gymnastics done.    Swapped MUs for 10 Pull Ups & 10 Press Ups.             Snatch wod done @ 50kg.               Did the run and row wod after the weights etc - 14:10.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 53, 'Gymnastics done.       MU scaled 5 hips to rings 5 ring dips     Headstands done     Wod Thorium 2')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 54, 'Mu done @ 4 every 2min
+Snatch wod done all snatch t&g :)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 58, 'Cond = 11:53. Hollow/arch done. MU''s 2 reps each set. 1:17, 1:12, 1:18, 1:20. Forgot headstands.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 59, 'AM WoD: 13:37
+Hollow/Arch: Done
+MU''s: 5 per set
+WoD: Done
+Headstands: Done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 61, '16:24
+Snatch-30kg
+Not got MU yet
+Everything else done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 41, 'FS @ 120
+Snatch 60
+Cleans@ 80
+WOD: 33:50')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 24, 'AA
+FSquats- 113kg all 8 sets
+Snatch 3 posistion- 70kg some misses.
+Sunday- 10k run in 43:49')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 42, 'Squats@90kg , snatch @50 , C&J @ 63kg, deadlift @ 70% - 105kg , hotshots 19 - 37.19')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 29, 'FS: 123kg
+DL: 10 x 160kg
+
+WOD 39:18')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 40, 'Front Squat: 132.5kg
+
+Snatch Complex: 77.5kg
+
+C&J Complex:
+92.5kg
+
+MetCon: 24:14')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 31, 'FS: 123kg
+DL: 10@160kg
+
+Hotshots: 29:48')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 32, 'Front Squats @ 120kg Snatch @ 70kg C&J @ 85kg WOD: Caught up on Fridays - 59s; 58s; 57s; 52s; 52s; 48s; 51s; 48s')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 35, 'FS 103.5kg
+Snatch 60kg
+Clean and jerk 75kg
+WOD 29.41')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 36, 'Front squat 
+All done @ 130kg 
+Snatch 70kg
+Clean and jerk 90kg 
+
+Metcon.
+29:55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 43, 'Did class with the Hopster, max g2oh in pur''s 155 paul 100, me 55kg. Then 3k row in 500''s then 100 bar facing burpee 100 db snatch at 15/20, 100 pullups, 100 box overs and 100 thrusters we had a tc so didnt start thrusters. Score 399.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 14, 'FS 66kg (no misses)
+Snatch 41kg
+C&J 45kg
+DL x10 95kg pb
+Wod 40:17 banded strict PU')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 39, 'Hotshots 19 - 37:15 (rx)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 48, 'FS - all @ 130kg
+
+Snatch - all @ 70kg
+
+C+J - all at 110kg 
+
+DL - 145kg 
+
+Ran out of time for wod - catch up Sun.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 51, 'Front Squat @57.5 felt good   Snatch complex 30kg C&J complex 43.5kg Deadlift topset @ 80kg No time or energy for WOD :( will do it next week though as running is such a weakness i think this would be a good one for me')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 52, 'FS = 75kg.           Snatch = 50kg.             Clean & Jerk = 70kg.                     Deadlift = 100kg.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 53, 'FS = 90kg    Snatch = 50kg       C+J = 70kg      Deadlift = 110kg       Wod yestersdays conditioning, Airdyne instead of run 12:05')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 54, 'Fs @ 105k
+Dead @ 150k')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 58, 'Front Squat = 140 x 2, 135 x 3,3,3,2, 130 x 3,2,1. Snatch done @ 60. Felt mega fatigued due to 6 days on and shoulder pain, so listened to my body and stopped there.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (163, 59, 'FS: 120 all sets
+Snatch: 70kg
+C+J: 85kg
+Deadlift: 125kg
+
+20min 30:30 Airdyne')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 41, 'BS @120
+125
+130
+135
+3 @140
+Snatch 65kg
+DL 90kg
+BOR 65kg
+WOD 13:11')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 42, 'Back Squats
+1 – 90Kg
+2 – 95Kg
+3 – 97.5kg
+4- 100kg
+5 – 102.5
+
+Pause Snatches @ 52.5Kg
+Snatch Deadlifts @ 66Kg
+Snatch BOR @ 52.5Kg
+
+ 
+
+Wod- 13:40')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 27, '120/140/150/155/160')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 21, 'Back squats 
+127.5/132.5
+137.5/141
+145 
+Snatch
+80
+Deadlift
+100
+BOR
+80
+
+Wod
+10:59')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 28, 'Back squat felt good
+255lb/265lb/275lb/280lb/290lb
+
+Pause snatch 150lb
+Snatch dl 190lb
+BOR 150lb
+
+WOD 11:56')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 29, 'Back squats: 270lb/280lb/290lb/300lb/305lb 
+Snatch DL 175lb 
+BOR 132lb WOD 13:46')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 31, 'Back squat:
+122.5kg
+130kg
+135kg
+137.5kg
+140kg
+
+Pause snatch:
+75kg
+
+Snatch deadlift:
+95kg
+
+BOR: 75kg
+
+WOD: 11.29')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 32, 'AM: 
+
+Back Squats @ 120; 125; 130; 133; 136 
+
+Conditioning: 14.47
+
+PM:
+
+Pause Snatch @ 70kg
+
+Snatch Deficit DL @ 95kg, 
+
+Snatch Grip BOR @ 75kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 35, 'WOD 14.26 (300m run every round as no one from my box told me about the new route lol)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 43, 'BS 61, 64, 66, 68, 70 Pause Snatch 32.5kg, 3" deficit sgdl 42.75, sgbr 33.75, wod 100 bbo run 200 = 17.58')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 12, 'BS: 77.5kg, 80kg, 83.5kg, 86kg, 88.5kg
+Snatch:50kg x2x6
+Snatch DL @ 65kg
+BOR @ 45kg
+WOD: 15 mins
+Start a new round every 3mins 
+200metre run, max burpees:
+156')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 45, 'BS - 52.5, 55, 57.5, 58,60, snatch @32.5, DL @45kg, BOR @40, wod 11.17')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 14, 'BS: 67.5, 70, 72, 75, 76.5
+Snatch & BOR 42.5kg & snatch DL 55kg
+Wod: 14:57')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 16, 'Squats 85 87.5 91 93.5 95 (failed last squat🙈bad day)           Pause snatch @45 (4 sets wrist started hurting)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 39, 'AM Cram... Back Squat 71/74/77/780/81 Snatch 6x2 pause @47 WOD - 13:25')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 47, 'Bs: 92.5,97.5, 102.5,107.5, 112.5. 
+
+Snatch pause @ 60
+Snatch dl @ 75
+BOR @ 60
+
+Wod: 11.37')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 48, 'BS - 
+
+132.5
+135
+137.5
+142.5
+147.5 
+
+SN - 75kg 
+DL- 100kg
+BOR- 80kg 
+
+Wod - 10:36')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 68, 'BS - 63.5, 66.5, 68.5, 70.5, 72.5 Pause snatch 32.5, def DL 41.5 BOR 32.5        WOD 17.30 - i suck at runningggg :(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 52, 'Back Squat = 85 / 88 / 90 / 90 / 92.5.   Snatch = 55.     Snatch DL = 70.        Snatch BOR = 60.   WOD = 14:20.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 53, 'Squats 90,95,100,105,110 Snatch 55      snatch DL 80 snatch BOR 60    WOD 16:25')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 54, 'Squat @ 115,120,125,
+130,132.5
+Wod - 14:26')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 58, 'Back Squat: 142.5, 147.5, 152.5, 157.5, 162.5 x 3. Pause Snatch @ 77.5. Snatch DL @ 100. BOR @ 77.5. Conditioning different.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 59, 'BS: 120,125,130,135,140
+PSnatch: 75kg
+SDL: 95kg
+SBOR: 75kg
+Metcon: 8:41
+(forgot to start with the run)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (164, 65, 'Back squat 
+75% 67.5
+78% 70
+81% 72
+83% 75
+85% 77
+
+Snatch 37.5 
+
+Snatch DL 47.5 
+
+BOR 37.5 
+WOD 10.15')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 41, 'ROW
+1:40.4
+1:39.6
+1:38
+1:37.6
+1:36.4
+1:34
+1:33.0
+1:30.6
+
+Kip swings and all gymnastics done, kis swings @25
+4 Bar mu
+4
+4
+0
+0 (finished c2b on both)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 42, 'Cardio - 1.45.6/1.41.2/1.40.8/1.39.6/1.37.4/1.37.2/1.36.0/1.31.1 ,Gymnastics done , 25 kips swings x4, attempted shoulder taps,       Option 2 1)3BMU 2)3BMU 3)3BMU 4)2BMU 5)2BMU (Scaled snatches to 50kg)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 9, 'Gymnastics done
+WOD Option 2
+1) 0
+2) 1
+3)1
+4) 1
+5) 0')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 21, 'Row
+1-1:36.6 
+2-1:34.8
+3-1:34.0
+4-1:32.6
+5-1:32.1
+6-1:31.4
+7-1:30.9
+8-1:29.0')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 28, 'ROW 1/ 46SEC 2/45.2 3/44.7 4/44.8 5/45.2 6/45.5 7/ 46.6 8/46.4                                                                  GYMNASTICS DONE                                      7 BAR MUSCLE UPS IN THE AMRAP ALL ROUNDS COMPLETE')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 29, 'Row: 0:50 0:49 0:48 0:47 0:47 0:46 0:47 0:46 Gynastics done less kipping swings (still got a crappy shoulder)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 31, 'Row:
+0:46.7
+0:47.4
+0:46.8
+0:46.7
+0:46.7
+0:46.2
+0:45.0
+0:43.9
+
+All gymnastics done 
+
+Option 2:
+2 
+3
+1
+0 (fin ctb)
+0 (fin ctb)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 32, 'AM: 
+
+Row completed. All times increased
+
+Gymnastics done
+
+PM:
+
+Caught up on last Thursdays WOD at lunch @ 6.27
+
+Todays WOD @  ')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 43, 'Row 58.2, 56.6, 56.4, 56.7, 56.5, 56.7, 55.4, 54.7 then did gymnastics and Wod option 1  with 45 kg bar for dl and pc but 35kg for ps.1) 5 c2b, 2) 4 3) 3, 4) 4, 5) 3.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 45, 'row 59.2, 58.3, 57.4, 56.6, 56.1, 56.2,56,56.3. gymnatics done, wod option 1: 2,2,1,0,2')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 14, 'Row 0:59, 0:57, 0:56, 0:56, 0:56, 0:57, 0:58, 0:55
+Gymnastics done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 39, 'All AM...Row: 
+1:52
+147:7.7
+1:47
+1:44:9
+1:44.8
+1:44.8
+1:42.7
+1:40.1
+WOD (Option 1)
+C2Bs: 7,8,7,9,9')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 47, 'Gymnastics done ( kip swings x 20)
+
+Wod option 2
+3,1,1,1,0')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 48, 'Rowing - 
+1:38.9
+1:36.5
+1:30.8 (random) 
+1:33.7
+1:33.2
+1:34.7
+1:34.4
+1:36.8
+
+Had to do my metcon at a globo gym due to work! 
+
+5rnds -
+400m run 
+10 x dbell thrusters with 25kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 68, 'row 1.02/ 1.01/ 1.00/ 1.00/ 0.57/ 1.00/ 0.56/ 0.54  Gymnastics, only 3 rounds (short on time) swings and 10 shoulder taps in total each round (weakness) Metcon - 3c2b, 3c2b, 7pu (hands falling apart) 4pu, 5pu Weights, DL45, PCleans 42.5, Power snatch 32.5')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 52, 'Row = 53.8 / 51.5 / 50.6 / 49.7 / 48.9 / 48.0 / 47.5 / 47.1.      Gymnastics all done.                        WOD Option 1 with 50kg Snatch - scored 3s.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 53, 'Gymnastics Done    Wod Opt 1 C2b               3,3,2,1,0.           Conditioning -    59.8.                  56.9                  57.2.                  55.5.                 53.5.                  54.6.                  52.5.                     50.9')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 54, 'Row started on 1.35, finished on 1.28
+Gymnastics done apart from shoulder taps cldnt do them!
+Wod option 2 @ 60k - 2,1,2 had to stop on 3rd ripped :(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 58, 'Row: 47.6, 47.5, 46.8, 45.9, 45.5, 45.2, 44.9, 44.5. Gymnasics Done. Option 1: 2, 0. Dropped to Option 2: 5, 3, 0. Really struggled!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 59, 'Row
+1-1:42
+2-1:41
+3-1:40
+4-1:39
+5-1:38
+6-1:37
+7-1:36
+8-1:34
+
+Gymnastics: done
+
+WoD Option 1
+1) 16
+2) 10
+3) 7
+4) 3
+5) 6')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 60, 'Row
+1-1:45.2
+2-1:43.6
+3-1:43.6
+4-1:42
+5-1:39.2
+6-1:37.4
+7-1:35.8
+8-1:31.4
+
+Should have started quicker!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (165, 65, 'AM Row:
+1min
+57.7
+56
+56
+55
+56
+55
+55
+
+Option 1:
+6
+6
+4
+5
+4')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (166, 32, 'AM: 
+
+Tested the class WOD: 
+
+4 RFT:
+
+100m sprint
+10 T2B
+15 Box Jumps @ 24"
+
+4.42')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (166, 39, 'Pause clean + Jerk @ 62
+Push Press 50/45/45
+Thrusters: 12/11/9/10
+T2B: 14/12/12/10
+G2OH: 9/8/9/9
+Burpees: 10/10/10/10
+Cal Row: 10/10/9/11
+Total: 205')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (166, 58, 'Off')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 41, 'Front Squat @ 120
+Clean & JErk @80
+Thrusters
+14, 13, 11,11
+T2B
+12, 14, 11, 10
+Burpee
+9,9,8,9
+Kcal total 46')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 42, 'Front Squats @ 77.5kg, Pause C&J @67.5kg ,PP top set - failed 8th rep on 65kg / 58kg / 52.5Kg, Thrusters - 32 / T2B - 45 / GTOH - 21 / Plate Burpees - 36 / Row - 55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 9, 'FS 95 kg
+C+J 80kg
+PP top set
+9 reps at 80 kg
+10 @ 72.5/65 kg
+WOD- 
+Thrusters
+11, 8, 9, 9
+T2B 12, 11, 9, 8
+GTOH 6, 7, 6, 6
+Burps 8, 8, 8, 8
+Row 8, 11, 12, 13
+Total 178 reps')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 28, 'FRONT SQUATS AT 115KG     PAUSE CLEAN WAS GOOD     TOP SET PUSH PRESS WAS 72.5KG       45 THRUSTERS/ 56 TOES TO BAR /  25 GTOH/   33 BURPEES /  49 CAL ROW')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 29, 'Front Squats @105kg
+Pause C&J @ 90kg
+PP top set 80kg
+10 @ 72
+10 @ 64')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 31, 'F squat 110kg
+P. C&J 100kg
+Push press
+92.5kg (9 again)
+84kg x10
+74kg x10
+
+Wod:
+Thrusters 15,14,11,9
+T2B 17,14,12,11
+GTOH 8,8,8,8
+Burpees 10,10,10,8
+Row 10,12,13,14
+
+Total = 222')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 32, 'AM: 
+
+Front Squats @ 102kg
+
+Push Press @ 80kg, 90% & 80%
+
+PM:
+
+Pause C&J @ 92kg 
+
+Metcon:
+
+Thrusters - 14-12-12-10 
+T2B - 20-18-18-18 
+GTOH - 6-7-7-7 =
+Plate Burpees - 10-10-10-10  
+Cal Row - 11-11-11-11 
+
+Total @ 233')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 36, 'FS 100kg
+C&J 90kg 
+PP 85kg,80,75kg 
+
+Wod.
+Thruster 46
+T2B 48
+GTOH 29
+Burpees 45
+Row 47 cal
+Total 220.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 43, 'FS 55kg, pp top set 37.5 kg, 10@ 35, and 10@ 32.5kg. Pause clean n jerk x 2 = 45kg. Wod thrusters 35 at 35kg, t2b 46, gtoh at 35kg 25, plate burpee = 40, cal row = 35')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 45, 'FS @50,Pause clean and Jerk @45, Push Press @42.5/37.5/35. Thrusters 28, T2B 50, G2O 22, Burpess 25, Row 37')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 14, 'FS 5x5 56kg
+P c&j 48kg
+Push press 45kg, 40kg, 35kg
+Thrusters 35, t2b 53, GTOH 25, plate burpees 31, cal row 35')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 39, 'Up early so trained AM: 20Min OMEM Workout - Evens: 30s max effort row, Odd: 3 Squat snatch @42.5
+
+PM: death by back squats @ 45kg
+Managed 195reps (20th min)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 47, 'Front squats@ 77.5
+C&j @ 75
+Pp @ 67.7, 62.5, 57.5
+
+Wod:
+Thr- 10,6,7,7
+Ttb- 9,12,11,10
+G2O- 6,7,7,7
+Pb- 8,9,10,10
+Row- 10,12,11,14')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 48, 'FS - 115kg
+
+P.clean + jerk - 105kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 52, 'Front Squat = 70kg.                  C&J = 72.5kg.           Push Press = 62 (8reps) / 60 / 58.   WOD =.                   Th - 10/9/9/9.        T2B - 10/10/10/10 (strict due to hand). GTOH -7/6/7/7.         Burpees - 10/10/10/11.           Row = 12/12/12/12.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 53, 'Front squat @ 85kg                  C&J @ 75kg           Push press 62.5 60 57.5.                Wod. Row 1000m into 3rds 10 T2B 15 squats 20 burpees')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 54, 'Fs @ 90k
+C&j @ 80k
+Pp 70, 62.5, 55
+(2.5k increase from last week on top set)
+Had to do class wod!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 58, 'Front Squat: 5x5 @ 120. C+J: 102.5 x 2,1, dropped to 90 x 2,2,2,2. Push Press 70 x 6, 60 x 10, 10. (Struggling with some shoulder pain lately). Cond: Thrusters 10/9/7/6, TTB 8/0 (hand pain, did sit ups: 15/15), GTOH 8/7/7/6, Burpees 8/8/7/7, Row 9/10/9/11')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (167, 59, 'FS: 120kg
+PC+J: 90kg
+PP:
+1-72.5,
+2-65,
+3-57.5
+
+Metcon
+Thruster:12,11,11,11
+T2B: 14,12,11,12
+Burpee: 8,9,9,11
+Row: 9,11,11,12
+
+Endurance class:
+AMRAP 40
+5 T2B
+10 Box Jump 24"
+800m run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 41, 'Cardio on BIke
+Lost count on the AMRAP
+Gymnasics done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 42, 'Cardio done , MU progression done, gymnastics done, WOD- 7rnd + 250 row')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 28, '-DID 3 WODS IN THE PARK WITH HILL RUNS                               -OMEM COMPLETE                     - 60 STRICT PULL UPS    -HS HOLDS DONE')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 29, 'No cardio dont have any flash kit like that at blackpool
+
+Muscle up drill done with 24kg on the dips.
+Miss read the WOD like a tit.. Ended up doing 10,8,7,7,7,9 pull-ups
+Hand Stand holds done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 31, 'Cardio on air dyne
+
+Muscle up strengthening done with 25lb dips
+
+Handstands done
+
+Lifting session')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 32, 'AM Cardio:  
+
+Row complete.
+
+Gymnastics complete
+
+7 full rounds on Metcon
+
+PM:
+
+WOD:
+
+For time:
+1 mile run
+20 Snatch @ 50kg
+1000m row
+20 C&J @ 70kg
+200 Double unders
+20 Deadlifts @ 110kg
+1 mile run
+
+31.28')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 36, 'Cardio ski erg.
+
+Gymnastic/skills done 
+
+Wod: 7 full rounds, total row 1947m')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 43, 'Hollow hold and arch hold done. I omitted the gymnastic drills as on gymnastics course this weekend. Back Squat 8x3 88% = 70kg. 3 position Snatch at 32.5 k did first set then kept failing so stripped back to 30k to perform better. Top Set deadlift 90kg x10. HS hold completed and Hamstring Curl 5kg dumbell completed 2x50 reps.  Taught 45 min spin class.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 45, 'PM: WOD 7 full rounds, and handstand holds')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 14, 'Hollow&Arch
+OMEM done
+AMRAP; 6 rounds
+Handstand holds done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 39, 'Holds done
+MU drills done, 
+WOD - 8 rounds
+CFCL class - Partner 30min FRANrap - 6 rds 21 thrusters')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 52, 'Cardio on bike.          EMOM done.           Gymnastics done.      WOD - 5 full rounds.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 53, 'Gymnastics done      Wod 5 rds 100m.    Conditioning Airdyne')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 58, 'No time for AM Cardio. 25 EMOM done. Cond = 5 rounds + 250m row. Handstand holds done.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 59, 'AM Cardio
+
+20min AirDyne
+60:60 x 5 = 156 cals
+
+PM
+
+Gymnastics done
+
+OMEM - Done
+
+WoD = 7 Rounds')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (168, 65, 'AM on airdyne 
+
+Gymnastics done
+
+Wod pm - 
+6 rounds 
+250m complete')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 41, 'Back Squat @130kg
+Snatch @65
+C&J @85
+Luke Rhoden WOD')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 42, 'Back Squat@105kg , Snatches @ 52.5kg, C&J@ 67.5kg , DL@ 110kg , Luke WOD - 7rnd+ 8')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 28, '-BACK SQUAT 300LB FOR 2 SETS THEN DROPPED 295LB FOR ALL THE SETS THEN THE LAST SET HIT A 5    -SNATCH DONE AT 68KG ALL GOOD JERKS AT 88KG ALL FELT GOOD.                 -OMEM DONE AT 32KG')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 29, 'Back Squats @ 315lb
+C&J comlex @ 185lb
+Dead lift top set 165kg
+
+EMOM:
+32kg kettle bell
+scalled down to 24 for OH carry')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 31, 'Back squat 145kg
+
+Deadlift 165kg
+
+Axle/atlas stone wod')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 32, 'Back Squats @ 140kg 
+
+3 Position Snatch @ 75kg 
+
+3 Position Clean & Jerk @ 92kg 
+
+Top Set Deadlift @ 160, 90% & 80% complete 
+
+Metcon: 
+
+EMOM x5 
+1 Rope Climb 10 Wall balls (all unbroken) 
+
+Team WOD (Prep for Team Thorium next month) 
+
+For time: 
+100 Burpees 100 Box Jumps @ 24" 
+1000m run 
+100 KBS @ 24kg 
+100 Air Squats 100 Hang Power Cleans @ 60kg 
+
+19.24 
+
+(10 burpees each time, 10 box jumps each time, 500m each, 30-20 air squats each time, 10 HPC each time - last 20 split into 5 reps)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 43, 'Rest day ready for gymnastics course.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 45, 'BS @61kg, 3 pos snatch @34kg, 3 pos clean and jerk @50kg, topset deadlift @80kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 14, 'BS 79.5kg
+Snatch complex 43kg
+C&J complex 48kg
+DL x10 97kg pb
+OMEM done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 39, 'Taught class
+Did the WOD ''Luke'' - 9rds 35
+OMEM done
+Didn''t have time for lifting :(')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 48, 'BS all @ 155kg
+
+3pos Snatch - 75kg 
+Then built to a heavy single for the day, 100kg - missed 105 x3 times. 
+
+3pos C+J - 110kg 
+Then built to heavy single, 127.5kg.
+
+DL - 150 x 10
+
+Emom - done. Last coupe of rounds only just made the kbs! 
+
+Accessory work done!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 52, 'Back Squat = 95kg (last set on 98kg as felt good).          Snatch = 52.5kg.      C&J = 72.5kg.      Deadlift = 105kg.  EMOM done.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 53, 'BS @ 110kg     C&J @ 75kg             Snatch = shoudlers ruined from yesterday so light tekkers work           Deadlift @ 120kg WOD done scaled walks to 28kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 54, 'Bs @ 135 felt heavy
+Emom done ok')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 58, 'Back Squat: 160 x 3,3,3,3,2, 150 x 3,3,3,3. Snatch: 70 x 2,3,1,3,1. C+J: 100 x 3,3,3, 90 x 3,3. Deadlift: 170 x 10. EMOM Done. Hamstring curls done. (Felt rubbish today, had to reduce percentages and STILL kept missing - eat and rest today!)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 59, 'BS = 135kg all
+3pos snatch = 75Kg
+3pos c+j = 90kg
+Deadlift = 130kg
+
+OMEM 15 - Done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (169, 65, 'Back Squat 8x3 (8 sets of 3)
+
+Sets 1 - 8 @ 88% - 80kg
+
+3 position Snatch 75% x 5 sets – 37.5kg
+
+3 position Clean + 1 Jerk 75% x 5 sets – 50kg
+
+(high hang, hang (at knee), reset on the floor then full lift)
+
+Top set Deadlift (touch and go, no belt), add 2.5 - 5kg x10 – 91kg
+
+50 x 2
+
+Hamstring curls 5kg DB – done
+
+WOD – Luke Rhodes – 247 10 rounds – 7 BOJ')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 41, 'FS 110kg
+112.5
+112.5
+115
+17.5
+Snatch 65
+DL 95
+BOR 95
+AMRAP 142 T2B')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 42, 'FS@ 80Kg/83Kg/83Kg/85kg/90Kg , Pause snatches - none exsistent , snatch DL - 70kg , BOR -56Kg, WOD- 140 T2B')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 27, '5x10 Front Squats (87.5kg)
+SGDL-120kg
+SGBOR-80kg
+
+143 reps
+40/20/20/20/20/20/3
+460m run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 29, 'FS: 109kg
+113
+113
+116
+120
+DL: 80kg
+BOR 60kg
+AMRAP 161 T2B 200m run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 31, 'Front squat
+109kg
+113kg
+113kg
+116kg
+119kg
+
+Pause snatch
+80kg
+
+Snatch Deadlift
+100kg
+
+BOR 80kg
+
+Amrap: 130 t2b')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 32, 'AM: 
+
+Caught up on Saturday''s EMOM WOD. Completed (all KBS unbroken, did full swings by accident). 
+
+Snatch Grip DL @ 100
+
+PM:
+
+Front Squat @ 106; 110; 110; 113; 116
+
+Snatch Grip BOR @ 80
+
+Snatch EMOM x20
+60% x5 @ 4 reps
+70% x5 @ 3 reps
+80% x5 @ 2 reps
+90% x5 @ 1 rep
+
+Metcon:
+AMRAP 7
+7 OHS @ 42.5
+7 Burpee Box Jumps @ 24"')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 35, 'Front squat
+93.5,95,95,97.5,100kg
+Psnatch 68kg
+DL 85kg
+BOR 68kg
+Wod 112 reps,400m run')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 36, 'Front squat
+@ 117,121,131,124,127
+Snatch 75kg
+DL 100kg
+BOR 90kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 14, 'FS 58.5kg, 60kg, 60kg, 62.5kg, 64kg
+Wod: 135')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 48, 'FS:
+
+117.5
+122.5
+122.5
+125
+127.5
+
+Snatch:
+
+Pause @ 80kg
+DL @ 110kg
+BOR @ 80kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 52, 'Front Squat = 68 / 70 / 70 / 72.5 / 75.   Snatch = 57.5kg.      Snatch DL = 75kg.    Snatch BOR = 70.  WOD - 11 rounds - 15s and 12s throughout.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 53, 'Front Squat 80 85 90 92.5 95.                   Snatch 55kg                    Snatch DL 90kg       Snatch BOR 70kg     Wod 20 AMRAP         200m run                10 T2B                 11 Rds 7 T2B             (First 5 Rds unbroken)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 54, 'Wod done didn''t mark t2b & lost count :( was holding 12 kipping each round.
+Fs - 92.5, 97.5, 97.5, 100, 102.5
+Sn - 65
+Sn dead - 80
+Sn bor - 65')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 58, 'Front Squat: 125 x5, 130 x5, 130 x5, 132.5 x4, 132.5 x 1. Pause Snatch x2: 40, 50, 60, 70. (Was roped into a 10 mile obstacle event with work on Sunday and today I absolutely fell apart! Nothing was happening with the snatch due to fatigue/DOMS so just went light and cut the session short)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (170, 59, 'FS - Done, missed the last rep on last set, legs smoked
+PSnatch - 80kg
+DSDL - 100kg
+SBOR - 80kg
+
+WoD - 93 T2B in total')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 41, '8HSPU
+10 pull ups
+ 
+10 Kipping HSPU
+10 Pull ups
+
+21-15-9
+not sure of time')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 42, 'Row 801m/816m/824m/825m/828/830m/833m/834m/815m/814m , Somebody teach me how to do HSPU 😫😭')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 27, '807/1:51.3 821/1:49.6 835/1:47.6 841/1:46.9 850/1:45.9 858/1:44.8 873/1:42.9 860/1:44.6 852/1:45.6  Tenth set I rowed for 3 minutes :) 
+
+0-10: 6/10
+10-20: 10/15
+20: 3:36
+21/21 (10/5)/15 9/9')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 31, '795m/1:53.2
+802m/1:52.2
+807m/1:51.5
+813m/1:50.7
+819m/1:49.8
+827m/1:48.8
+833m/1:48.0
+841m/1:47.0
+842m/1:46.8 
+866m/1:43.9
+
+Strict work
+Hspu 7 
+Pull ups 7
+
+Kipping work
+Hspu 10
+Pull ups 12
+
+12-9-6 
+5:25')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 32, 'AM: 
+
+Metcon from Monday
+
+Gymnastics completed
+
+PM:
+
+Metcon:
+3x5min rounds, rest 1min
+500m row
+30 Double Unders
+10 HSPU
+
+R1 - 2; R2 - 1+538; R3 - 1+531
+
+OMEM:
+10 Strict UB HSPU
+10 Strict UB Pull Ups
+15 UB Kipping HSPU
+15 UB Kipping Pull Ups
+21-15-9 @ 3.58
+
+Total time: 23.58')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 35, 'Row
+1-824/149
+2-829/148
+3-840/147
+4-848/146
+5-854/145
+6-862/144
+7-873/143
+8-877/142
+9-887/141
+10-876/142
+Gymnastics done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 36, 'Row total distance 8318m
+807
+815
+826
+837
+839
+842
+845
+858
+862
+
+Gymnastics and Met con done')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 16, '2:06.7 2:06.2 2:04.3 2:03.9 2:03.1 2:01.9 2:01.7 1:58.7 1:59.8 1:57.6')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 48, '1) 10/8
+2) 12/12
+3) 4:45 
+
+Total: 24:45')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 52, 'Rowing = 1:56 (776m) down to 1:45 (850m).      Gymnastics done.  EMOM strict - HSPUs = 8/7/7/7/7 Pull Ups = 10/8/8/8/8.      2mins Kipping - HSPU = 10 & Pull Ups = 8                   WOD - 12/9/6 done in 5:15. Spicy!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 53, 'Gymnastics done       Omem                      5 strict 2 matts                5 pull ups               5 HSPU 1 matt          10 kipping PUs.              WOD  12,9,6 HSPU 21,15,9 PUs  9.36 RX shoulders shot')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 54, 'Row done @ 6am started on 1:55 pace finished on 1:46 but stopped after 8th was cramping :(
+
+Gymnastics done
+
+Emom 5strict hspu, 8 strict pull up
+Every 2min 8 kipping hspu, 10 kipping pull up
+Wod 21,15,9 7:58 (shoulders blew big time)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 58, 'AM: Taught 45m Spin class in work (may do row workout tomorrow). PM: Gymnastics done. Strict HSPU: 5/5/5/5/5. Strict PU: 8/8/8/8/8. Kipping HSPU: 8/8/8/8/8. Kipping PU 12/12/12/12/12. 21-15-9: 12:25. (I suck at HSPU!)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (171, 59, 'AM - Row 
+Started 780m
+Finished 817m
+*Last 3mins were brutal
+
+Gymnastics = Done
+
+EMOM - 7 SHSPU, 7 pull up
+E2:00 - 8 HSPU, 10 pull up
+12-9-6 = 1:51
+
+*Would have done 21-15-9 but my class needed started')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 26, 'Front squat 5x5 @ 120kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 41, 'BS @ 130
+WOD:49 reps')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 42, 'BS @ 93Kg, C&J@72Kg, PP top set dropped back down to 80% 52Kg, 46Kg, 42.5Kg, WOD - 53 reps')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 31, 'Back squat 
+130kg
+
+Pause clean 105kg
+
+Wod:
+53 power snatches')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 32, 'AM: 
+
+Rows completed from Tuesday
+
+PM: 
+
+4RFT:
+100m run
+10 Pull Ups
+100m run
+10 Front Squats @ 50kg
+
+6.50')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 14, 'BS 70kg
+Wod: 60 gtoh')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (172, 58, 'Back Squat: 147.5 x 5,5,5,4,3. Pause Clean: 107.5 x 1, 100 x 1. Power Clean: 100 x 2,2,2,2. Push Press: 70 x 10, 60 x 10, 10. Cond = 56 reps @ 50kg. (Lifting fell apart today!)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 42, 'Wod - 14:06 (not a good DU day)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 27, 'A. 150kg B. 97.5kg C. Started again at 85kg/75/65 D. 74/69reps lost count at 50 and wasnt sure if i was on 50 or 55')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 31, 'Wod: 11:43')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 32, 'AM: 
+
+Back Squats @ 125kg 
+
+Push Press @ 80kg, 90% & 80%
+
+PM:
+
+Did tomorrows Metcon and catch up with todays tomorrow afternoon. 
+
+1. EMOM - all movements/reps unbroken
+2. Every 3mins @ 1.16; 1.13; 1.13; 1.11; 1.10 - all movements/reps unbroken
+3. 30-20-10 @ 9.53')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 35, 'Back squat @105kg
+
+Clean and jerk @80kg
+
+Push press, 80kg only 6reps, 72kg, 64kg')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 36, 'Back squat 160kg
+
+Push press, 75kg, 80kg, 80kg
+
+Had to do ultrafit do comp as metcon.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 14, 'Cardio: 18:22')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 52, 'Back Squat = 90kg.                  C&J = 72.5kg.                 Push Press = 62.5kg (9 reps) / 60kg / 57.5kg.        WOD = 55 reps (I think).')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 53, 'BS 100 - 115kg            C&J 77.5kg              PP 65,62.5,60                 Wod.                 Like most lost count around the high 40s')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 54, 'Squats @ 120k
+C&j @ 80k
+
+Wod 55ish gtoh (lost count twice thought I was having a heart attack!)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 58, 'Cond = 12:52 (run not great as done in globogym so had to wait for treadmill to speed up!)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (173, 59, 'BS = 120kg
+PClean = 95kg
+PP =75kg, 67.5kg, 60kg
+
+Metcon = 85 reps (17 unbroken first round, quick singles after that in subsequent rounds)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 42, 'Front Squats @ 92.5KG')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 27, '12:00 unbroken du. 460 run PM. Done/done/done/done/6:59 unbroken')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 32, 'AM: 
+
+Cardio @ 12:33
+
+Man flu, felt pretty horrendous throughout')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 35, 'Am wod - 13.21
+
+Option 1, 4 muscle ups each round 
+
+WOD 38min')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 36, 'Metcon 10:21
+
+M/U omem 
+5''s
+Wod a) and B) 32kg, 34" box, 20lb ball
+Then C) 3:11 sorry Steve just realised I read this wrong I only did 30s ! Sorry been ill this week so it was good to get moving.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 14, 'FS 68kg
+Metcon 12kg 11:05')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 52, 'Morning WOD = Run @ 14:15.         Gymnastics done and option 2.         WOD -                   A - 32kg (heaviest we had) /15kg Wall Ball / 30" Box Jump.                    B - completed in 1:08 each round.   C - 7:25.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 53, 'Rocks done               Option 2                Wod - A 32,12ft,30       B - 28,10ft, 24               C - 24,10ft,24            9.38 ( wb 10kg ).               Shoulders this week been destroyed !!!!')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 54, 'No time for metcon :(
+Rocks done
+Mu @ 3emom
+Wod A - 32k, 10k ball to 12ft, 30" bj
+B - 32k, 10ft, 24"
+C - 6:24')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 58, 'Front Squat: 145 x 2,1. 130 x 2,2,2,2,2,2. Cond = 15:37 (used 20kg kettlebell)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (174, 59, 'AM = Metcon 11:35
+
+PM 
+
+Hollow rocks=Done
+Option 1=3mu''s per minute')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (175, 36, 'FRONT SQUAT 130KG, SNATCH 80KG, C AND J @100KG couldnt do metcon as out of time in the box i was visiting. mnafed to get in later and do "LINDA" 15:36')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (175, 52, 'Front Squat = 80kg      Snatch = 55kg.          C&J = 73kg.        Deadlift = 110kg.          WOD = 20kg.')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (175, 53, 'Front squats @ 100kg                             C+J @ 75 kg                           Snatch @ 50kg (still struggling with shoulders sport massage booked lol)                  Deadlift @ 130kg (getting more confident lifting without belt)       Wod @ 16kg 15:43')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (175, 54, 'Fs @ 110k (really happy struggle with mobility on fs but pos much better now doing them regular felt comfortable)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (175, 59, 'FS = 125kg
+3pos snatch = 80kg
+3pos clean = 95kg')

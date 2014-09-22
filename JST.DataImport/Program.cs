@@ -16,15 +16,15 @@ namespace JST.DataImport
     {
         static void Main(string[] args)
         {
-
-            /* 
+    /*  
                List<List<List<string>>> workbookData = GetData();
 
                Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
                BinaryFormatter bFormatter = new BinaryFormatter();
                bFormatter.Serialize(stream, workbookData);
                stream.Close();
-            */
+          */
+         
             List<Tuple<string, string>> userNames = GetUserNames();
 
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
@@ -158,7 +158,7 @@ namespace JST.DataImport
 
             stringBuilder.AppendLine("set identity_insert Security.Account off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Security.Account.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.Account.sql", stringBuilder.ToString());
 
 
             stringBuilder = new StringBuilder();
@@ -174,7 +174,7 @@ namespace JST.DataImport
                     competitor.Id);
             }
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Security.AccountRole.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.AccountRole.sql", stringBuilder.ToString());
 
 
 
@@ -196,7 +196,7 @@ namespace JST.DataImport
 
             stringBuilder.AppendLine("set identity_insert Competitors.WorkoutDate off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.WorkoutDate.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.WorkoutDate.sql", stringBuilder.ToString());
 
 
             stringBuilder = new StringBuilder();
@@ -221,7 +221,7 @@ namespace JST.DataImport
             }
             stringBuilder.AppendLine("set identity_insert Competitors.Workout off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.Workout.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.Workout.sql", stringBuilder.ToString());
 
             stringBuilder = new StringBuilder();
 
@@ -238,7 +238,7 @@ namespace JST.DataImport
                     result.Detail.Replace("'", "''"));
             }
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.Result.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.Result.sql", stringBuilder.ToString());
 
         }
 
@@ -274,26 +274,28 @@ namespace JST.DataImport
             List<List<List<string>>> workbookData = new List<List<List<string>>>();
 
             Application excel = new Application();
-            Workbook workbook = excel.Workbooks.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Competitors Programme.xlsx");
+            Workbook workbook = excel.Workbooks.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\JST Competitors Programme 2.xlsx");
 
             foreach (Worksheet worksheet in workbook.Worksheets)
             {
-                List<List<string>> worksheetData = new List<List<string>>();
-                workbookData.Add(worksheetData);
-
-                foreach (Range range in worksheet.UsedRange.Rows)
+                if (worksheet.Name != "Notes")
                 {
-                    List<string> rowData = new List<string>();
-                    worksheetData.Add(rowData);
+                    List<List<string>> worksheetData = new List<List<string>>();
+                    workbookData.Add(worksheetData);
 
-                    for (int i = 0; i < range.Columns.Count; i++)
+                    foreach (Range range in worksheet.UsedRange.Rows)
                     {
-                        object data = range.Cells[1, i + 1].Value;
-                        rowData.Add((data ?? "").ToString());
+                        List<string> rowData = new List<string>();
+                        worksheetData.Add(rowData);
+
+                        for (int i = 0; i < range.Columns.Count; i++)
+                        {
+                            object data = range.Cells[1, i + 1].Value;
+                            rowData.Add((data ?? "").ToString());
+                        }
                     }
                 }
             }
-
             return workbookData;
         }
     }

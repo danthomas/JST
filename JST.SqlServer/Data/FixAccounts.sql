@@ -41,6 +41,14 @@ update competitors.Result
 set accountid = (select accountid from Security.Account where accountname = 'FletcherL')
 where accountid in (select accountid from Security.Account where DisplayName in ('Beans on toast'))
 
+delete Security.AccountRole where accountid = (select accountid from Security.Account where AccountName = 'hartk2')
+delete Security.Account where accountid = (select accountid from Security.Account where AccountName = 'hartk2')
+
+
+update competitors.Result
+set accountid = (select accountid from Security.Account where accountname = 'YoungZ')
+where accountid in (select accountid from Security.Account where DisplayName in ('zoe'))
+
 
 update Security.Account set AccountName = 'MeylerM' where DisplayName = 'Matt Meyler'
 update Security.Account set AccountName = 'RobinsonA' where DisplayName = 'Andy Robinson'
