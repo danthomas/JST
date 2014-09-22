@@ -6,6 +6,8 @@ using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
+using JST.Business;
+using JST.Business.Models;
 using Microsoft.Office.Interop.Excel;
 
 namespace JST.DataImport
@@ -15,22 +17,22 @@ namespace JST.DataImport
         static void Main(string[] args)
         {
 
-            
-              List<List<List<string>>> workbookData = GetData();
+            /* 
+               List<List<List<string>>> workbookData = GetData();
 
-              Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
-              BinaryFormatter bFormatter = new BinaryFormatter();
-              bFormatter.Serialize(stream, workbookData);
-              stream.Close();
-           /*
-          List<Tuple<string, string>> userNames = GetUserNames();
-             
+               Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Create);
+               BinaryFormatter bFormatter = new BinaryFormatter();
+               bFormatter.Serialize(stream, workbookData);
+               stream.Close();
+            */
+            List<Tuple<string, string>> userNames = GetUserNames();
+
             Stream stream = File.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Data.dat", FileMode.Open);
             BinaryFormatter bFormatter = new BinaryFormatter();
             List<List<List<string>>> workbookData = (List<List<List<string>>>)bFormatter.Deserialize(stream);
 
             ProcessData(workbookData, userNames);
-              */
+
         }
 
         private static void ProcessData(List<List<List<string>>> workbook, List<Tuple<string, string>> userNames)
@@ -113,23 +115,27 @@ namespace JST.DataImport
 
                 }
             }
+            AccountBusiness accountBusiness = new AccountBusiness(null, null, null, null, null);
+            accountBusiness.HashPassword("burpee");
+
 
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("set identity_insert Security.Account on");
-            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (1, 'thomasd', 'Dan Thomas', 'hillrun'){0}", Environment.NewLine);
-            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (2, 'fawcetts', 'Steven Fawcett', 'squat'){0}", Environment.NewLine);
-            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values (3, 'bulloughj', 'Jonathan Bullough', 'squat'){0}", Environment.NewLine);
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, Email, [Password], ChangePassword, IsActive) values (1, 'thomasd', 'Dan Thomas', '', '{1}', 0, 1){0}", Environment.NewLine, accountBusiness.HashPassword("hillrun"));
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, Email, [Password], ChangePassword, IsActive) values (2, 'fawcetts', 'Steven Fawcett', '', '{1}', 0, 1){0}", Environment.NewLine, accountBusiness.HashPassword("squat"));
+            stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, Email, [Password], ChangePassword, IsActive) values (3, 'bulloughj', 'Jonathan Bullough', '', '{1}', 0, 1){0}", Environment.NewLine, accountBusiness.HashPassword("squat"));
 
             foreach (Competitor competitor in competitors)
             {
-                stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values ({1}, '{2}', '{3}', 'burpee'){0}",
+                stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, Email, [Password], ChangePassword, IsActive) values ({1}, '{2}', '{3}', '', '{4}', 0, 1){0}",
                     Environment.NewLine,
                     competitor.Id,
                     competitor.Username == "" ? "Account" + userNameId++ : competitor.Username,
-                    (competitor.Name).Replace("'", "''"));
+                    (competitor.Name).Replace("'", "''"),
+                    accountBusiness.HashPassword("burpee"));
             }
 
-            foreach (Tuple<string, string>  username in userNames.Skip(1))
+            foreach (Tuple<string, string> username in userNames.Skip(1))
             {
 
                 if (new String[] { "thomasd", "fawcetts", "bulloughj" }.Contains(username.Item2.ToLower()))
@@ -137,20 +143,22 @@ namespace JST.DataImport
                     continue;
                 }
 
+                
                 if (competitors.All(item => item.Username.ToLower() != username.Item2.ToLower()))
                 {
-                    stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, [Password]) values ({1}, '{2}', '{3}', 'burpee'){0}",
+                    stringBuilder.AppendFormat("insert into Security.Account (AccountId, AccountName, DisplayName, Email, [Password], ChangePassword, IsActive) values ({1}, '{2}', '{3}', '', '{4}', 0, 1){0}",
                         Environment.NewLine,
                         competitorId++,
                         username.Item2,
-                        username.Item1);
+                        username.Item1,
+                        accountBusiness.HashPassword("burpee"));
                 }
             }
 
 
             stringBuilder.AppendLine("set identity_insert Security.Account off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.Account.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Security.Account.sql", stringBuilder.ToString());
 
 
             stringBuilder = new StringBuilder();
@@ -166,7 +174,7 @@ namespace JST.DataImport
                     competitor.Id);
             }
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Security.AccountRole.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Security.AccountRole.sql", stringBuilder.ToString());
 
 
 
@@ -188,7 +196,7 @@ namespace JST.DataImport
 
             stringBuilder.AppendLine("set identity_insert Competitors.WorkoutDate off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.WorkoutDate.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.WorkoutDate.sql", stringBuilder.ToString());
 
 
             stringBuilder = new StringBuilder();
@@ -213,7 +221,7 @@ namespace JST.DataImport
             }
             stringBuilder.AppendLine("set identity_insert Competitors.Workout off");
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.Workout.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.Workout.sql", stringBuilder.ToString());
 
             stringBuilder = new StringBuilder();
 
@@ -230,7 +238,7 @@ namespace JST.DataImport
                     result.Detail.Replace("'", "''"));
             }
 
-            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\DTS.AppFramework\Solutions\JST\JST.SqlServer\Data\Competitors.Result.sql", stringBuilder.ToString());
+            File.WriteAllText(@"C:\Users\Dan\Documents\Visual Studio 2013\Projects\Solutions\JST.SqlServer\Data\Competitors.Result.sql", stringBuilder.ToString());
 
         }
 
@@ -238,7 +246,7 @@ namespace JST.DataImport
 
         private static List<Tuple<string, string>> GetUserNames()
         {
-            List<Tuple<string, string>>  ret = new List<Tuple<string, string>>();
+            List<Tuple<string, string>> ret = new List<Tuple<string, string>>();
 
             Application excel = new Application();
             Workbook workbook = excel.Workbooks.Open(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Competitors Programme.xlsx");

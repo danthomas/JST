@@ -2288,3 +2288,8 @@ insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (162, 5
 PClean @85
 PP 1)70 2)65 3) 60
 WoD: 7:14')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (178, 68, 'Can only work in 60s period, must take a full 60s rest')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (179, 68, 'Make 5 strict ring dips as heavy as possible, straight legs and lots of control on strict toes to bar (control the legs down too, tini)')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (182, 68, 'Make the bench Press roughly 75% of 1RM. Set a heavy single beforehand if needed (settle down Chris passant)
+Go straight into hollow rocks after arch hold')
+insert into Competitors.Result (WorkoutDateId, AccountId, Detail) values (183, 68, 'Sprint is a run')

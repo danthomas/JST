@@ -50,6 +50,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JST.Business\JST.Business.csproj">
+      <Project>{BBA52689-D4DC-466D-9598-0A3A3620F666}</Project>
+      <Name>JST.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JST.DataAccess\JST.DataAccess.csproj">
+      <Project>{BB48F9E0-22F1-47EE-B210-9C539A7F8277}</Project>
+      <Name>JST.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
