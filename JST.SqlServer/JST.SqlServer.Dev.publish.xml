@@ -6,8 +6,9 @@
     <DeployScriptFileName>JST.SqlServer.sql</DeployScriptFileName>
     <TargetConnectionString>Data Source=.\sql2012;Integrated Security=True;Pooling=False</TargetConnectionString>
     <ScriptDatabaseOptions>True</ScriptDatabaseOptions>
-    <BlockOnPossibleDataLoss>False</BlockOnPossibleDataLoss>
-    <CreateNewDatabase>True</CreateNewDatabase>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <CreateNewDatabase>False</CreateNewDatabase>
     <ProfileVersionNumber>1</ProfileVersionNumber>
+    <DropObjectsNotInSource>True</DropObjectsNotInSource>
   </PropertyGroup>
 </Project>

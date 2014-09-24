@@ -42,7 +42,7 @@ where r.ResultId >= 936
                             new XAttribute("Date", dataRow.Field<DateTime>("Date"))));
                     }
 
-                    xDocument.Save(string.Format(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Results{0:yyyyMMddhhmm}.xml", DateTime.Now));
+                    xDocument.Save(string.Format(@"C:\Users\Dan\Dropbox\DTS\Clients\JST\Results{0:yyyyMMddHHmm}.xml", DateTime.Now));
                 }
             }
 

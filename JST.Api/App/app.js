@@ -5,7 +5,7 @@ var app = angular.module('app', ['ngRoute', 'angular-loading-bar']);
 
 app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
 
     $routeProvider.when('/login', { templateUrl: 'templates/login.html', controller: 'loginController' });
 

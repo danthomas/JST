@@ -1,11 +1,25 @@
+dev environment
+
 
 remove login from history
-
-return index.html
-versioning
 on next\prev - clear current page
 edit accounts - unique values
+cancel on result edit if come from somewhere
+admin to see competitors results
+competitor - what are they seeing in my results - not every workout
+download my results
+date picker
+back button when navigating from my results to results
+
+
+admin:
+backup database** can't do this remotely
+ftp backup to dropbox folder**
+delete old backup files from remote folder
+create spreadsheet
+create google docs spreadsheet
 delete sessions
+
 
 
 

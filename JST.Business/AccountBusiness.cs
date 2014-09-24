@@ -24,7 +24,7 @@ namespace JST.Business
             _accountRoleDataService = accountRoleDataService;
         }
 
-        public ReturnValue<Session> Login(string accountName, string password)
+        public ReturnValue<Session> Login(string accountName, string password, string userAgent)
         {
             using (JstDataContext jstDataContext = new JstDataContext())
             {
@@ -36,7 +36,7 @@ namespace JST.Business
 
                 if (account != null && account.Password == hash && account.IsActive)
                 {
-                    Guid sessionId = InsertSession(jstDataContext, account);
+                    Guid sessionId = InsertSession(jstDataContext, account, userAgent.Length > 1000 ? userAgent.Substring(0, 1000) : userAgent);
                     string[] roles = _roleDataService.SelectForAccountId(jstDataContext, account.AccountId).Select(item => item.Code).ToArray();
                     session = new Session(sessionId, account.DisplayName, roles);
                 }
@@ -63,10 +63,10 @@ namespace JST.Business
             return sb.ToString();
         }
 
-        private Guid InsertSession(JstDataContext jstDataContext, Domain.Account account)
+        private Guid InsertSession(JstDataContext jstDataContext, Domain.Account account, string client)
         {
             Guid sessionId = Guid.NewGuid();
-            Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now, "");
+            Domain.Session session = new Domain.Session(sessionId, account.AccountId, DateTime.Now, client);
             _sessionDataService.Insert(jstDataContext, session);
             return sessionId;
         }

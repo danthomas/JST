@@ -22,9 +22,7 @@ namespace JST.Api.Controllers
         [Route("api/account/login")]
         public ReturnValue Login([FromBody]Credentials credentials)
         {
-
-           string s = HttpContext.Current.Request.UserAgent;
-            return _accountBusiness.Login(credentials.AccountName, credentials.Password);
+            return _accountBusiness.Login(credentials.AccountName, credentials.Password, HttpContext.Current.Request.UserAgent);
         }
 
         [HttpPost]

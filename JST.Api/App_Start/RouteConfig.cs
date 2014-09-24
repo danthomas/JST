@@ -13,8 +13,6 @@ namespace JST.Api
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(name: "Default", url: "index.html"
-         );
         }
     }
 }
