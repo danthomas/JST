@@ -5,6 +5,7 @@ var app = angular.module('app', ['ngRoute', 'angular-loading-bar']);
 
 app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
+    //can't use this as it breaks accountEdit
     //$locationProvider.html5Mode(true);
 
     $routeProvider.when('/login', { templateUrl: 'templates/login.html', controller: 'loginController' });
@@ -18,7 +19,7 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
 
     $routeProvider.when('/trainerSchedule', { templateUrl: 'templates/trainerSchedule.html', controller: 'trainerScheduleController' });
     $routeProvider.when('/accountList', { templateUrl: 'templates/accountList.html', controller: 'accountListController' });
-    $routeProvider.when('/accountEdit/:accountId?', { templateUrl: 'templates/accountEdit.html', controller: 'accountEditController' });
+    $routeProvider.when('/accountEdit/:accountId?', { templateUrl: '/templates/accountEdit.html', controller: 'accountEditController' });
 
     
     $routeProvider.otherwise({ redirectTo: '/' });

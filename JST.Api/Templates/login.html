@@ -8,11 +8,11 @@
         <fieldset>
             <div>
                 <label for="userName" style="width: 115px">User Name:</label>
-                <input id="userName" type="text" required ng-model="credentials.userName" />
+                <input id="userName" type="text" ng-model="credentials.userName" ng-minlength="3" ng-maxlength="30" required />
             </div>
             <div>
                 <label for="password" style="width: 115px">Password:</label>
-                <input id="password" type="password" required ng-model="credentials.password" />
+                <input id="password" type="password" ng-model="credentials.password" ng-minlength="3" ng-maxlength="30" required />
             </div>
         </fieldset>
         <div >
