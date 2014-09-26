@@ -20,16 +20,22 @@ BEGIN
 END
 
 
-PRINT 'Restoring database Jst from D:\BACKUPS\danthoma_JST_Prod.bak';
+PRINT 'Restoring database Jst from C:\SqlServer\Backups\danthoma_JST_Prod.bak';
 
 RESTORE DATABASE [JST]
-FROM  DISK = N'C:\BACKUPS\danthoma_JST_Prod.bak'
+FROM  DISK = N'C:\SqlServer\Backups\danthoma_JST_Prod.bak'
 WITH  FILE = 1, 
-MOVE N'danthoma_JST_Prod_data' TO N'C:\Data\danthoma_JST_Prod_data.mdf',  
-MOVE N'danthoma_JST_Prod_log' TO N'C:\LOGS\danthoma_JST_Prod_log.ldf', 
+MOVE N'danthoma_JST_Prod_data' TO N'C:\SqlServer\danthoma_JST_Prod_data.mdf',  
+MOVE N'danthoma_JST_Prod_log' TO N'C:\SqlServer\danthoma_JST_Prod_log.ldf', 
 NOUNLOAD,  
 REPLACE, 
 STATS = 5
 GO
 
+USE [JST]
+GO
+DROP SCHEMA [danthoma_jst]
+GO
+DROP USER [danthoma_jst]
+GO
 

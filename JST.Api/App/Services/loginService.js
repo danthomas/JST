@@ -1,7 +1,6 @@
 ﻿app.factory('loginService', function (globalData, globalService, $http) {
     return {
         login: function (userName, password, success, error) {
-            console.log('logging in as ' + userName);
 
             $http({
                 method: "post",
@@ -15,24 +14,23 @@
                     globalData.sessionId = data.model.sessionId;
                     globalData.displayName = data.model.displayName;
                     globalData.roleCodes = data.model.roleCodes;
-                    console.log('login successful');
+                    globalData.routes = data.model.routes;
                 } else {
                     globalData.sessionId = null;
                     globalData.displayName = null;
                     globalData.roleCodes = null;
-                    console.log('login failed');
+                    globalData.routes = null;
                 }
                 success(data.isSuccess);
             }).error(function () {
                 globalData.sessionId = null;
                 globalData.displayName = null;
                 globalData.roleCodes = null;
-                console.log('login failed');
+                globalData.routes = null;
                 error();
             });
         },
         logout: function () {
-            console.log('logging out');
             globalService.clear();
         }
     };

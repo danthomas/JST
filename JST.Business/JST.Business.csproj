@@ -59,6 +59,7 @@
     <Compile Include="Models\MemberResultsDetail.cs" />
     <Compile Include="Models\MemberWorkoutDayDetail.cs" />
     <Compile Include="Models\ResultListItem.cs" />
+    <Compile Include="Models\Route.cs" />
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\SaveTrainerScheduleDetail.cs" />
     <Compile Include="Models\TrainerScheduleDetail.cs" />

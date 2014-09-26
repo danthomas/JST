@@ -1,6 +1,11 @@
 dev environment
 
 
+httpInterceptorService - add sessionId
+global error handler
+
+put entire model onto $scope rather than assiging properties
+
 remove login from history
 on next\prev - clear current page
 edit accounts - unique values
@@ -10,7 +15,7 @@ competitor - what are they seeing in my results - not every workout
 download my results
 date picker
 back button when navigating from my results to results
-
+toolbar styling
 
 admin:
 backup database** can't do this remotely

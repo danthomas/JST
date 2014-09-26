@@ -9,6 +9,7 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
     //$locationProvider.html5Mode(true);
 
     $routeProvider.when('/login', { templateUrl: 'templates/login.html', controller: 'loginController' });
+    $routeProvider.when('/contact', { templateUrl: 'templates/contact.html', controller: 'contactController' });
 
     $routeProvider.when('/adminHome', { templateUrl: 'templates/adminHome.html', controller: 'adminHomeController' });
 
@@ -21,12 +22,10 @@ app.config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider.when('/accountList', { templateUrl: 'templates/accountList.html', controller: 'accountListController' });
     $routeProvider.when('/accountEdit/:accountId?', { templateUrl: '/templates/accountEdit.html', controller: 'accountEditController' });
 
-    
     $routeProvider.otherwise({ redirectTo: '/' });
 
     $httpProvider.interceptors.push('httpInterceptorService');
 });
-
 
 app.value('globalData', {
     sessionId: null,

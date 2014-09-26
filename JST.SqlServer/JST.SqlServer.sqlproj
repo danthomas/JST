@@ -78,6 +78,7 @@
     <Folder Include="Schema Objects\Schemas\Logging\Tables" />
     <Folder Include="Scripts" />
     <Folder Include="Schema Objects\Database Level Objects\Security\Users" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Extended Properties" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\Security\Tables\Account.table.sql" />
@@ -132,6 +133,8 @@
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\AccountRole_Insert.procedure.sql" />
     <Build Include="Schema Objects\Schemas\Security\Programmability\Stored Procedures\Role_SelectByCode.procedure.sql" />
     <Build Include="Schema Objects\Database Level Objects\Security\Users\danthoma_jst.sql" />
+    <None Include="Scripts\CheckDevDatabaseVersion.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Extended Properties\DatabaseVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
@@ -146,5 +149,14 @@
     <None Include="JST.SqlServer.Production.publish.xml" />
     <None Include="Data\FixAccounts.sql" />
     <None Include="Scripts\RestoreDevDatabase.sql" />
+    <None Include="Scripts\UpdateDevDatabaseVersion.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Script.PreDeployment.sql" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>if $(Configuration) == Debug (
+sqlcmd -S .\SQL2012 -i "$(ProjectDir)\Scripts\RestoreDevDatabase.sql"
+)</PreBuildEvent>
+  </PropertyGroup>
 </Project>

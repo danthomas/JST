@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using DTS.AppFramework.Core;
+using JST.Business.Models;
 using JST.Core;
 using JST.DataAccess;
 using JST.Domain;
@@ -38,11 +39,45 @@ namespace JST.Business
                 {
                     Guid sessionId = InsertSession(jstDataContext, account, userAgent.Length > 1000 ? userAgent.Substring(0, 1000) : userAgent);
                     string[] roles = _roleDataService.SelectForAccountId(jstDataContext, account.AccountId).Select(item => item.Code).ToArray();
-                    session = new Session(sessionId, account.DisplayName, roles);
+                    session = new Session(sessionId, account.DisplayName, roles, GetRoutes(roles));
                 }
 
                 return new ReturnValue<Session>(session != null, session);
             }
+        }
+
+        private List<Route> GetRoutes(string[] roles)
+        {
+            List<Route> routes = new List<Route>();
+
+            if (roles.Contains("Trainer"))
+            {
+                routes.Add(new Route("Schedule", "/trainerSchedule"));
+            }
+
+            if (roles.Contains("Competitor"))
+            {
+                routes.Add(new Route("Schedule", "/competitorSchedule"));
+            }
+
+            if (roles.Contains("Trainer") || roles.Contains("Competitor"))
+            {
+                routes.Add(new Route("Results", "/competitorResults"));
+            }
+
+            if (roles.Contains("Competitor"))
+            {
+                routes.Add(new Route("My Results", "/competitorMyResults"));
+            }
+
+            if (roles.Contains("Admin"))
+            {
+                routes.Add(new Route("Accounts", "/accountList"));
+            }
+
+
+
+            return routes;
         }
 
         public string HashPassword(string password)

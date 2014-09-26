@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace JST.Api
@@ -13,7 +9,7 @@ namespace JST.Api
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
            
-            routes.MapRoute(name: "Default", url: "index.html");
+            routes.MapRoute("Default", "index.html");
         }
     }
 }
