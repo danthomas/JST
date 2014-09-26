@@ -155,8 +155,7 @@
     <PreDeploy Include="Script.PreDeployment.sql" />
   </ItemGroup>
   <PropertyGroup>
-    <PreBuildEvent>if $(Configuration) == Debug (
-sqlcmd -S .\SQL2012 -i "$(ProjectDir)\Scripts\RestoreDevDatabase.sql"
-)</PreBuildEvent>
+    <PreBuildEvent>echo $(Configuration)
+if $(Configuration) == Debug (sqlcmd -S .\SQL2012 -i "$(ProjectDir)Scripts\RestoreDevDatabase.sql")</PreBuildEvent>
   </PropertyGroup>
 </Project>
