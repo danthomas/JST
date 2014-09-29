@@ -1,0 +1,42 @@
+﻿<div>
+    <button ng-repeat="action in global.actions" class="btn btn-default" ng-click="actionClick(action)">{{action.text}}</button>
+    <label>
+        {{date|date:'fullDate'}}
+    </label>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Workout Type</th>
+                <th>Workout Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="workout in workouts">
+                <td>{{workout.workoutTypeName}}</td>
+                <td>{{workout.workoutDetail}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <label>{{comment}}</label>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Competitor</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="result in results">
+                <td>{{result.accountDisplayName}}</td>
+                <td>{{result.resultDetail}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
