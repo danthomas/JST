@@ -2,6 +2,12 @@
 
     function moveDays(date, days) {
         date = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
+        if (date.getFullYear() == 2014 && date.getMonth() == 9 && date.getDate() == 20) {
+            date = new Date(2014, 9, 27);
+            return date;
+        }
+
         date = new Date(date.setTime(date.getTime() + days * 86400000));
         return date;
     }

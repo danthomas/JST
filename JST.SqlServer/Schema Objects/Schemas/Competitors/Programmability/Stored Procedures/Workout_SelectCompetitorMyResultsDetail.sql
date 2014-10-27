@@ -12,8 +12,11 @@ select		wd.WorkoutDateId
 			, wd.Date
 			, r.Detail ResultDetail
 from		Competitors.WorkoutDate wd
-left join	Competitors.Result r on wd.WorkoutDateId = r.WorkoutDateId
-where		isnull(r.AccountId, @AccountId) = @AccountId
+left join	(
+			select	*
+			from	Competitors.Result
+			where	AccountId = @AccountId
+			) r on wd.WorkoutDateId = r.WorkoutDateId
 
 select		wd.WorkoutDateId
 			, w.WorkoutTypeId
